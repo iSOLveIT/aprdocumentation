@@ -17,8 +17,8 @@ The user guide is available on https://documentation.apromore.org/
 `pip3 install sphinx-reredirects`
 
 ## Steps
-- Clone the git repository: git clone git@github.com:apromore/documentation.git 
-- Check out the relevant branch: git checkout documentation/release7.19
+- Clone the git repository: `git@github.com:apromore/aprdocumentation.git`
+- Check out the relevant branch: git checkout main
 - Open the project in Editor of your choice e.g Atom
 
 ## Structure
