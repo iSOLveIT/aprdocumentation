@@ -31,5 +31,5 @@ The user guide is available on https://documentation.apromore.org/
 - All logos and favicons are present in _build\html_static\img directory.
 
 ## Build
-- Run the `make.html` command in the `\documentation\docs\usermanuals` directory to build all the .rst pages. Open the index.html page in your preferred browser to verify your changes.
-- Run the make `latexpdf` in the `\documentation\docs\usermanuals` directory to create the pdf.
+- Run the `make.html` command in the `\aprdocumentation\docs\usermanuals` directory to build all the .rst pages. Open the index.html page in your preferred browser to verify your changes.
+- Run the make `latexpdf` in the `\aprdocumentation\docs\usermanuals` directory to create the pdf.
