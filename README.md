@@ -4,10 +4,10 @@
 The user guide is available on https://documentation.apromore.org/
 
 ## Prerequisites
-Python for Windows: https://www.python.org/downloads/
-Sphinx: https://www.sphinx-doc.org/en/master/usage/installation.html#windows
-ActivePerl: https://www.activestate.com/products/perl/downloads/
-MikTex: https://miktex.org/download
+- Python for Windows: https://www.python.org/downloads/
+- Sphinx: https://www.sphinx-doc.org/en/master/usage/installation.html#windows
+- ActivePerl: https://www.activestate.com/products/perl/downloads/
+- MikTex: https://miktex.org/download
 
 ## Sphinx Setup
 `pip3 install Sphinx==3.2.1`
