@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create data pipeline &mdash; Apromore  documentation</title><link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/apromore.css" type="text/css" /><link rel="shortcut icon" href="../_static/img/favicon.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Schedule/Manage Data Pipeline" href="scheduleormanagedatapipeline.html" />
+    <link rel="prev" title="Upload a file" href="uploadafile.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html"><img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart/index.html">Quick start</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">The Apromore Portal</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="navigatingtheapromoreportal.html">Navigating the Apromore Portal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="uploadafile.html">Upload a file</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Create data pipeline</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#extract-data">Extract data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#transform-data">Transform data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#load-data">Load data</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="scheduleormanagedatapipeline.html">Schedule/Manage Data Pipeline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="createoreditprocessmodel.html">Create/edit process model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="createnewfolder.html">Create new folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sharingandaccessrights.html">Sharing and Access Rights</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manageusersandgroups.html">Manage users and groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="managecalendars.html">Manage calendars</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../discovery/index.html">Discovery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../analysis/index.html">Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../redesign/index.html">Redesign</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitor/index.html">Monitor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releasenotes/index.html">Release Notes</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Apromore</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">The Apromore Portal</a> &raquo;</li>
+      <li>Create data pipeline</li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="create-data-pipeline">
+<h1>Create data pipeline<a class="headerlink" href="#create-data-pipeline" title="Permalink to this headline"></a></h1>
+<p>The Create data pipeline plugin, also referred as the ETL plugin, allows users to compose event logs from one or more tables or data sources.
+It aims to integrate data from multiple sources by extracting, transforming, and loading to gain essential business insights for competitive advantage.
+To define a data pipeline, click on <em>Create data pipeline</em> button.</p>
+<p><img alt="image1" src="../_images/137.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We can also select the <em>Create data pipeline</em>  option from the <em>File</em> menu drop-down.</p>
+</div>
+<p><img alt="image1.1" src="../_images/1.1.png" /></p>
+<p>The Extract-Transform-Load view appears after clicking on create data pipeline.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We can switch between three main views. However, to create the insightful result, it is essential to complete steps in the default order: Extract - Transform - Load.</p>
+</div>
+<p><img alt="image2" src="../_images/229.png" /></p>
+<section id="extract-data">
+<h2>Extract data<a class="headerlink" href="#extract-data" title="Permalink to this headline"></a></h2>
+<p>We can extract data through two options – <em>Local File System</em> and <em>DB Connections</em>.
+The corresponding buttons are placed in the left pane right under the <em>Extract view</em>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We can extract tables from relational databases and upload files in CSV and Parquet formats from the local system.</p>
+</div>
+<p><img alt="image3" src="../_images/322.png" /></p>
+<p>To upload a file from the personal computer, click on the icon in the right corner of the <em>Local File System</em>.</p>
+<p><img alt="image4" src="../_images/416.png" /></p>
+<p>To begin uploading a file from the database, click on the “+” icon in the right corner of the <em>DB Connections</em>.</p>
+<p><img alt="image4.1" src="../_images/4.13.png" /></p>
+<p>When <em>Add New Database Connection</em> window appears, insert all the details, choose the suitable options from the <em>Database Type</em> and <em>Connection Type</em> drop-downs and click on <em>Connect</em>.</p>
+<p><img alt="image4.2" src="../_images/4.21.png" /></p>
+<p>To delete a file, click on the <em>Trash bin</em> - <a class="reference internal" href="../_images/4.2.1.png"><img alt="image4.2.1" src="../_images/4.2.1.png" style="width: 20px;" /></a> right next to it.</p>
+<p><img alt="image4.3" src="../_images/4.31.png" /></p>
+<p>When at least 2 logs are uploaded, merge them by selecting the relevant join type from the <em>Join Type</em> drop-down menu and appropriate keys.</p>
+<blockquote>
+<div><figure class="align-default" id="id1">
+<img alt="image5" class="with-shadow" src="../_images/514.png" />
+<figcaption>
+<p><span class="caption-text">INNER JOIN - Returns records that have matching values in both tables;
+FULL JOIN - Returns all records when there is a match in either left or right table;
+LEFT JOIN - Returns all records from the left table, and the matched records from the right table;
+RIGHT JOIN - Returns all records from the right table, and the matched records from the left table;</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</div></blockquote>
+<p>After all the files are uploaded, table keys and the join type are chosen, click on <em>Submit</em>.</p>
+<p><img alt="image5.1" src="../_images/5.12.png" /></p>
+<p>The table obtained by joining the two logs appears right beneath the <em>table and join selections</em>.</p>
+<p><img alt="image6" src="../_images/611.png" /></p>
+</section>
+<section id="transform-data">
+<h2>Transform data<a class="headerlink" href="#transform-data" title="Permalink to this headline"></a></h2>
+<p>There are 2 main areas in the Transform view - the list of tables containing all the columns from the extracted logs (marked blue) and the transformed table (marked red).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To complete transformation, we must select at least three compulsory columns: case id, activity, and timestamp</p>
+</div>
+<p><img alt="image7" src="../_images/710.png" /></p>
+<p>To add the column from the list to the transformed table, click on the “+” button next to the column name.</p>
+<p><img alt="image8" src="../_images/89.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the case of large logs, the addition of columns might take some time. Do not click on the same column several times to prevent column duplicates in the transformed table.</p>
+</div>
+<p>To add the whole extracted table to the <em>Transformed table</em>, click the “+” button next to the table name. The tables are marked as <a class="reference internal" href="../_images/97.png"><img alt="image9" src="../_images/97.png" style="width: 20px;" /></a></p>
+<p><img alt="image10" src="../_images/107.png" /></p>
+<p>To rename the column, click on <a class="reference internal" href="../_images/10.1.png"><img alt="image10.1" src="../_images/10.1.png" style="width: 20px;" /></a> right next to the column name.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Spaces in the column name aren’t supported.</p>
+</div>
+<p><img alt="image11" src="../_images/1113.png" /></p>
+<p>To delete the column from the Transformation table, click on the red “X” button next to <em>Rename</em>.</p>
+<p><img alt="image12" src="../_images/1211.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the column was deleted by mistake or becomes necessary, we can easily add it to the table again from the columns list.</p>
+</div>
+<p><img alt="image13" src="../_images/138.png" /></p>
+<p>To add a customized column that is not present in any of the tables, click on <em>+ New column</em> button placed in the upper right corner beneath <em>Manage data pipelines button</em>.</p>
+<p><img alt="image14" src="../_images/146.png" /></p>
+<p>After a new column window appears, enter the new column name and click <em>Create</em>.</p>
+<p><img alt="image15" src="../_images/156.png" /></p>
+<p>To check or change the values of the column, click <em>Edit rules</em> right beneath the name of the necessary column.</p>
+<p><img alt="image16" src="../_images/164.png" /></p>
+<p>Edit rules window appears. The default rule is displayed. In addition to different join operations, we can create columns in the event log by composing existing columns using arithmetic, concatenation, and find-and-replace operations. For example, you can add a <em>Cost</em> column to an event log and compute this cost based on the hourly rate of your resources and the duration of tasks.</p>
+<p><img alt="image17" src="../_images/175.png" /></p>
+<p>We can add a new rule by clicking <em>+ Add new rule</em>.</p>
+<p><img alt="image18" src="../_images/185.png" /></p>
+<p>To apply the rule, after the condition is set, click on <em>OK</em>.</p>
+<p><img alt="image19" src="../_images/194.png" /></p>
+</section>
+<section id="load-data">
+<h2>Load data<a class="headerlink" href="#load-data" title="Permalink to this headline"></a></h2>
+<p>When we click on Load view, the transformed log is displayed.</p>
+<p><img alt="image20" src="../_images/204.png" /></p>
+<p>Click on <em>Detect</em> to automatically detect encoding option.</p>
+<p><img alt="image21" src="../_images/2111.png" /></p>
+<p>We can opt not to import a column by attaching the <em>Ignore tag</em> to it. To make it easier to ignore multiple columns, we can click on the <em>Event attribute</em> -&gt; <em>Ignore button</em> at the upper-left corner. From that point on, any column we select becomes tagged with <em>Ignore</em>.</p>
+<p><img alt="image22" src="../_images/2210.png" /></p>
+<p>Similarly, if we need to tag multiple columns as <em>Event attribute</em>, we can click on <em>Ignore</em> –&gt; <em>Event Attribute</em> in the upper-left corner next to <em>Event attribute</em> -&gt; <em>Ignore</em>. From that point on, any column we select becomes tagged with <em>Event Attribute</em>.</p>
+<p><img alt="image23" src="../_images/233.png" /></p>
+<p>Click on <em>Upload Log</em> to finish the import.</p>
+<p><img alt="image24" src="../_images/242.png" /></p>
+<p>The <em>Save Log As</em> dialog box appears. Enter the log name and choose the destination folder from the drop-down. Click on <em>Upload</em> to successfully import the log into Apromore.</p>
+<p><img alt="image25" src="../_images/252.png" /></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="uploadafile.html" class="btn btn-neutral float-left" title="Upload a file" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="scheduleormanagedatapipeline.html" class="btn btn-neutral float-right" title="Schedule/Manage Data Pipeline" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Apromore.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: 8.0
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="#">8.0</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="download/apromore.pdf">PDF</a></dd>
+        
+      </dl>
+      <dl>
+        
+        <dt>On Read the Docs</dt>
+          <dd>
+            <a href="///projects//?fromdocs=">Project Home</a>
+          </dd>
+          <dd>
+            <a href="///builds//?fromdocs=">Builds</a>
+          </dd>
+      </dl>
+    </div>
+  </div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create dashboards &mdash; Apromore  documentation</title><link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/apromore.css" type="text/css" /><link rel="shortcut icon" href="../_static/img/favicon.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Add charts to dashboard" href="addchartstodashboard.html" />
+    <link rel="prev" title="View dashboards" href="viewdashboards.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html"><img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart/index.html">Quick start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theapromoreportal/index.html">The Apromore Portal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discovery/index.html">Discovery</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Analysis</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="animatelogsprocessmap.html">Animate logs (Process map)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animatelogsbpmn.html">Animate logs (BPMN model)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comparemodels.html">Compare models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="viewdashboards.html">View dashboards</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Create dashboards</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#create-from-existing-views">Create from existing views</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#create-from-scratch">Create from scratch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-stat-tiles">Add Stat Tiles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-charts">Add charts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-tables">Add Tables</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="addchartstodashboard.html">Add charts to dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="savedashboard.html">Save dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="additionaldashboardfunctionality.html">Additional dashboard functionality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processmodelsimulation.html">Simulate process</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../redesign/index.html">Redesign</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitor/index.html">Monitor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releasenotes/index.html">Release Notes</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Apromore</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Analysis</a> &raquo;</li>
+      <li>Create dashboards</li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="create-dashboards">
+<h1>Create dashboards<a class="headerlink" href="#create-dashboards" title="Permalink to this headline"></a></h1>
+<p>The Apromore Custom Performance Dashboard offers a variety of custom visualization options.</p>
+<p>To open the dashboard, select at least one event log and click on <em>Analyze” - &gt; “View performance dashboard</em>. We can also visualize multiple event logs in the custom dashboard by selecting them.</p>
+<p><img alt="image1" src="../_images/114.png" /></p>
+<p>Once the performance dashboard opens up, click on the ‘+’ button to create a dashboard from an existing dashboard, or create a dashboard from scratch.</p>
+<p><img alt="image2" src="../_images/214.png" /></p>
+<section id="create-from-existing-views">
+<span id="createfromexisting"></span><h2>Create from existing views<a class="headerlink" href="#create-from-existing-views" title="Permalink to this headline"></a></h2>
+<p>The main purpose of creating a dashboard from an existing view is to modify an existing view by retaining the existing performance metrics and adding additional performance metrics.</p>
+<p>To create a custom dashboard from an existing view, click on <em>Create from existing</em>.</p>
+<p><img alt="image3" src="../_images/38.png" /></p>
+<p>We can choose from three different views: Overview, Activities and Resources.</p>
+<p><img alt="image4" src="../_images/45.png" /></p>
+<p>To create a new dashboard from an existing resources view, click on <em>Resources</em>.</p>
+<p><img alt="image5" src="../_images/55.png" /></p>
+<p>A new <em>Resources</em> dashboard will open up. Similarly, we can create a new dashboard from <em>Overview</em> and <em>Activities</em>.</p>
+<p><img alt="image5.1" src="../_images/5.11.png" /></p>
+</section>
+<section id="create-from-scratch">
+<span id="createfromscratch"></span><h2>Create from scratch<a class="headerlink" href="#create-from-scratch" title="Permalink to this headline"></a></h2>
+<p>To create a custom dashboard from scratch, click on <em>Create from scratch</em>.</p>
+<p><img alt="image6" src="../_images/63.png" /></p>
+<p>A blank editable view will open up.</p>
+<p><img alt="image7" src="../_images/73.png" /></p>
+<p>We can change the view’s title by entering the text in the <em>Title</em> text field.</p>
+<p><img alt="image8" src="../_images/82.png" /></p>
+</section>
+<section id="add-stat-tiles">
+<h2>Add Stat Tiles<a class="headerlink" href="#add-stat-tiles" title="Permalink to this headline"></a></h2>
+<p>We can also add different statistic metrics by clicking on the <em>Add a new tile</em> button.</p>
+<p><img alt="image9" src="../_images/92.png" /></p>
+<p>We can select different metrics from the <em>Stats type</em> drop-down list and make changes to different visualization metrics.</p>
+<p><img alt="image10" src="../_images/102.png" /></p>
+<p>We can also change the colors of a value or an icon by clicking on the color box.</p>
+<p><img alt="image11" src="../_images/115.png" /></p>
+<p>We can also add and save a custom color by adding the Hex code of the desired color.</p>
+<p><img alt="image12" src="../_images/121.png" /></p>
+</section>
+<section id="add-charts">
+<h2>Add charts<a class="headerlink" href="#add-charts" title="Permalink to this headline"></a></h2>
+<p>To add a chart, click on the <em>Add new chart</em> button.</p>
+<p><img alt="image13" src="../_images/131.png" /></p>
+<p>To make changes to a chart, make sure the chart is selected first from the <em>Chart type</em> dropdown.</p>
+<p><img alt="image14" src="../_images/141.png" /></p>
+<p>We can add different types of charts to the dashboard. To know more about different charts, please check the manual.</p>
+<p><img alt="image15" src="../_images/151.png" /></p>
+</section>
+<section id="add-tables">
+<h2>Add Tables<a class="headerlink" href="#add-tables" title="Permalink to this headline"></a></h2>
+<p>To add a table, click on the <em>Add new table</em> button.</p>
+<p><img alt="image16" src="../_images/161.png" /></p>
+<p>We can select different tables from the <em>Table type</em> dropdown.</p>
+<p><img alt="image17" src="../_images/171.png" /></p>
+<p id="clickondone">After all the changes have been made, click on <em>Done</em>.</p>
+<p><img alt="image18" src="../_images/181.png" /></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="viewdashboards.html" class="btn btn-neutral float-left" title="View dashboards" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="addchartstodashboard.html" class="btn btn-neutral float-right" title="Add charts to dashboard" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Apromore.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: 8.0
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="#">8.0</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="download/apromore.pdf">PDF</a></dd>
+        
+      </dl>
+      <dl>
+        
+        <dt>On Read the Docs</dt>
+          <dd>
+            <a href="///projects//?fromdocs=">Project Home</a>
+          </dd>
+          <dd>
+            <a href="///builds//?fromdocs=">Builds</a>
+          </dd>
+      </dl>
+    </div>
+  </div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

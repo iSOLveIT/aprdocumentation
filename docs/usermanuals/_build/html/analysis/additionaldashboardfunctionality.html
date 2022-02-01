@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Additional dashboard functionality &mdash; Apromore  documentation</title><link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/apromore.css" type="text/css" /><link rel="shortcut icon" href="../_static/img/favicon.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Simulate process" href="processmodelsimulation.html" />
+    <link rel="prev" title="Save dashboard" href="savedashboard.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html"><img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart/index.html">Quick start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theapromoreportal/index.html">The Apromore Portal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discovery/index.html">Discovery</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Analysis</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="animatelogsprocessmap.html">Animate logs (Process map)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animatelogsbpmn.html">Animate logs (BPMN model)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comparemodels.html">Compare models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="viewdashboards.html">View dashboards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="createdashboards.html">Create dashboards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="addchartstodashboard.html">Add charts to dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="savedashboard.html">Save dashboard</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Additional dashboard functionality</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#advanced-view-slice-filter">Advanced View – Slice &amp; Filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#advanced-slice">Advanced &gt; Slice</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#advanced-filter">Advanced &gt; Filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-reference-lines">Add Reference Lines</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-kpi">Add KPI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#compare-multiple-process-variants">Compare Multiple Process Variants</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#split-charts">Split Charts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#zoom-in-zoom-out">Zoom-in/Zoom-out</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-filter">Add filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#export-download-chart">Export/Download Chart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#clone-chart">Clone Chart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#organize-charts">Organize Charts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#remove-chart-tile-table">Remove Chart/Tile/Table</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#copy-format">Copy Format</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#copy-settings">Copy Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edit-dashboard">Edit Dashboard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#download-dashboard">Download Dashboard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#set-dashboard-as-home">Set Dashboard as “Home”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#change-style-of-dashboard">Change style of dashboard</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#change-scale">Change Scale</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reset-views">Reset Views</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="processmodelsimulation.html">Simulate process</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../redesign/index.html">Redesign</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitor/index.html">Monitor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releasenotes/index.html">Release Notes</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Apromore</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Analysis</a> &raquo;</li>
+      <li>Additional dashboard functionality</li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="additional-dashboard-functionality">
+<h1>Additional dashboard functionality<a class="headerlink" href="#additional-dashboard-functionality" title="Permalink to this headline"></a></h1>
+<section id="advanced-view-slice-filter">
+<h2>Advanced View – Slice &amp; Filter<a class="headerlink" href="#advanced-view-slice-filter" title="Permalink to this headline"></a></h2>
+<p>The <em>Advanced view</em> allows us to <em>slice</em> and <em>filter</em> the logs. To slice a log click on the <a class="reference internal" href="../_images/0.1.png"><img alt="image0.1" src="../_images/0.1.png" style="width: 15px;" /></a> button next to the <em>Slice Log</em>.</p>
+<p><img alt="image1" src="../_images/11.png" /></p>
+</section>
+<section id="advanced-slice">
+<h2>Advanced &gt; Slice<a class="headerlink" href="#advanced-slice" title="Permalink to this headline"></a></h2>
+<p>We can slice a log based on <em>Event attribute</em>, <em>Case attribute</em>, <em>Timeframe</em> or <em>Performance</em>. In case of <em>Event attribute</em> select the events with which you want to slice the log.</p>
+<p><img alt="image2" src="../_images/21.png" /></p>
+<p>After clicking on <em>OK</em>, we can see the details of the selection we made.</p>
+<p><img alt="image2.1" src="../_images/2.1.png" /></p>
+<p><img alt="image2.2" src="../_images/2.2.png" /></p>
+<blockquote>
+<div><p>Click on <em>Apply</em>, to see the results.</p>
+</div></blockquote>
+<p><img alt="image3" src="../_images/31.png" /></p>
+<p>Similarly, we can either slice by <em>Case attribute</em>, <em>Performance</em> or <em>Timeframe</em>.</p>
+<p>In case of <em>Timeframe</em> and <em>Performance</em> there is an option of <em>Add slice line</em>. For this click on the <a class="reference internal" href="../_images/0.1.png"><img alt="image0.1" src="../_images/0.1.png" style="width: 15px;" /></a> button next to <em>Add slice line</em> and slide the slider. Alternatively, you can also select a date from the date picker.</p>
+<p><img alt="image4" src="../_images/41.png" /></p>
+</section>
+<section id="advanced-filter">
+<h2>Advanced &gt; Filter<a class="headerlink" href="#advanced-filter" title="Permalink to this headline"></a></h2>
+<p>We can add a filter by clicking on the <a class="reference internal" href="../_images/0.1.png"><img alt="image0.1" src="../_images/0.1.png" style="width: 15px;" /></a> button next to <em>Filter log</em>.</p>
+<p><img alt="image5" src="../_images/51.png" /></p>
+<p>Select the desired filter and click on <em>Ok</em>. For optimal use of filters, please go through the <a class="reference internal" href="../discovery/filterlog.html"><span class="doc">Filter Log manual</span></a>.</p>
+<p><img alt="image6" src="../_images/61.png" /></p>
+<p><em>Filter Log window</em> appears. Click <em>OK</em> to complete filter setting.</p>
+<p><img alt="image6.1" src="../_images/6.1.png" /></p>
+<p>To apply the filter click on <em>Apply</em> in the Slicing and Filtering section.</p>
+<p><img alt="image7" src="../_images/71.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>While slicing/filtering log, we may get a warning sign stating if there is a problem. Hover over to see the details.</p>
+</div>
+<p><img alt="image7.1" src="../_images/7.1.png" /></p>
+</section>
+<section id="add-reference-lines">
+<h2>Add Reference Lines<a class="headerlink" href="#add-reference-lines" title="Permalink to this headline"></a></h2>
+<p>For visualization purpose, we can also add reference lines to a chart to mark important timelines. For this click on the <a class="reference internal" href="../_images/0.1.png"><img alt="image0.1" src="../_images/0.1.png" style="width: 15px;" /></a> button in the <em>Reference lines</em> section.</p>
+<p><img alt="image8" src="../_images/81.png" /></p>
+</section>
+<section id="add-kpi">
+<h2>Add KPI<a class="headerlink" href="#add-kpi" title="Permalink to this headline"></a></h2>
+<p>We can add KPI target from the KPI thresholds section, which is available in the <em>Basic</em> view.</p>
+<p><img alt="image9" src="../_images/91.png" /></p>
+<p>The <em>Mean + Tolerance</em> metric allows us to specify a mean performance metric with a specific tolerance (in percentage).</p>
+<p><img alt="image10" src="../_images/101.png" /></p>
+<p>The <em>Custom</em> metric allows us to specify custom performance indicators.</p>
+<p><img alt="image11" src="../_images/111.png" /></p>
+</section>
+<section id="compare-multiple-process-variants">
+<h2>Compare Multiple Process Variants<a class="headerlink" href="#compare-multiple-process-variants" title="Permalink to this headline"></a></h2>
+<p>Custom Performance dashboard not only helps us to dive into the statistical metrics of a single event log but also helps us to compare different versions of an event log. For this, select more than one version of the same event log and click on <em>Analyze -&gt; View performance dashboard</em>.</p>
+<p><img alt="image12" src="../_images/12.png" /></p>
+<p>We see the charts of both the logs combined.</p>
+<p><img alt="image13" src="../_images/13.png" /></p>
+</section>
+<section id="split-charts">
+<h2>Split Charts<a class="headerlink" href="#split-charts" title="Permalink to this headline"></a></h2>
+<p>We can also choose to <em>split</em> charts to compare multiple process variants.</p>
+<p><img alt="image14" src="../_images/14.png" /></p>
+</section>
+<section id="zoom-in-zoom-out">
+<h2>Zoom-in/Zoom-out<a class="headerlink" href="#zoom-in-zoom-out" title="Permalink to this headline"></a></h2>
+<p>We can zoom into the graph by simply dragging the mouse over the part of the chart we would like to zoom.</p>
+<p><img alt="image15" src="../_images/15.png" /></p>
+<p>We can zoom out of the graph by clicking on <em>Reset Zoom</em> button.</p>
+<p><img alt="image16" src="../_images/16.png" /></p>
+</section>
+<section id="add-filter">
+<span id="addglobalfilter"></span><h2>Add filter<a class="headerlink" href="#add-filter" title="Permalink to this headline"></a></h2>
+<p>To add a filter, click on the <em>drop-down</em> button next to the log name.</p>
+<p><img alt="image17" src="../_images/17.png" /></p>
+<p><em>Filter log window</em> appears. Select the desired filter and click on <em>Ok</em>. For optimal use of filters, please go through the <a class="reference internal" href="../discovery/filterlog.html"><span class="doc">Filtser Log manual</span></a>.</p>
+<p><img alt="image17.1" src="../_images/17.1.png" /></p>
+<p>Create a filter and click on <em>OK</em>.</p>
+<p><img alt="image18" src="../_images/18.png" /></p>
+</section>
+<section id="export-download-chart">
+<h2>Export/Download Chart<a class="headerlink" href="#export-download-chart" title="Permalink to this headline"></a></h2>
+<p>We can also print or download a chart to a PNG, JPEG, PDF, SVG vector, CSV and XLS file.</p>
+<p><img alt="image19" src="../_images/19.png" /></p>
+</section>
+<section id="clone-chart">
+<h2>Clone Chart<a class="headerlink" href="#clone-chart" title="Permalink to this headline"></a></h2>
+<p>To add the same chart again, click <em>Edit view</em>, select the chart and click on <em>Clone content</em>.</p>
+<p><img alt="image20" src="../_images/20.png" /></p>
+</section>
+<section id="organize-charts">
+<h2>Organize Charts<a class="headerlink" href="#organize-charts" title="Permalink to this headline"></a></h2>
+<p>In case of multiple charts/stats, we can re-arrange it by clicking on the <a class="reference internal" href="../_images/20.1.png"><img alt="image20.1" src="../_images/20.1.png" style="width: 35px;" /></a> button and simply moving the charts/stats by drag-and-drop method. Click the move button once to move a selected block. Click the move button twice to move all the blocks.</p>
+<p><img alt="image21" src="../_images/211.png" /></p>
+</section>
+<section id="remove-chart-tile-table">
+<h2>Remove Chart/Tile/Table<a class="headerlink" href="#remove-chart-tile-table" title="Permalink to this headline"></a></h2>
+<p>In order to remove a chart/table/block, select a chart and click on <a class="reference internal" href="../_images/21.1.png"><img alt="image21.1" src="../_images/21.1.png" style="width: 20px;" /></a>.</p>
+<p><img alt="image22" src="../_images/22.png" /></p>
+</section>
+<section id="copy-format">
+<h2>Copy Format<a class="headerlink" href="#copy-format" title="Permalink to this headline"></a></h2>
+<p>To copy the formatting settings used in one block to another block, select a chart/tile/table and click on the <a class="reference internal" href="../_images/23.1.png"><img alt="image23.1" src="../_images/23.1.png" style="width: 30px;" /></a> button.</p>
+<p><img alt="image23" src="../_images/23.png" /></p>
+<p>Click on the <a class="reference internal" href="../_images/23.1.png"><img alt="image23.1" src="../_images/23.1.png" style="width: 30px;" /></a> button once to copy the formatting from one block to another. Double click to paste to multiple blocks. We can see the style of the block to be copied. Click on another block to paste the formatting settings.</p>
+</section>
+<section id="copy-settings">
+<h2>Copy Settings<a class="headerlink" href="#copy-settings" title="Permalink to this headline"></a></h2>
+<p>To copy the filter and slicing rules from one block to another, select the block and click on the <a class="reference internal" href="../_images/23.2.png"><img alt="image23.2" src="../_images/23.2.png" style="width: 30px;" /></a> button.</p>
+<p><img alt="image24" src="../_images/24.png" /></p>
+<p>Click on the <a class="reference internal" href="../_images/23.2.png"><img alt="image23.2" src="../_images/23.2.png" style="width: 30px;" /></a> button once to copy the settings from one block to another. Double click to paste to multiple blocks. We can see the slicing and filtering rules of the block to be copied. Click on another block to paste the settings.</p>
+<p><img alt="image25" src="../_images/25.png" /></p>
+</section>
+<section id="edit-dashboard">
+<h2>Edit Dashboard<a class="headerlink" href="#edit-dashboard" title="Permalink to this headline"></a></h2>
+<p>To edit the new a dashboard click on the <a class="reference internal" href="../_images/25.1.png"><img alt="image25.1" src="../_images/25.1.png" style="width: 30px;" /></a> button.</p>
+<p><img alt="image26" src="../_images/26.png" /></p>
+</section>
+<section id="download-dashboard">
+<h2>Download Dashboard<a class="headerlink" href="#download-dashboard" title="Permalink to this headline"></a></h2>
+<p>To download the current view of the dashboard, click on the <em>Download data of current view in CSV</em> button.</p>
+<p><img alt="image27" src="../_images/27.png" /></p>
+<p>We can select from a wide range of encoding options to download the dashboard into a CSV file.</p>
+<p><img alt="image28" src="../_images/28.png" /></p>
+<p>Select the appropriate option and Click on <em>Download</em>.</p>
+<p><img alt="image29" src="../_images/29.png" /></p>
+<p>The file will be downloaded as a zip file and contain all the performance metrics charts/tiles/tables.</p>
+<p><img alt="image30" src="../_images/30.png" /></p>
+</section>
+<section id="set-dashboard-as-home">
+<h2>Set Dashboard as “Home”<a class="headerlink" href="#set-dashboard-as-home" title="Permalink to this headline"></a></h2>
+<p>For ease of access, we can set a dashboard as <em>Home</em> by clicking on the <a class="reference internal" href="../_images/30.1.png"><img alt="image30.1" src="../_images/30.1.png" style="width: 25px;" /></a> button.</p>
+<p><img alt="image31" src="../_images/311.png" /></p>
+</section>
+<section id="change-style-of-dashboard">
+<span id="changestyle"></span><h2>Change style of dashboard<a class="headerlink" href="#change-style-of-dashboard" title="Permalink to this headline"></a></h2>
+<p>To change the style of the dashboard, click on the <a class="reference internal" href="../_images/31.1.png"><img alt="image31.1" src="../_images/31.1.png" style="width: 25px;" /></a> button and select from different styling options.</p>
+<p><img alt="image32" src="../_images/32.png" /></p>
+</section>
+<section id="change-scale">
+<h2>Change Scale<a class="headerlink" href="#change-scale" title="Permalink to this headline"></a></h2>
+<p>The scale can also be changed to <em>Logarithmic</em> and <em>Relative</em> from <em>Y-Axis scale</em>.</p>
+<p><img alt="image33" src="../_images/33.png" /></p>
+</section>
+<section id="reset-views">
+<h2>Reset Views<a class="headerlink" href="#reset-views" title="Permalink to this headline"></a></h2>
+<p>In case of dashboards created from existing views or changes made to an existing default view (Overview, Resources, Activities), we can choose to reset view of the dashboard by clicking on the <a class="reference internal" href="../_images/33.1.png"><img alt="image33.1" src="../_images/33.1.png" style="width: 20px;" /></a> button. We can choose to reset the current view or all the views.</p>
+<p><img alt="image34" src="../_images/34.png" /></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="savedashboard.html" class="btn btn-neutral float-left" title="Save dashboard" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="processmodelsimulation.html" class="btn btn-neutral float-right" title="Simulate process" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Apromore.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: 8.0
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="#">8.0</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="download/apromore.pdf">PDF</a></dd>
+        
+      </dl>
+      <dl>
+        
+        <dt>On Read the Docs</dt>
+          <dd>
+            <a href="///projects//?fromdocs=">Project Home</a>
+          </dd>
+          <dd>
+            <a href="///builds//?fromdocs=">Builds</a>
+          </dd>
+      </dl>
+    </div>
+  </div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

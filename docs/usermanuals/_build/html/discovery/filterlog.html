@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Filter log &mdash; Apromore  documentation</title><link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/apromore.css" type="text/css" /><link rel="shortcut icon" href="../_static/img/favicon.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Save filter" href="savefilter.html" />
+    <link rel="prev" title="Discover model" href="discovermodel.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html"><img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart/index.html">Quick start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theapromoreportal/index.html">The Apromore Portal</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Discovery</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="discovermodel.html">Discover model</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Filter log</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#filter-types-case-vs-event">Filter types: Case vs. Event</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#case-performance-filter">Case &gt; Performance filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#case-attribute-filter">Case &gt; Attribute filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#case-path-filter">Case &gt; Path filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#case-timeframe-filter">Case &gt; Timeframe filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#case-rework-repetition-filter">Case &gt; Rework &amp; repetition filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#case-case-id-filter">Case &gt; Case ID filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#case-variant-filter">Case &gt; Variant filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#event-attribute-filter">Event &gt; Attribute filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#event-timeframe-filter">Event &gt; Timeframe filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#managing-filter-criteria">Managing filter criteria</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#undo-redo-filters">Undo/Redo filters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#clear-all-filters">Clear all filters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#shortcuts">Shortcuts</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="savefilter.html">Save filter</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../analysis/index.html">Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../redesign/index.html">Redesign</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitor/index.html">Monitor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releasenotes/index.html">Release Notes</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Apromore</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Discovery</a> &raquo;</li>
+      <li>Filter log</li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="filter-log">
+<h1>Filter log<a class="headerlink" href="#filter-log" title="Permalink to this headline"></a></h1>
+<p>Apromore allows us to apply various filters to slice and dice an event log in different ways and focus on the filtering results. For example, we can use it to segregate specific process cases that fulfill certain conditions, e.g., all cases that transit via a particular activity or segregate two variants of the same process, e.g., the first variant containing slow cases and the second one containing fast cases.</p>
+<p>We can access Log filtering from various places:</p>
+<ul class="simple">
+<li><p>In the Portal, select an event log and click on “Filter log” from the Discover menu.</p></li>
+<li><p>In the Performance Dashboard, click on the “Filter” menu on the top-right corner or select.</p></li>
+<li><p>In the Custom View of the Performance Dashboard, select Advanced and then “Filter log” from the Edit frame.</p></li>
+<li><p>In Process Discoverer, click on the “Filter” button from the top buttons bar, as shown below.</p></li>
+</ul>
+<p><img alt="image1" src="../_images/124.png" /></p>
+<p>No matter where we invoke the filter from, the filter editor showed above will pop up.</p>
+<section id="filter-types-case-vs-event">
+<h2>Filter types: Case vs. Event<a class="headerlink" href="#filter-types-case-vs-event" title="Permalink to this headline"></a></h2>
+<p>There are two main filter types supported by Apromore: Case Filter and Event Filter. Both filter types allow us to create a filter based on particular conditions on the cases or events.</p>
+<p>More specifically:</p>
+<ul class="simple">
+<li><p>A case filter allows us to “slice” a log, i.e., to retain a subset of the process cases, e.g., those cases that contain a specific activity;</p></li>
+<li><p>An event filter allows us to “dice” a log, i.e., to retain a fragment of the process across multiple cases, e.g., an element containing two specific activities.</p></li>
+</ul>
+<p>For the case and event filters, we can set several filter criteria. Let us take a look at the case filters first.</p>
+</section>
+<section id="case-performance-filter">
+<h2>Case &gt; Performance filter<a class="headerlink" href="#case-performance-filter" title="Permalink to this headline"></a></h2>
+<p>To understand a process, we might want to retain or remove cases that fulfill specific performance requirements, e.g., retain all cases that complete within one month. We can use the “Performance” filter for this purpose. For example, the below screenshot captures only those cases that last no more than one month in duration.</p>
+<p><img alt="image2" src="../_images/220.png" /></p>
+<p>We can decide whether to retain or remove the cases that fulfill each filter’s condition set in the filter criteria. Concerning the example above, we may determine whether to retain or remove all cases that complete in one month.</p>
+<p>We create a filter by clicking <em>Apply</em>. We can observe that 80.4% of the cases fulfill this requirement.</p>
+<p><img alt="image3" src="../_images/314.png" /></p>
+<p>We can use the <em>Arc duration</em>  metric from the <em>Performance measure</em> drop-down menu to perform the analysis based on the duration of the path between different nodes of type activity, resource, or other event attributes.</p>
+<p><img alt="image2.1" src="../_images/2.12.png" /></p>
+<p>In the example above, we decide to retain all cases where the arc duration between <em>ER Triage</em> and <em>ER Registration</em> is not more than 3,25 hours.
+The filter is created by clicking <em>Apply</em>.</p>
+<p>In addition to the arc duration, we can also select a node duration performance metric to analyze performance by retaining or removing different nodes of type activity, resource, or different event attributes.</p>
+<p>We can also filter out cases based on <em>case length</em> (number of activity instances in the case). Thus, in the example below, we retain all cases whose length is between 3 to 15 activity instances.</p>
+<p><img alt="image2.2" src="../_images/2.21.png" /></p>
+</section>
+<section id="case-attribute-filter">
+<h2>Case &gt; Attribute filter<a class="headerlink" href="#case-attribute-filter" title="Permalink to this headline"></a></h2>
+<p>To retain or remove all the cases that include a specific attribute, we can use the <em>Attribute</em> filter. For example, we want to retain only those whose attribute <em>Age</em> is between 20 to 30.</p>
+<p>For this, click on the <em>Attribute</em> filter. Select the age attribute from the drop-down list and tick the specific values to retain. Finally, click on <em>Apply</em>. In the example below, the result would be only those cases where the age attribute is between 20 to 30.</p>
+<p><img alt="image4" src="../_images/410.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For the numerical attributes only, there is an alternative to retain or remove cases by choosing the range of values using the “From”/”To” slider at the bottom of the filter window.  We will see the list of values (categories) for categorical attributes like resources or product types and choose which specific values to retain or remove.</p>
+</div>
+<p>We can also retain/remove cases that include a secondary attribute.</p>
+<p><img alt="image4.1" src="../_images/4.12.png" /></p>
+<p>In the given example, we retain cases where resource group L (Secondary Attribute) performs an activity ER Registration.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We can also filter cases that include a specific case attribute as a primary/secondary attribute.</p>
+</div>
+<p>In addition, the Matching section allows us to set whether cases should be retained that satisfy any of the selected values (default selection) or all the selected values.</p>
+</section>
+<section id="case-path-filter">
+<h2>Case &gt; Path filter<a class="headerlink" href="#case-path-filter" title="Permalink to this headline"></a></h2>
+<p>We can use the <em>Path</em> filter to identify bottlenecks or analyze the transitions between the activities performed. For example, click on the <em>Path</em> filter to retain those cases where the activity <em>ER Registration</em> eventually follows <em>Release A</em>.</p>
+<p><img alt="image5" src="../_images/510.png" /></p>
+<p>We can also filter out those cases where the same resource group is performing the activities. This can be done by checking the <em>Require</em> checkbox and selecting <em>Group</em> from the drop-down list of the <em>Path</em> filter.</p>
+<p><img alt="image6" src="../_images/68.png" /></p>
+<p>The time between the occurrence of activities can also be captured by using the <em>Lower</em> and <em>Upper</em> bound fields of the <em>Path</em> filter. For example, retain those cases where the time interval between ER Registration and Release A is greater than 2 hours.</p>
+<p><img alt="image7" src="../_images/77.png" /></p>
+</section>
+<section id="case-timeframe-filter">
+<h2>Case &gt; Timeframe filter<a class="headerlink" href="#case-timeframe-filter" title="Permalink to this headline"></a></h2>
+<p>The <em>Timeframe</em> filter allows us to retain or remove those cases that are “active in”, “contained in”, “start in,” or “end in” a particular time period of the log. We can set the desired timeframe by entering the <em>Start</em> and <em>End</em> dates or using the time slider at the bottom of the Filter criteria window.</p>
+<p><img alt="image8" src="../_images/86.png" /></p>
+</section>
+<section id="case-rework-repetition-filter">
+<h2>Case &gt; Rework &amp; repetition filter<a class="headerlink" href="#case-rework-repetition-filter" title="Permalink to this headline"></a></h2>
+<p>In some processes, certain activities are repeated – this can be done in direct repetitions or through the <em>back and forth</em> between two or more activities.</p>
+<p>A <em>Rework</em> filter can be used to isolate repetitions so that only those process sequences are retained or removed that contain specific repetitions. We can also set the <em>Lower</em> and <em>Upper</em> bound for the reworked activities.</p>
+<p>When setting multiple conditions on repeated activities, we can define whether the filter criterion should satisfy any condition or all conditions on the repeated activities.</p>
+<p><img alt="image9" src="../_images/94.png" /></p>
+</section>
+<section id="case-case-id-filter">
+<h2>Case &gt; Case ID filter<a class="headerlink" href="#case-case-id-filter" title="Permalink to this headline"></a></h2>
+<p>We can choose to retain or remove cases based on a particular case ID  using the <em>Case ID</em> filter. In the below screenshot, we are retaining those cases with case ID ‘AA’. The result would include the activities performed by the case ID ‘AJ’.</p>
+<p><img alt="image10" src="../_images/105.png" /></p>
+</section>
+<section id="case-variant-filter">
+<h2>Case &gt; Variant filter<a class="headerlink" href="#case-variant-filter" title="Permalink to this headline"></a></h2>
+<p>We can use the <em>Case variant</em> filter to retain or remove the case variants based on a particular condition by entering the <em>From variant</em> and <em>To variant</em> values or using the time slider at the bottom of the Filter criteria window. For example, we want to retain up to 50 case variants to analyze the process’s most common behavior.</p>
+<p><img alt="image11" src="../_images/1111.png" /></p>
+<p>Let us now take a look at the filter criteria for event filters. We can use the <em>Event</em> filter to dice the log, i.e., isolate a specific fragment of the process across all cases. The <em>Event</em> filter allows us to filter by <em>Attribute</em> and <em>Timeframe</em>.</p>
+</section>
+<section id="event-attribute-filter">
+<h2>Event &gt; Attribute filter<a class="headerlink" href="#event-attribute-filter" title="Permalink to this headline"></a></h2>
+<p>The <em>Attribute</em> filter of type <em>Event</em> allows us to retain or remove those events that satisfy the values of a specific event attribute. For example, we may want to remove those events whose activity label is “ER Registration”. This means effectively to dice the log in such a way to exclude all events related to activity “ER Registration”.</p>
+<p><img alt="image12" src="../_images/125.png" /></p>
+<p>Any attribute value can be used to set conditions. For example, in order to remove all events where the value of “DiagnosticIC” is false, we can select <em>DiagnosticIC</em> from the drop-down list of event attributes and then select the specific value we may want to retain or remove.</p>
+<p><img alt="image13" src="../_images/134.png" /></p>
+</section>
+<section id="event-timeframe-filter">
+<h2>Event &gt; Timeframe filter<a class="headerlink" href="#event-timeframe-filter" title="Permalink to this headline"></a></h2>
+<p>The second type of filter criterion for events allows us to retain or remove events based on a particular timeframe. We can set the desired timeframe by entering the <em>Start</em> and <em>End</em> dates or using the time slider at the bottom of the Filter criteria window.</p>
+<p><img alt="image14" src="../_images/144.png" /></p>
+</section>
+<section id="managing-filter-criteria">
+<h2>Managing filter criteria<a class="headerlink" href="#managing-filter-criteria" title="Permalink to this headline"></a></h2>
+<p>Apromore allows us to create one filter on top of another. We can do this by clicking the <em>Create</em> button.</p>
+<p><img alt="image15" src="../_images/154.png" /></p>
+<p>In order to edit an existing filter, select the filter and click on <em>Edit</em>.</p>
+<p><img alt="image16" src="../_images/162.png" /></p>
+<p>We can change the sequence of the filters by using the top-down arrows on the right side. In order to delete a single filter, click on <a class="reference internal" href="../_images/16.1.png"><img alt="image16.1" src="../_images/16.1.png" style="width: 30px;" /></a> button. Alternatively, to delete all the filters at once click the last button - <a class="reference internal" href="../_images/16.2.png"><img alt="image16.2" src="../_images/16.2.png" style="width: 30px;" /></a>.</p>
+<p><img alt="image17" src="../_images/173.png" /></p>
+<p>To open a saved filter click on <em>Open</em> button.</p>
+<p><img alt="image18" src="../_images/183.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In the filter window, a red exclamation mark <a class="reference internal" href="../_images/241.png"><img alt="image24" src="../_images/241.png" style="width: 30px;" /></a> next to the filter name means that another user has made changes to the filter. Click on it to save/discard changes.</p>
+</div>
+<p>We can make changes to an existing filter and then click on <em>Save</em> to save it.</p>
+<p><img alt="image19" src="../_images/192.png" /></p>
+<p>The <em>Save as</em> button is used to save a new filter.</p>
+<p><img alt="image20" src="../_images/202.png" /></p>
+<p>We can also upload a filter by clicking on the <em>Upload</em> button. Select the filter (.json file format) from the file explorer.</p>
+<p><img alt="image21" src="../_images/2110.png" /></p>
+<p>A filter can also be downloaded using the <em>Download</em> button.</p>
+<p><img alt="image22" src="../_images/222.png" /></p>
+<p>We can edit the name of the filter before downloading it.</p>
+<p><img alt="image22.11" src="../_images/22.11.png" /></p>
+</section>
+<section id="undo-redo-filters">
+<h2>Undo/Redo filters<a class="headerlink" href="#undo-redo-filters" title="Permalink to this headline"></a></h2>
+<p>The application of filters can be applied and removed by using the <em>Undo/Redo</em> buttons. To undo a filter criterion, click on <em>Undo filter</em>.</p>
+<p><img alt="image22.1" src="../_images/22.1.png" /></p>
+<p>To reapply the previous filter, click on <em>Redo</em>.</p>
+<p><img alt="image22.2" src="../_images/22.2.png" /></p>
+</section>
+<section id="clear-all-filters">
+<span id="clearallfilters"></span><h2>Clear all filters<a class="headerlink" href="#clear-all-filters" title="Permalink to this headline"></a></h2>
+<p>To clear all the applied filters, click on the <em>Clear all filters</em> button.</p>
+<p><img alt="image23" src="../_images/232.png" /></p>
+</section>
+<section id="shortcuts">
+<h2>Shortcuts<a class="headerlink" href="#shortcuts" title="Permalink to this headline"></a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Right-click on an arc: remove all cases containing the selected directly-follows relation</p></li>
+<li><p>Shift + right-click on arc: filter cases based on this arc’s duration (from any perspective)</p></li>
+<li><p>CTRL + Right-click on an arc: retain only cases containing the selected directly-follows relation</p></li>
+<li><p>Right-click on a node: remove all cases with an event containing the selected attribute</p></li>
+<li><p>CTRL + Right-click on a node: retain only cases with an event containing the selected attribute</p></li>
+<li><p>Alt (Option) + Right-click on a node: remove all events containing the selected attribute</p></li>
+<li><p>Alt (Option) + CTRL + Right-click on a node: retain only events containing the selected attribute</p></li>
+<li><p>Shift + right-click on a node: filter cases based on this node’s duration (from any perspective)</p></li>
+<li><p>Shift + CTRL+ right-click on a node: filter cases using this node as a primary attribute.</p></li>
+<li><p>CTRL + Z: Undo</p></li>
+<li><p>CTRL + Y: Redo</p></li>
+</ul>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="discovermodel.html" class="btn btn-neutral float-left" title="Discover model" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="savefilter.html" class="btn btn-neutral float-right" title="Save filter" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Apromore.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: 8.0
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="#">8.0</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="download/apromore.pdf">PDF</a></dd>
+        
+      </dl>
+      <dl>
+        
+        <dt>On Read the Docs</dt>
+          <dd>
+            <a href="///projects//?fromdocs=">Project Home</a>
+          </dd>
+          <dd>
+            <a href="///builds//?fromdocs=">Builds</a>
+          </dd>
+      </dl>
+    </div>
+  </div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

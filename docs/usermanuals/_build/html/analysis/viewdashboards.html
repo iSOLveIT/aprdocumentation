@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>View dashboards &mdash; Apromore  documentation</title><link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/apromore.css" type="text/css" /><link rel="shortcut icon" href="../_static/img/favicon.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Create dashboards" href="createdashboards.html" />
+    <link rel="prev" title="Compare models" href="comparemodels.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html"><img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart/index.html">Quick start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theapromoreportal/index.html">The Apromore Portal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discovery/index.html">Discovery</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Analysis</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="animatelogsprocessmap.html">Animate logs (Process map)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animatelogsbpmn.html">Animate logs (BPMN model)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comparemodels.html">Compare models</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">View dashboards</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#case-inspector">Case Inspector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#activities">Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#resources">Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="createdashboards.html">Create dashboards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="addchartstodashboard.html">Add charts to dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="savedashboard.html">Save dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="additionaldashboardfunctionality.html">Additional dashboard functionality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processmodelsimulation.html">Simulate process</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../redesign/index.html">Redesign</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitor/index.html">Monitor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releasenotes/index.html">Release Notes</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Apromore</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Analysis</a> &raquo;</li>
+      <li>View dashboards</li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="view-dashboards">
+<h1>View dashboards<a class="headerlink" href="#view-dashboards" title="Permalink to this headline"></a></h1>
+<p><em>Apromore’s Custom Performance Dashboard</em> allows users to analyze a business process from a performance measurement perspective visually. The <em>Performance Dashboard</em> displays a variety of aggregate statistics and charts. The <em>Performance Dashboard plugin</em> allows us to analyze one process in isolation or to compare multiple process variants. For example, we can use the <em>Performance Dashboard plugin</em> to compare how a given process is executed across multiple regions or compare the variant of a process consisting of slow cases versus faster cases.</p>
+<p>To open the dashboard plugin, select at least one event log and click on <em>Analyze - &gt; View performance dashboard</em>. To compare multiple process variants, we need to select multiple event logs and then open the Performance Dashboard plugin.</p>
+<p><img alt="image1" src="../_images/119.png" /></p>
+<p>The customizable performance dashboard consists of three default views: <em>Overview</em>, <em>Activities</em>, and <em>Resources</em>. All the dashboards include statistic tiles, charts, and tables.</p>
+<p><img alt="image2" src="../_images/218.png" /></p>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline"></a></h2>
+<p>The overview section’s stat tiles consist of the event log’s performance measures like the number of activity instances, active cases over time, case variants, case duration, and log timeframe. Four main charts are presented in the overview dashboard: Events over time, Active cases over time, Case variants, and Case utilization.</p>
+<p><img alt="image3" src="../_images/312.png" /></p>
+</section>
+<section id="case-inspector">
+<h2>Case Inspector<a class="headerlink" href="#case-inspector" title="Permalink to this headline"></a></h2>
+<p>The case inspector displays a full list of cases and case variants for the selected event log, together with their corresponding statistics.</p>
+<p><img alt="image4" src="../_images/48.png" /></p>
+<p>We can click on a given case in the Case Inspector to get further details about the activities performed in this case.</p>
+<p><img alt="image5" src="../_images/58.png" /></p>
+</section>
+<section id="activities">
+<h2>Activities<a class="headerlink" href="#activities" title="Permalink to this headline"></a></h2>
+<p>The activities dashboard includes the activities, average activity frequency, and average activity duration statistic tiles. It also includes different charts of various activity performance metrics such as case frequency, min/max duration, min frequency per case, et cetera.</p>
+<p><img alt="image6" src="../_images/66.png" /></p>
+</section>
+<section id="resources">
+<h2>Resources<a class="headerlink" href="#resources" title="Permalink to this headline"></a></h2>
+<p>The resources dashboard includes all the resource performance metrics like case frequency, total frequency, average duration, min duration, and max duration.</p>
+<p><img alt="image7" src="../_images/75.png" /></p>
+<p>While viewing/editing a shared dashboard, we may receive an update notification stating that the dashboard is modified. We can choose to save/discard changes and click on <em>Apply</em>.</p>
+<p><img alt="image8" src="../_images/84.png" /></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="comparemodels.html" class="btn btn-neutral float-left" title="Compare models" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="createdashboards.html" class="btn btn-neutral float-right" title="Create dashboards" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Apromore.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: 8.0
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="#">8.0</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="download/apromore.pdf">PDF</a></dd>
+        
+      </dl>
+      <dl>
+        
+        <dt>On Read the Docs</dt>
+          <dd>
+            <a href="///projects//?fromdocs=">Project Home</a>
+          </dd>
+          <dd>
+            <a href="///builds//?fromdocs=">Builds</a>
+          </dd>
+      </dl>
+    </div>
+  </div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

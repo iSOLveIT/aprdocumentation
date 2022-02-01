@@ -1,0 +1,88 @@
+.wy-side-nav-search {
+    background-color: #e5e5e5;
+}
+
+.wy-side-nav-search a{
+    display: block;
+}
+
+body h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+    margin-top: 0;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+body .wy-menu-vertical .toctree-l1.current a:hover {
+    color: black;
+}
+
+body .wy-side-nav-search div.version{
+    color: #404040;
+}
+
+body a{
+    color: #004b7a;
+    font-weight: bold;
+}
+
+body a:visited{
+    color: #884488;
+
+}
+
+body a:hover {
+    color: #bb1122;
+}
+
+body .wy-menu-vertical a{
+    color: #d9d9d9;
+    font-weight: normal;
+}
+body .wy-menu-vertical a:hover{
+    color: #d9d9d9;
+    font-weight: normal;
+}
+
+
+
+p > img {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.table-text-align-center tbody td{
+	text-align: center !important;
+}
+
+.table-text-align-center tbody th:first-child {
+    text-align: left !important;
+}
+
+.table-text-align-center thead th{
+	text-align: center !important;
+}
+
+.table-text-align-center thead th:first-child {
+    text-align: left !important;
+}
+
+.table-white-space-normal td, .table-white-space-normal th {
+    white-space: normal !important;
+}
+
+nav.wy-nav-side{
+    padding-bottom: 48px;
+}
+
+.rst-content dl dt{
+    font-weight: normal;
+}
+
+.rst-content dl {
+    margin-bottom: 0;
+}
+
+/* Hide "On GitHub" section from versions menu */
+div.rst-versions > div.rst-other-versions > dl:nth-child(3) {
+    display: none;
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add charts to dashboard &mdash; Apromore  documentation</title><link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/apromore.css" type="text/css" /><link rel="shortcut icon" href="../_static/img/favicon.png"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Save dashboard" href="savedashboard.html" />
+    <link rel="prev" title="Create dashboards" href="createdashboards.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html"><img src="../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart/index.html">Quick start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../theapromoreportal/index.html">The Apromore Portal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../discovery/index.html">Discovery</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Analysis</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="animatelogsprocessmap.html">Animate logs (Process map)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="animatelogsbpmn.html">Animate logs (BPMN model)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comparemodels.html">Compare models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="viewdashboards.html">View dashboards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="createdashboards.html">Create dashboards</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Add charts to dashboard</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#activity-instances-over-time-chart">Activity instances over time chart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#active-cases-over-time-chart">Active cases over time chart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#case-variants-chart">Case variants chart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#activity-instances-per-case-chart">Activity instances per case chart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#case-duration-chart">Case duration chart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#case-utilization">Case Utilization</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#processing-time-chart">Processing time chart</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#waiting-time-chart">Waiting time chart</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="savedashboard.html">Save dashboard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="additionaldashboardfunctionality.html">Additional dashboard functionality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="processmodelsimulation.html">Simulate process</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../redesign/index.html">Redesign</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../monitor/index.html">Monitor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releasenotes/index.html">Release Notes</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Apromore</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Analysis</a> &raquo;</li>
+      <li>Add charts to dashboard</li>
+
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="add-charts-to-dashboard">
+<h1>Add charts to dashboard<a class="headerlink" href="#add-charts-to-dashboard" title="Permalink to this headline"></a></h1>
+<p>Apromore’s Performance Dashboard allows users to analyze a business process from a performance measurement perspective visually. The Performance Dashboard displays a variety of aggregate statistics and charts. The <em>Performance Dashboard plugin</em> allows us to analyze one process in isolation or to compare multiple process variants. For example, we can use the <em>Performance Dashboard plugin</em> to compare how a given process is executed across multiple regions or compare the variant of a process consisting of slow cases versus faster cases.</p>
+<p>To open the dashboard plugin, select at least one event log and click on <em>Analyze - &gt; View performance dashboard</em>. To compare multiple process variants, we need to select multiple event logs and then open the Performance Dashboard plugin.</p>
+<p><img alt="image1" src="../_images/1.png" /></p>
+<section id="activity-instances-over-time-chart">
+<h2>Activity instances over time chart<a class="headerlink" href="#activity-instances-over-time-chart" title="Permalink to this headline"></a></h2>
+<p>We can add different charts by clicking on the <em>Add a new chart</em> button.</p>
+<p>The <em>Activity instances over time chart</em> displays how many activity instances occur during the time frame of the entire event log. The Y-axis denotes the ‘Timestamp’ of the entire log. The X-axis denotes the number of activity instances. This chart can help us to identify various patterns, such as the periodicity of the process. We can observe, for example, that in certain months of the year or certain days of the week, there is more activity than in others.</p>
+<p><img alt="image2" src="../_images/2.png" /></p>
+</section>
+<section id="active-cases-over-time-chart">
+<h2>Active cases over time chart<a class="headerlink" href="#active-cases-over-time-chart" title="Permalink to this headline"></a></h2>
+<p>The <em>Active cases over time chart</em> displays the work-in-progress over the entire timeframe of the log. To understand and view the work-in-progress over a period of time, click the <em>Active cases over time</em> tab. Alternatively, we can use <a class="reference internal" href="../discovery/filterlog.html"><span class="doc">Case length filter</span></a>.</p>
+<p><img alt="image3" src="../_images/3.png" /></p>
+</section>
+<section id="case-variants-chart">
+<h2>Case variants chart<a class="headerlink" href="#case-variants-chart" title="Permalink to this headline"></a></h2>
+<p>A case variant is a sequence of activities followed by one or more cases, i.e., a distinct pathway. For example, if A, B, C, and D represent activities, then ABCD, ACBD, and ABC represent three case variants. Typically, there are multiple cases in a log that follow the same case variant. For example, it may be that 10 cases follow the case variant ABCD, while 5 cases follow the case variant ACBD. The <em>Case variants chart</em> displays the number of cases that follow each variant. The variants are sorted from most frequent to least frequent.</p>
+<p><img alt="image4" src="../_images/4.png" /></p>
+</section>
+<section id="activity-instances-per-case-chart">
+<h2>Activity instances per case chart<a class="headerlink" href="#activity-instances-per-case-chart" title="Permalink to this headline"></a></h2>
+<p>The <em>Activity instances per case chart</em> displays the number of activity instances in each case. The horizontal axis depicts the number of activity instances, while the vertical axis depicts the number of cases.</p>
+<p><img alt="image5" src="../_images/5.png" /></p>
+</section>
+<section id="case-duration-chart">
+<h2>Case duration chart<a class="headerlink" href="#case-duration-chart" title="Permalink to this headline"></a></h2>
+<p>To visualize the histogram of the case duration of the process, click on the <em>Case Duration tab</em>. Based on the screenshot below, we can identify many cases between the start time and approximately 23 days. However, some cases took more than a month.</p>
+<p><img alt="image6" src="../_images/6.png" /></p>
+</section>
+<section id="case-utilization">
+<h2>Case Utilization<a class="headerlink" href="#case-utilization" title="Permalink to this headline"></a></h2>
+<p>The <em>Case utilization</em> is the ratio between the processing time of a case and the case duration. The processing time of a case is the amount of time during which someone was actively working on an activity in the case (i.e., the case duration excluding waiting times). The “Case utilization” chart displays the histogram of case utilizations in the log. Each bar in the chart shows the number of cases (Y-axis) with a given case utilization (X-axis). If we see one bar only, there may be two reasons: either all cases have the same value of case utilization, or the other bars are tiny. If that is the case, press the “Log scale” button on the chart’s top left corner to make the other bars visible.</p>
+<p><img alt="image7" src="../_images/7.png" /></p>
+</section>
+<section id="processing-time-chart">
+<h2>Processing time chart<a class="headerlink" href="#processing-time-chart" title="Permalink to this headline"></a></h2>
+<p>The processing time of a case is the amount of time during which someone was actively working on an activity in the case (i.e., the case duration excluding idle times). We can choose between the total, maximum, and average processing time from the dropdown menu. The <em>Processing time chart</em> displays the histogram of processing times of the cases in the log. Each bar in the chart shows the number of cases (Y-axis) with a given processing time (X-axis). If we see one bar only, there may be two reasons: either all cases have the same value of processing time, or the other bars are tiny. If that is the case, press the <em>Log scale</em> button on the chart’s top left corner to make the other bars visible.</p>
+<p><img alt="image8" src="../_images/8.png" /></p>
+</section>
+<section id="waiting-time-chart">
+<h2>Waiting time chart<a class="headerlink" href="#waiting-time-chart" title="Permalink to this headline"></a></h2>
+<p>The waiting time of a case is the amount of time during which nobody was actively working on an activity in the case. We can choose between the total, maximum, and average waiting time from the dropdown menu. The <em>Waiting Time chart</em> displays the histogram of waiting times of the cases in the log. Each bar in the chart shows the number of cases (Y-axis) with a given waiting time (X-axis). If we see one bar only, there may be two reasons: either all cases have the same value of waiting time, or the other bars are tiny. If that is the case, press the <em>Log scale</em> button on the chart’s top left corner to make the other bars visible.</p>
+<p><img alt="image9" src="../_images/9.png" /></p>
+<p>We can create different types of charts using the custom dashboard. Charts like column and pie charts work best with categorical values, while line charts work best with numerical data.</p>
+<p><img alt="image10" src="../_images/10.png" /></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="createdashboards.html" class="btn btn-neutral float-left" title="Create dashboards" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="savedashboard.html" class="btn btn-neutral float-right" title="Save dashboard" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Apromore.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: 8.0
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="#">8.0</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="download/apromore.pdf">PDF</a></dd>
+        
+      </dl>
+      <dl>
+        
+        <dt>On Read the Docs</dt>
+          <dd>
+            <a href="///projects//?fromdocs=">Project Home</a>
+          </dd>
+          <dd>
+            <a href="///builds//?fromdocs=">Builds</a>
+          </dd>
+      </dl>
+    </div>
+  </div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
