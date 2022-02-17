@@ -18,7 +18,7 @@ extensions = [
     'sphinx_reredirects'
 ]
 
-locale_dirs = ['locale/']
+# locale_dirs = ['locale/']
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
@@ -34,7 +34,11 @@ todo_include_todos = True
 
 # -- Options for HTML output ----------------------------------------------
 html_theme = "sphinx_rtd_theme"
-html_static_path = ['../../static']
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_static_path = ['_static']
+html_css_files = [
+    'css/apromore.css',
+]
 html_theme_options = {
     'logo_only': True,
     'display_version': False
@@ -42,12 +46,12 @@ html_theme_options = {
 html_context = {
     'current_version': version,
     'versions': [['' + version, '#']],
-    'downloads': [['PDF', 'download/apromore.pdf']],
+    'downloads': [['PDF', 'apromore.pdf']],
     'READTHEDOCS': True,
     'show_source': False,
-    'favicon': 'img/favicon.png',
-    'css_files': ['_static/css/apromore.css']
 }
+
+html_extra_path = ['download/apromore.pdf']
 
 redirects = {
     "gettingstarted/navigatingtheapromoreportal": "../theapromoreportal/navigatingtheapromoreportal.html",
@@ -58,6 +62,5 @@ redirects = {
     "gettingstarted/manageusersandgroups": "../theapromoreportal/manageusersandgroups.html"
 }
 
-html_logo = "../../static/img/logo.png"
-html_favicon = "../../static/img/favicon.png"
-html_css_files = "../../static/css/apromore.css"
+html_logo = "_static/img/logo.png"
+html_favicon = "_static/img/favicon.png"
