@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="de" >
 <head>
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Discover model &mdash; Apromore  documentation</title>
+  <title>Discover model &mdash; Apromore  Dokumentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/apromore.css" type="text/css" />
@@ -17,9 +17,10 @@
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
     <script src="../_static/js/theme.js"></script>
-    <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
     <link rel="next" title="Filter log" href="filterlog.html" />
     <link rel="prev" title="Discovery" href="index.html" /> 
 </head>
@@ -34,7 +35,7 @@
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -93,17 +94,17 @@
            <div itemprop="articleBody">
              
   <section id="discover-model">
-<h1>Discover model<a class="headerlink" href="#discover-model" title="Permalink to this headline"></a></h1>
+<h1>Discover model<a class="headerlink" href="#discover-model" title="Link zu dieser Überschrift"></a></h1>
 <p>Apromore allows us to discover a process map or a BPMN model from an event log. A process map (a.k.a. directly-follows graph) is a visual representation of the log as a graph where nodes capture process activities and directed arcs between them capture sequential order relations between the activities. For example, an arc going from activity <em>Accept order</em> to activity <em>Check order</em> indicates that in the log, we can observe that process cases flow from <em>Accept order</em> to <em>Check order</em>. Process maps are a simple yet effective means to understand the basic order of relationships between process activities. As such, they are the most common type of model discovered by commercial process mining tools.</p>
 <section id="view-process-map">
-<h2>View process map<a class="headerlink" href="#view-process-map" title="Permalink to this headline"></a></h2>
+<h2>View process map<a class="headerlink" href="#view-process-map" title="Link zu dieser Überschrift"></a></h2>
 <p>To view the process map, double-click on a log. Alternatively, we can select a log from the repository and click on <em>Discover &gt; Discover model</em>.</p>
 <p><img alt="image1" src="../_images/120.png" /></p>
 <p>A window will open up, showing the process map discovered from the log.</p>
 <p><img alt="image2" src="../_images/219.png" /></p>
 </section>
 <section id="abstraction-settings">
-<h2>Abstraction Settings<a class="headerlink" href="#abstraction-settings" title="Permalink to this headline"></a></h2>
+<h2>Abstraction Settings<a class="headerlink" href="#abstraction-settings" title="Link zu dieser Überschrift"></a></h2>
 <p>We can adjust the complexity of the discovered map by increasing or decreasing the frequency or duration of nodes and arcs visualized in our process map. The default values for the nodes and arcs sliders are 100% and 10%, respectively.</p>
 <p>We can abstract a process map by <em>Case frequency</em> or <em>Average Duration</em>. For example, if we abstract by case frequency and shift the arcs or nodes slider towards the left, more edges/nodes with low case frequency will be removed from the process map.</p>
 <p><img alt="image3" src="../_images/313.png" /></p>
@@ -111,7 +112,7 @@
 <p><img alt="image4" src="../_images/49.png" /></p>
 </section>
 <section id="log-statistics">
-<h2>Log statistics<a class="headerlink" href="#log-statistics" title="Permalink to this headline"></a></h2>
+<h2>Log statistics<a class="headerlink" href="#log-statistics" title="Link zu dieser Überschrift"></a></h2>
 <p>We can also check more detailed statistics. To inspect individual cases, use the <em>Case Inspector</em>. To open the <em>Case Inspector</em>, click on the number of cases under the <em>Log statics</em> section.</p>
 <p><img alt="image4.1" src="../_images/4.1.png" /></p>
 <p>The <em>Case Inspector</em> window will open.</p>
@@ -143,50 +144,50 @@ We can also select multiple activities at once by pressing <em>Ctrl and dragging
 <p><img alt="image4.11" src="../_images/4.11.png" /></p>
 </section>
 <section id="visualize-by-frequency">
-<h2>Visualize by Frequency<a class="headerlink" href="#visualize-by-frequency" title="Permalink to this headline"></a></h2>
-<p>We can also view the event log’s simple statistics, such as the total, median, minimum, maximum, and average number of times an activity is executed. This information is provided as a label on the activities/arcs, color of activities, and arcs’ thickness. The darker the blue color, the higher the number of times that activity has been observed in the log. The thicker arc, the higher the frequency of that arc. We can use the Frequency drop-down list in the <em>Visualization settings</em> section to view different statistics.</p>
+<h2>Visualize by Frequency<a class="headerlink" href="#visualize-by-frequency" title="Link zu dieser Überschrift"></a></h2>
+<p>We can also view the event log’s simple statistics, such as the total, median, minimum, maximum, and average number of times an activity is executed. This information is provided as a label on the activities/arcs, color of activities, and arcs‘ thickness. The darker the blue color, the higher the number of times that activity has been observed in the log. The thicker arc, the higher the frequency of that arc. We can use the Frequency drop-down list in the <em>Visualization settings</em> section to view different statistics.</p>
 <p><img alt="image5" src="../_images/59.png" /></p>
 </section>
 <section id="visualize-by-duration">
-<h2>Visualize by Duration<a class="headerlink" href="#visualize-by-duration" title="Permalink to this headline"></a></h2>
+<h2>Visualize by Duration<a class="headerlink" href="#visualize-by-duration" title="Link zu dieser Überschrift"></a></h2>
 <p>Additionally, we can view the statistics on the time performance of the activities and arcs in the process map using the <em>Duration drop-down list</em> in the <em>Visualization settings</em> section. These are total, mean, median, minimum, maximum, and average duration of each arc (indicating the waiting time before starting a given activity, once the previous one has been completed), and total, mean, median, minimum, maximum, and average duration of each arc duration of an activity (a.k.a. the activity’s processing time). Suppose the log only has completion timestamps for each activity and not their start timestamp. In that case, these performance statistics will combine both processing time and waiting time into a single time statistics visualized on the arc. At the same time, activities will be shown as having an instantaneous duration.</p>
 <p>Like frequency statistics, we can also visualize time performance statistics via labels on activities and arcs and via colors and line thickness (on a red scale) for activities and arcs.</p>
 <p><img alt="image6" src="../_images/67.png" /></p>
 </section>
 <section id="visualize-by-frequency-and-duration">
-<h2>Visualize by Frequency and Duration<a class="headerlink" href="#visualize-by-frequency-and-duration" title="Permalink to this headline"></a></h2>
+<h2>Visualize by Frequency and Duration<a class="headerlink" href="#visualize-by-frequency-and-duration" title="Link zu dieser Überschrift"></a></h2>
 <p>We can also view both <em>Frequency</em> and <em>Duration</em> at the same time by clicking the <a class="reference internal" href="../_images/6.11.png"><img alt="image6.1" src="../_images/6.11.png" style="width: 30px;" /></a>. For example, if we are viewing our process map in <em>Frequency</em> mode, we can also view the <em>Duration</em> as a secondary metric by clicking on the <a class="reference internal" href="../_images/6.11.png"><img alt="image6.1" src="../_images/6.11.png" style="width: 30px;" /></a>.</p>
 <p><img alt="image7" src="../_images/76.png" /></p>
 </section>
 <section id="visualize-by-different-perspectives">
-<h2>Visualize by Different Perspectives<a class="headerlink" href="#visualize-by-different-perspectives" title="Permalink to this headline"></a></h2>
+<h2>Visualize by Different Perspectives<a class="headerlink" href="#visualize-by-different-perspectives" title="Link zu dieser Überschrift"></a></h2>
 <p>Visualizing the handover between activities is not the only way a process can be analyzed. There will be times when we may be interested in assessing if a specific resource or group of resources are overloaded with work. When clicking on <em>Perspective</em> we can decide which attribute of the log will focus on the process map.</p>
 <p><img alt="image8" src="../_images/85.png" /></p>
 <p>For example, to visualize the handover of work among a group of resources, we can select the <em>Resources</em> option. This option will map each actor’s organizational role in our process to a node and connect two nodes if a handover of work occurs between the two nodes.</p>
 <p><img alt="image9" src="../_images/93.png" /></p>
 </section>
 <section id="filter-log">
-<h2>Filter Log<a class="headerlink" href="#filter-log" title="Permalink to this headline"></a></h2>
+<h2>Filter Log<a class="headerlink" href="#filter-log" title="Link zu dieser Überschrift"></a></h2>
 <p>When analyzing an event log, we may be interested in isolating a particular type of behavior or removing a specific activity. An event log can be filtered by clicking on the <em>Filter</em> icon and creating a new filter that fits our needs. For more information on the optimal use of <em>Filter</em>, we suggest viewing the <a class="reference external" href="https://apromore.org/help/user-manual/discovery/filter-log/">Filter Log manual</a>.</p>
 <p><img alt="image10" src="../_images/104.png" /></p>
 </section>
 <section id="view-bpmn-model">
-<h2>View BPMN Model<a class="headerlink" href="#view-bpmn-model" title="Permalink to this headline"></a></h2>
+<h2>View BPMN Model<a class="headerlink" href="#view-bpmn-model" title="Link zu dieser Überschrift"></a></h2>
 <p>Whenever the insights deriving from the analysis of a process map are not sufficient, the same functionalities are offered on top of a BPMN model. Changing the view from <em>Process Map</em> to <em>BPMN model</em> will automatically discover a BPMN model from an event log. When visualizing a BPMN model, the slider <em>Parallelism</em> offers the possibility to adjust the amount of parallelism (e.g., AND and OR gateways) discovered by the plugin.</p>
 <p><img alt="image11" src="../_images/1110.png" /></p>
 </section>
 <section id="export-process-map-bpmn-model">
-<h2>Export Process Map/BPMN Model<a class="headerlink" href="#export-process-map-bpmn-model" title="Permalink to this headline"></a></h2>
+<h2>Export Process Map/BPMN Model<a class="headerlink" href="#export-process-map-bpmn-model" title="Link zu dieser Überschrift"></a></h2>
 <p>A filtered log or discovered process map/BPMN can be exported by clicking on the different save buttons to export the model as a “.bpmn”, a PDF, PNG, or a JSON file.</p>
 <p><img alt="image12" src="../_images/123.png" /></p>
 </section>
 <section id="animate-log-process-map">
-<h2>Animate Log (Process Map)<a class="headerlink" href="#animate-log-process-map" title="Permalink to this headline"></a></h2>
+<h2>Animate Log (Process Map)<a class="headerlink" href="#animate-log-process-map" title="Link zu dieser Überschrift"></a></h2>
 <p>The <em>Animate</em> button allows us to replay the log on top of the process map, using the <em>Animate a log</em> on top of the process map feature.</p>
 <p><img alt="image13" src="../_images/133.png" /></p>
 </section>
 <section id="search-activity">
-<span id="searchpd"></span><h2>Search Activity<a class="headerlink" href="#search-activity" title="Permalink to this headline"></a></h2>
+<span id="searchpd"></span><h2>Search Activity<a class="headerlink" href="#search-activity" title="Link zu dieser Überschrift"></a></h2>
 <p>We can also search for an activity by using the search bar on the top-right.</p>
 <p><img alt="image14" src="../_images/143.png" /></p>
 <p>For ease of view, the search results get highlighted in the process map.</p>
@@ -198,8 +199,8 @@ We can also select multiple activities at once by pressing <em>Ctrl and dragging
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="Discovery" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="filterlog.html" class="btn btn-neutral float-right" title="Filter log" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Discovery" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="filterlog.html" class="btn btn-neutral float-right" title="Filter log" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
@@ -208,9 +209,9 @@ We can also select multiple activities at once by pressing <em>Ctrl and dragging
     <p>&#169; Copyright 2021, Apromore.</p>
   </div>
 
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
     <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
    
 
 </footer>
@@ -220,7 +221,7 @@ We can also select multiple activities at once by pressing <em>Ctrl and dragging
   </div>
   
 
-  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versionen">
     <span class="rst-current-version" data-toggle="rst-current-version">
       <span class="fa fa-book"> Read the Docs</span>
       v: 8.0
@@ -228,7 +229,7 @@ We can also select multiple activities at once by pressing <em>Ctrl and dragging
     </span>
     <div class="rst-other-versions">
       <dl>
-        <dt>Versions</dt>
+        <dt>Versionen</dt>
         
           <dd><a href="#">8.0</a></dd>
         
@@ -241,9 +242,9 @@ We can also select multiple activities at once by pressing <em>Ctrl and dragging
       </dl>
       <dl>
         
-        <dt>On Read the Docs</dt>
+        <dt>Auf Read the Docs</dt>
           <dd>
-            <a href="///projects//?fromdocs=">Project Home</a>
+            <a href="///projects//?fromdocs=">Projektübersicht</a>
           </dd>
           <dd>
             <a href="///builds//?fromdocs=">Builds</a>

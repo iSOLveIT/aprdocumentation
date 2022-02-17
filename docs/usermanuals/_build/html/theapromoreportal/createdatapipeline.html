@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="de" >
 <head>
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Create data pipeline &mdash; Apromore  documentation</title>
+  <title>Create data pipeline &mdash; Apromore  Dokumentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/apromore.css" type="text/css" />
@@ -17,9 +17,10 @@
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
     <script src="../_static/js/theme.js"></script>
-    <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
     <link rel="next" title="Schedule/Manage Data Pipeline" href="scheduleormanagedatapipeline.html" />
     <link rel="prev" title="Upload a file" href="uploadafile.html" /> 
 </head>
@@ -34,7 +35,7 @@
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -90,28 +91,28 @@
            <div itemprop="articleBody">
              
   <section id="create-data-pipeline">
-<h1>Create data pipeline<a class="headerlink" href="#create-data-pipeline" title="Permalink to this headline"></a></h1>
+<h1>Create data pipeline<a class="headerlink" href="#create-data-pipeline" title="Link zu dieser Überschrift"></a></h1>
 <p>The Create data pipeline plugin, also referred as the ETL plugin, allows users to compose event logs from one or more tables or data sources.
 It aims to integrate data from multiple sources by extracting, transforming, and loading to gain essential business insights for competitive advantage.
 To define a data pipeline, click on <em>Create data pipeline</em> button.</p>
 <p><img alt="image1" src="../_images/137.png" /></p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Bemerkung</p>
 <p>We can also select the <em>Create data pipeline</em>  option from the <em>File</em> menu drop-down.</p>
 </div>
 <p><img alt="image1.1" src="../_images/1.1.png" /></p>
 <p>The Extract-Transform-Load view appears after clicking on create data pipeline.</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Bemerkung</p>
 <p>We can switch between three main views. However, to create the insightful result, it is essential to complete steps in the default order: Extract - Transform - Load.</p>
 </div>
 <p><img alt="image2" src="../_images/229.png" /></p>
 <section id="extract-data">
-<h2>Extract data<a class="headerlink" href="#extract-data" title="Permalink to this headline"></a></h2>
+<h2>Extract data<a class="headerlink" href="#extract-data" title="Link zu dieser Überschrift"></a></h2>
 <p>We can extract data through two options – <em>Local File System</em> and <em>DB Connections</em>.
 The corresponding buttons are placed in the left pane right under the <em>Extract view</em>.</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Bemerkung</p>
 <p>We can extract tables from relational databases and upload files in CSV and Parquet formats from the local system.</p>
 </div>
 <p><img alt="image3" src="../_images/322.png" /></p>
@@ -131,7 +132,7 @@ The corresponding buttons are placed in the left pane right under the <em>Extrac
 <p><span class="caption-text">INNER JOIN - Returns records that have matching values in both tables;
 FULL JOIN - Returns all records when there is a match in either left or right table;
 LEFT JOIN - Returns all records from the left table, and the matched records from the right table;
-RIGHT JOIN - Returns all records from the right table, and the matched records from the left table;</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+RIGHT JOIN - Returns all records from the right table, and the matched records from the left table;</span><a class="headerlink" href="#id1" title="Link zu diesem Bild"></a></p>
 </figcaption>
 </figure>
 </div></blockquote>
@@ -141,31 +142,31 @@ RIGHT JOIN - Returns all records from the right table, and the matched records f
 <p><img alt="image6" src="../_images/611.png" /></p>
 </section>
 <section id="transform-data">
-<h2>Transform data<a class="headerlink" href="#transform-data" title="Permalink to this headline"></a></h2>
+<h2>Transform data<a class="headerlink" href="#transform-data" title="Link zu dieser Überschrift"></a></h2>
 <p>There are 2 main areas in the Transform view - the list of tables containing all the columns from the extracted logs (marked blue) and the transformed table (marked red).</p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Bemerkung</p>
 <p>To complete transformation, we must select at least three compulsory columns: case id, activity, and timestamp</p>
 </div>
 <p><img alt="image7" src="../_images/710.png" /></p>
-<p>To add the column from the list to the transformed table, click on the “+” button next to the column name.</p>
+<p>To add the column from the list to the transformed table, click on the „+“ button next to the column name.</p>
 <p><img alt="image8" src="../_images/89.png" /></p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Bemerkung</p>
 <p>In the case of large logs, the addition of columns might take some time. Do not click on the same column several times to prevent column duplicates in the transformed table.</p>
 </div>
-<p>To add the whole extracted table to the <em>Transformed table</em>, click the “+” button next to the table name. The tables are marked as <a class="reference internal" href="../_images/97.png"><img alt="image9" src="../_images/97.png" style="width: 20px;" /></a></p>
+<p>To add the whole extracted table to the <em>Transformed table</em>, click the „+” button next to the table name. The tables are marked as <a class="reference internal" href="../_images/97.png"><img alt="image9" src="../_images/97.png" style="width: 20px;" /></a></p>
 <p><img alt="image10" src="../_images/107.png" /></p>
 <p>To rename the column, click on <a class="reference internal" href="../_images/10.1.png"><img alt="image10.1" src="../_images/10.1.png" style="width: 20px;" /></a> right next to the column name.</p>
 <div class="admonition warning">
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Warnung</p>
 <p>Spaces in the column name aren’t supported.</p>
 </div>
 <p><img alt="image11" src="../_images/1113.png" /></p>
-<p>To delete the column from the Transformation table, click on the red “X” button next to <em>Rename</em>.</p>
+<p>To delete the column from the Transformation table, click on the red „X“ button next to <em>Rename</em>.</p>
 <p><img alt="image12" src="../_images/1211.png" /></p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Bemerkung</p>
 <p>If the column was deleted by mistake or becomes necessary, we can easily add it to the table again from the columns list.</p>
 </div>
 <p><img alt="image13" src="../_images/138.png" /></p>
@@ -183,7 +184,7 @@ RIGHT JOIN - Returns all records from the right table, and the matched records f
 <p><img alt="image19" src="../_images/194.png" /></p>
 </section>
 <section id="load-data">
-<h2>Load data<a class="headerlink" href="#load-data" title="Permalink to this headline"></a></h2>
+<h2>Load data<a class="headerlink" href="#load-data" title="Link zu dieser Überschrift"></a></h2>
 <p>When we click on Load view, the transformed log is displayed.</p>
 <p><img alt="image20" src="../_images/204.png" /></p>
 <p>Click on <em>Detect</em> to automatically detect encoding option.</p>
@@ -203,8 +204,8 @@ RIGHT JOIN - Returns all records from the right table, and the matched records f
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="uploadafile.html" class="btn btn-neutral float-left" title="Upload a file" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="scheduleormanagedatapipeline.html" class="btn btn-neutral float-right" title="Schedule/Manage Data Pipeline" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="uploadafile.html" class="btn btn-neutral float-left" title="Upload a file" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="scheduleormanagedatapipeline.html" class="btn btn-neutral float-right" title="Schedule/Manage Data Pipeline" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
@@ -213,9 +214,9 @@ RIGHT JOIN - Returns all records from the right table, and the matched records f
     <p>&#169; Copyright 2021, Apromore.</p>
   </div>
 
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
     <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
    
 
 </footer>
@@ -225,7 +226,7 @@ RIGHT JOIN - Returns all records from the right table, and the matched records f
   </div>
   
 
-  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versionen">
     <span class="rst-current-version" data-toggle="rst-current-version">
       <span class="fa fa-book"> Read the Docs</span>
       v: 8.0
@@ -233,7 +234,7 @@ RIGHT JOIN - Returns all records from the right table, and the matched records f
     </span>
     <div class="rst-other-versions">
       <dl>
-        <dt>Versions</dt>
+        <dt>Versionen</dt>
         
           <dd><a href="#">8.0</a></dd>
         
@@ -246,9 +247,9 @@ RIGHT JOIN - Returns all records from the right table, and the matched records f
       </dl>
       <dl>
         
-        <dt>On Read the Docs</dt>
+        <dt>Auf Read the Docs</dt>
           <dd>
-            <a href="///projects//?fromdocs=">Project Home</a>
+            <a href="///projects//?fromdocs=">Projektübersicht</a>
           </dd>
           <dd>
             <a href="///builds//?fromdocs=">Builds</a>
