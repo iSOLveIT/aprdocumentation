@@ -65,7 +65,6 @@ html_favicon = "_static/img/favicon.png"
 
 
 # Internationalization options
-language = "de"
 locale_dirs = ['locale/']
 gettext_compact = False
 gettext_uuid = True
