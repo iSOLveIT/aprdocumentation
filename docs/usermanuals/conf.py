@@ -46,7 +46,7 @@ html_theme_options = {
 html_context = {
     'current_version': version,
     'versions': [['' + version, '#']],
-    'downloads': [['PDF', 'download/apromore.pdf']],
+    'downloads': [['PDF', 'apromore.pdf']],
     'READTHEDOCS': True,
     'show_source': False,
 }
