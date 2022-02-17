@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html class="writer-html5" lang="en" >
+<html class="writer-html5" lang="de" >
 <head>
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Open predictive dashboard &mdash; Apromore  documentation</title>
+  <title>Öffnen Sie das Vorhersage-Dashboard &mdash; Apromore  Dokumentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/apromore.css" type="text/css" />
@@ -17,9 +17,10 @@
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
     <script src="../_static/js/theme.js"></script>
-    <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
     <link rel="next" title="Release Notes" href="../releasenotes/index.html" />
     <link rel="prev" title="Train predictive models" href="trainpredictivemodels.html" /> 
 </head>
@@ -34,7 +35,7 @@
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -48,8 +49,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../redesign/index.html">Redesign</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Monitor</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="trainpredictivemodels.html">Train predictive models</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Open predictive dashboard</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#export-performance-predictions-into-csv">Export performance predictions into CSV</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Öffnen Sie das Vorhersage-Dashboard</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#export-performance-predictions-into-csv">Leistungsvorhersagen in CSV exportieren</a></li>
 </ul>
 </li>
 </ul>
@@ -72,7 +73,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="index.html">Monitor</a> &raquo;</li>
-      <li>Open predictive dashboard</li>
+      <li>Öffnen Sie das Vorhersage-Dashboard</li>
 
   </ul>
   <hr/>
@@ -81,26 +82,26 @@
            <div itemprop="articleBody">
              
   <section id="open-predictive-dashboard">
-<h1>Open predictive dashboard<a class="headerlink" href="#open-predictive-dashboard" title="Permalink to this headline"></a></h1>
+<h1>Öffnen Sie das Vorhersage-Dashboard<a class="headerlink" href="#open-predictive-dashboard" title="Link zu dieser Überschrift"></a></h1>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Apromore’s predictive monitoring plugins are available as add-ons to Apromore Enterprise Edition.</p>
+<p class="admonition-title">Bemerkung</p>
+<p>Die Predictive-Monitoring-Plugins von Apromore sind als Add-Ons für verfügbar Apromore Enterprise Edition.</p>
 </div>
-<p>Once the predictive models have been trained, they can be deployed to the Runtime predictive monitoring environment of Apromore, to make predictions on ongoing cases. The Runtime plugin bundle can be used to stream an event log from the repository, or hook into an external stream. Either way, the input stream is transformed into a stream of predictions which is visualized in a Web-based dashboard.</p>
-<p>To use the plugin, select an event log from the repository and click on <em>Monitor -&gt; Predictively monitor log</em>. For demonstration purposes, Apromore repository provides several pre-processed logs under Examples/Predictive Monitoring folder. These logs can also be downloaded from <a class="reference external" href="https://drive.google.com/file/d/1ZATjpBMSjgxLDKdIvLOJ15NRz_N0b6K0/view">here</a></p>
-<p><img alt="image1" src="../_images/127.png" /></p>
-<p>Create a new Predictive Monitor.</p>
-<p><img alt="image2" src="../_images/224.png" /></p>
-<p>Select the created monitor and click <em>Stream log to dataflow</em>.</p>
-<p><img alt="image3" src="../_images/316.png" /></p>
-<p>Click <em>Show dashboard</em> to start streaming events from the log. A dashboard will show up and populate with ongoing cases:</p>
-<p><img alt="image4" src="../_images/412.png" /></p>
-<p>The dashboard provides a list of currently ongoing as well as completed cases. For each case, it is also possible to visualize a range of summary statistics including the number of events in the case, its starting time and the time when the latest event in the case has occurred. For the ongoing cases, the Runtime plugin bundle provides the predicted values of the performance indicators the user wants to predict. For completed cases, instead, it shows the actual values of the indicators. Color-coding is applied to help users quickly nail down potentially problematic cases.</p>
+<p>Sobald die Vorhersagemodelle trainiert wurden, können sie für die bereitgestellt werden Runtime Predictive Monitoring Umgebung von Apromore, zu machen prognosen zu laufenden Fällen. Dazu kann das Runtime-Plugin-Bundle verwendet werden streamen Sie ein Ereignisprotokoll aus dem Repository oder hängen Sie sich in einen externen Stream ein. In beiden Fällen wird der Eingabestrom in einen Strom von Vorhersagen umgewandelt die in einem webbasierten Dashboard visualisiert wird.</p>
+<p>Um das Plugin zu verwenden, wählen Sie ein Ereignisprotokoll aus dem Repository aus und klicken Sie auf <em>Überwachen -&gt; Protokoll vorausschauend überwachen</em>. Zu Demonstrationszwecken, Das Apromore-Repository bietet mehrere vorverarbeitete Protokolle unter Ordner Beispiele/Predictive Monitoring. Diese Protokolle können auch heruntergeladen werden von <a class="reference external" href="https://drive.google.com/file/d/1ZATjpBMSjgxLDKdIvLOJ15NRz_N0b6K0/view">hier</a></p>
+<p><img alt="Bild1" src="../_images/127.png" /></p>
+<p>Erstellen Sie einen neuen Predictive Monitor.</p>
+<p><img alt="Bild2" src="../_images/224.png" /></p>
+<p>Wählen Sie den erstellten Monitor aus und klicken Sie auf <em>Stream log to dataflow</em>.</p>
+<p><img alt="Bild3" src="../_images/316.png" /></p>
+<p>Klicken Sie auf <em>Dashboard anzeigen</em>, um mit dem Streamen von Ereignissen aus dem Protokoll zu beginnen. EIN dashboard wird angezeigt und mit laufenden Fällen gefüllt:</p>
+<p><img alt="Bild4" src="../_images/412.png" /></p>
+<p>Das Dashboard bietet eine Liste der derzeit laufenden sowie abgeschlossenen Fälle. Für jeden Fall ist es auch möglich, eine Reihe von Zusammenfassungen zu visualisieren Statistiken, einschließlich der Anzahl der Ereignisse im Fall, seiner Startzeit und den Zeitpunkt, zu dem das letzte Ereignis in dem Fall eingetreten ist. Für die In laufenden Fällen liefert das Runtime-Plug-in-Bundle die vorhergesagten Werte von die Leistungsindikatoren, die der Benutzer vorhersagen möchte. Für abgeschlossen Fällen zeigt es stattdessen die tatsächlichen Werte der Indikatoren. Farbe-Codierung wird angewendet, um Benutzern dabei zu helfen, potenzielle Probleme schnell einzugrenzen Fälle.</p>
 <section id="export-performance-predictions-into-csv">
-<h2>Export performance predictions into CSV<a class="headerlink" href="#export-performance-predictions-into-csv" title="Permalink to this headline"></a></h2>
-<p>In addition to the dashboard for continuous real-time process monitoring, the Runtime plugin supports a <em>regular reports</em> use case where users can get reports in a CSV format on a regular basis with the current set of predictions. These reports can be readily imported into common data analytics platforms (e.g. Microsoft Excel, Tableau, QlikView, R) for further exploration and visualization.</p>
-<p><img alt="image5" src="../_images/512.png" /></p>
-<p>A screencast of this plugin can be found <a class="reference external" href="https://www.youtube.com/watch?v=Q4WVebqJzUI&amp;feature=youtu.be">here</a> .</p>
+<h2>Leistungsvorhersagen in CSV exportieren<a class="headerlink" href="#export-performance-predictions-into-csv" title="Link zu dieser Überschrift"></a></h2>
+<p>Neben dem Dashboard zur kontinuierlichen Prozessüberwachung in Echtzeit, Das Runtime-Plug-in unterstützt einen Anwendungsfall für <em>reguläre Berichte</em>, in dem Benutzer dies können Erhalten Sie regelmäßig Berichte im CSV-Format mit dem aktuellen Satz von Vorhersagen. Diese Berichte können problemlos in gemeinsame Daten importiert werden Analyseplattformen (z. B. Microsoft Excel, Tableau, QlikView, R) für weitere Erforschung und Visualisierung.</p>
+<p><img alt="Bild5" src="../_images/512.png" /></p>
+<p>Einen Screencast dieses Plugins finden Sie <a class="reference external" href="https://www.youtube.com/watch?v=Q4WVebqJzUI&amp;feature=youtu.be">hier</a> .</p>
 </section>
 </section>
 
@@ -108,8 +109,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="trainpredictivemodels.html" class="btn btn-neutral float-left" title="Train predictive models" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../releasenotes/index.html" class="btn btn-neutral float-right" title="Release Notes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="trainpredictivemodels.html" class="btn btn-neutral float-left" title="Train predictive models" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Zurück</a>
+        <a href="../releasenotes/index.html" class="btn btn-neutral float-right" title="Release Notes" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
@@ -118,9 +119,9 @@
     <p>&#169; Copyright 2021, Apromore.</p>
   </div>
 
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+  Erstellt mit <a href="https://www.sphinx-doc.org/">Sphinx</a> mit einem
     <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>.
    
 
 </footer>
@@ -130,7 +131,7 @@
   </div>
   
 
-  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versions">
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Versionen">
     <span class="rst-current-version" data-toggle="rst-current-version">
       <span class="fa fa-book"> Read the Docs</span>
       v: 8.0
@@ -138,7 +139,7 @@
     </span>
     <div class="rst-other-versions">
       <dl>
-        <dt>Versions</dt>
+        <dt>Versionen</dt>
         
           <dd><a href="#">8.0</a></dd>
         
@@ -151,9 +152,9 @@
       </dl>
       <dl>
         
-        <dt>On Read the Docs</dt>
+        <dt>Auf Read the Docs</dt>
           <dd>
-            <a href="///projects//?fromdocs=">Project Home</a>
+            <a href="///projects//?fromdocs=">Projektübersicht</a>
           </dd>
           <dd>
             <a href="///builds//?fromdocs=">Builds</a>
