@@ -4,6 +4,7 @@ Open predictive dashboard
 
 .. note:: Apromore’s predictive monitoring plugins are available as add-ons to Apromore Enterprise Edition.
 
+
 Once the predictive models have been trained, they can be deployed to the Runtime predictive monitoring environment of Apromore, to make predictions on ongoing cases. The Runtime plugin bundle can be used to stream an event log from the repository, or hook into an external stream. Either way, the input stream is transformed into a stream of predictions which is visualized in a Web-based dashboard.
 
 To use the plugin, select an event log from the repository and click on *Monitor -> Predictively monitor log*. For demonstration purposes, Apromore repository provides several pre-processed logs under Examples/Predictive Monitoring folder. These logs can also be downloaded from `here <https://drive.google.com/file/d/1ZATjpBMSjgxLDKdIvLOJ15NRz_N0b6K0/view>`_

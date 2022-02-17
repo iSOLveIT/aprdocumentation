@@ -1,0 +1,447 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../theapromoreportal/managecalendars.rst:3
+#: 8828b61cf2d24c1b9249f0279dcb2744
+msgid "Manage calendars"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:5
+#: fc16a0c7f08c4e129e916192562860ca
+msgid ""
+"Apromore allows to create and apply a calendar to a log. All the "
+"computations and execution times related to the selected log are "
+"calculated according to the calendar."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:7
+#: 314902f093bf4df2b22b9f36466fd473
+msgid ""
+"Creating a calendar includes selecting the working time range and adding "
+"public and custom holidays."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:9
+#: e8fe3d96e571435196d0c5c5f3040222
+msgid "To create a calendar, first, upload a log by clicking on *File -> Upload*."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:11
+#: 340a40687d964749bc2d5d13be946daa
+msgid "As an alternative, we can click on |image30|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:134
+#: 2c1b0bf737414f08ac4d117413495010 70129b9be25b4b99a8a0d6fca743a3aa
+msgid "image30"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:13
+#: bb2325b62b0547c2a7ade616842b9969
+msgid "|image1|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:109
+#: 50967f42e2c84dd886ad7c4489b4c427 fcaa13e3e59840fb925fd628f87d9610
+msgid "image1"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:15
+#: 1e9b4458e9d04100a97085d77df52d06
+msgid ""
+"When the log is successfully uploaded, select it, and click on |image1.1|"
+" button."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:110
+#: 23397509cf1d471db85cdb529c891f22 f4b334f5b59c4060a492087cd0203614
+msgid "image1.1"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:17
+#: 74afb3cb269c4b03883a81c2075a0458
+msgid "|image2|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:112
+#: 986797070fc247b8848b3bfc7f38400f 9d62fb2d77a64edb9acc231625c67bf7
+msgid "image2"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:19
+#: 24b0543840674ce9b05dbb93bc70d78e
+msgid ""
+"*Calendar management* window appears, consisting of two parts:  *Add new "
+"calendar* button and the list of *Available custom calendars*."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:21
+#: f69cbba2203d4a9c9c94aaf53881f900
+msgid "|image3|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:113
+#: 1d74708766714f538abfabb477ec4b10 ec1d11f830bd4266a3f0c1951d4ee6d3
+msgid "image3"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:23
+#: 6796f0fce998461194a7e048eac05c01
+msgid "To create a calendar, click on *Add new calendar*."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:25
+#: b89fd39073a1444f921c33826669b65c
+msgid "|image4|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:114
+#: 1a350185afb041cabf565f7b4919b9b5 f5b0e63598634efc9c16c93faf2f1c54
+msgid "image4"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:27
+#: e74b7c1ef5954ee493d4126554b77f73
+msgid ""
+"*Custom Calendar window* appears with the 3 basic time range calendar "
+"options to choose from:"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:29
+#: 6d5f9fc91e41428795102b240f866a99
+msgid "9AM-5PM 5 Business Days"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:30
+#: b7597aa571fa4c14a071f57dfa9e91da
+msgid "24hr 5 Business Days"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:31
+#: 902c0e773ab349d8943e01be9084fda6
+msgid "24hr 7 Business Days"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:33
+#: d1b2118ef65c4b5393f6bdf6cd0dc344
+msgid ""
+"When clicking on any of them the time range change is reflected on the "
+"calendar placed beneath the basic options."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:35
+#: e3c749eb0eb441d6a322218ff4e8fa1e
+msgid "|image5|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:115
+#: 83d3c4f30c6c4331948ab001113b57ba e37e4c9e94e146f5ad7d32b95b7cf204
+msgid "image5"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:37
+#: c6771a387c8143998ab163cd55e29f16
+msgid ""
+"To create an alternative time range, click on the calendar and drag on "
+"each row till the time range reflects your calendar preferences."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:39
+#: 1d103e8b7e1440db89e88e2859e180e6
+msgid ""
+"To edit existing calendar, just click on it. *Edit time range* window "
+"appears."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:41
+#: ac7f7b0807db48559337db42b2831277
+msgid "|image6|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:116
+#: 58ca8fbad8294f08b1737f512bfb74fb 58e0d367f5c34fd48a518e515eb13dec
+msgid "image6"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:43
+#: f047edffa0c24711927d81705f3357c3
+msgid ""
+"To change the Time zone, click on the *Time zone drop-down* placed left "
+"to the basic time range options."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:45
+#: 4f498a437cc543bfa85efc16543bd0c6
+msgid "|image7|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:117
+#: 608f8cc87eb9415791dfd51cb4f6740e b0b4ab2c7df34c2cab852bbfb9397bb1
+msgid "image7"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:47
+#: 2a9b4264ccf048b1badba8f5939c6531
+msgid ""
+"To make the calendar precise, add holidays, using the *holidays part* of "
+"the *Calendar management* window."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:49
+#: 611e777eab2f49beb946784e536d5625
+msgid "|image8|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:120
+#: 505117c5b4704bfcb0a758c355dec07e 63981ab30af04c1c850c660ac4b76f7f
+msgid "image8"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:51
+#: 35b36fc2e7a44905b230e85bc61f8e26
+msgid ""
+"To reflect public holidays on the calendar, click on *Add public "
+"holidays* button."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:53
+#: 3acf4dd886f44d85b631e109317a84ef
+msgid "|image9|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:121
+#: 696c7fa1279f4158b6cf5158ce8d5ca8 ec7b480bf28d4c73ad28b4a19bf77d17
+msgid "image9"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:55
+#: 48628550b75c43a9b28f9a11eec0487d
+msgid ""
+"*Add public holidays* window appears. To finalize the adding, choose "
+"*Year*, *Country*, and *State* from the corresponding drop-downs. Click "
+"*Create*."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:57
+#: 09baebd10d824873b63823ae5ce49ba1
+msgid "|image10|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:122
+#: 3e3c1a87390b4dda990585110aece716 c05932d3ccb54f0b9440c5abdae2ed3f
+msgid "image10"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:59
+#: c77c3ede24b64c01a37f98168e4060a8
+msgid ""
+"The list of public holidays relevant for the chosen location and "
+"timeframe appears."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:61
+#: 2997c6aafcf048bfa085441f2be21386
+msgid "|image11|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:123
+#: 64c08d60a7c449acbe74ae4dab8b5e44 91105e9d2ff14e48bfb49c9c2235b1b2
+msgid "image11"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:63
+#: bbcf5c2365284077beb70461226949de
+msgid "To reflect custom holidays on the calendar, click on *Add holiday* button."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:65
+#: 4966a262138347b183e8137a1650bbb4
+msgid "|image12|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:124
+#: 8f28d15e93754ca988410180d912c029 d89bc83287c14aa6bccd90952ab1e44d
+msgid "image12"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:67
+#: dabdaf3931354f64ab954ddd997c7ffa
+msgid ""
+"*Add holiday* window appears. To finalize the process, choose *Date* and "
+"specify *Description*, *Type*. Click *Create*."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:70
+#: 7bd100d4c7564c238837f32116664eef
+msgid ""
+"In the *Type* section the user has to select one of the two options. "
+"Choose *Public* for the public holidays that were missed in the public "
+"holiday's list. Choose *Custom* for personal events like conferences, "
+"hackathons, etc."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:74
+#: 4a3897f807964d2fa2c6420ca5c155c7
+msgid "|image13|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:125
+#: bf09ed26dc874d9f9081ea84e8a5db46 fc3d79dd6fd34beda567cfa0c3028a18
+msgid "image13"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:76
+#: c38364927aba46d7b8faffb69452c9b2
+msgid ""
+"To delete a holiday (public or custom), click on  |image7.1| button next "
+"to it."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:118
+#: 1f40db71b9064b79969756c503a794f9 9d886715201a4d97b2b8c6abf343c82f
+msgid "image7.1"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:78
+#: 5e80d48575724661b197fea152f6d489
+msgid "|image14|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:126
+#: 4149f81bd22f47d3ba0782a92966f684 dd31af2a35fd4d62833d5df00c784c06
+msgid "image14"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:80
+#: bc57f1b0e56a435c96178db1ac2fbd6a
+msgid ""
+"To delete all the public holidays at once, click *Delete all public "
+"holidays*."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:82
+#: 6e6cc1925612441ebd41a0dae86e4874
+msgid "|image15|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:127
+#: 1602c63d5c574c0b9f95af61cdaa36c7 ecd6938e6a1841af88de83db49411dce
+msgid "image15"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:84
+#: 03dd901075fe4f9184c136d5a71a73c8
+msgid "When all the holidays are added, click on *Apply*."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:86
+#: 7d482625905e48689e3a6eb2b26a2b07
+msgid "|image16|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:128
+#: 124cc3a4022a4689837b9668ca8d704d ac0c808b06094f9db8e06158e118b037
+msgid "image16"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:88
+#: fac804e5e1c843caa2daf72a23a336bd
+msgid ""
+"The calendar will be successfully created and displayed in the list of "
+"*Available custom calendars*."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:90
+#: d7d8b1f4a7994fc7b4bfb8aed18a5107
+msgid "|image17|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:129
+#: 5e0ee111497b443d83480951c9b0787c c5d0f5f912f445c8adc81626c967846a
+msgid "image17"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:92
+#: 118d046088d9474e8e6a2739af73d19d
+msgid "To apply calendar to the log, select it and click on *Apply calendar*."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:94
+#: 10883abe1b0f4b74b82e30560dbb9d1f
+msgid "|image18|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:130
+#: 24836d7705c34b1dbe56a06c84e04f1e bc7bfe2365674b65bf5c726c25d28f6e
+msgid "image18"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:96
+#: 7e4aed362871407cb59e16eb40395a74
+msgid ""
+"A green pop-up message appears, confirming that the calendar was applied "
+"successfully."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:98
+#: 48204e1bbde54010a06fc71a54ab251b
+msgid "|image19|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:131
+#: 27c2486087d940fcabeb3350e8cae34b 767457f50cbc42fc8a84d2e45e57a803
+msgid "image19"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:100
+#: f3c05d1f99fb45dbb815acc1340acf7e
+msgid ""
+"To edit/rename/delete the calendar, click on *Manage calendar* button, "
+"select the calendar and click to the corresponding button next to it."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:102
+#: 965567cf12a3474a8dc04fc9bb7b6d03
+msgid "|image20|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:132
+#: 7265c59d9d6047a2bb3873f26b53ea9b dee107f6f3954f50b49cd753f08490c1
+msgid "image20"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:104
+#: 5c97a214cb0c42a5b667f61a9ddb3095
+msgid ""
+"Once the calendar is applied, we can visualize the log in the process "
+"discoverer. After applying the calendar, the actual working time of the "
+"resources are taken into consideration. This leads to the change in the "
+"case durations."
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:106
+#: 68ffc7e00b60412f9b2960c9bc8aa29f
+msgid "|image21|"
+msgstr ""
+
+#: ../../theapromoreportal/managecalendars.rst:133
+#: 095f71a738eb45d1a5a7151134c84b54 ad987182acf74ddcbe637277d291c118
+msgid "image21"
+msgstr ""
+

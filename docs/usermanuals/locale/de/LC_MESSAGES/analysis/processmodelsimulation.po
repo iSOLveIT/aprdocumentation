@@ -1,0 +1,717 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../analysis/processmodelsimulation.rst:3 65d28eb84158451f87c1e3b8418a0dd4
+msgid "Simulate process"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:5 d2a20344361b4b148212c47aefd40be0
+msgid ""
+"Apromore allows users to simulate .bpmn models to understand how the "
+"business process will look and work in different scenarios."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:7 eaa7263e1bf14deda89a00da1dcb11be
+msgid ""
+"We can do the simulation of process models in Apromore by performing two "
+"steps:"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:9
+#: ../../analysis/processmodelsimulation.rst:22
+#: 0708572e0c444c82b2b82ec2fad5b8a9 ec177040a32743f68871cdb23554df92
+msgid "Specification of simulation parameters"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:10
+#: 76f6aa6e1b29423faa6a9150952336eb
+msgid "Creation of simulated log"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:12
+#: c9f4a8cabb4f441284f79c21b8cee21e
+msgid "Double-click the BPMN model to open it."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:14
+#: 550f4c8f0e834cccb39dd2fc67a1a128
+msgid "|image1|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:184
+#: 086ee6aab5f1471b8d2f49fed2410c20 089b82f1fd8a420f85fba73cb578c352
+msgid "image1"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:16
+#: 084800153a7a415ab57b070d63225a85
+msgid "A window will open up, showing the selected BPMN model."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:18
+#: 77ad71d1c2d04fa8a037b39280c8c859
+msgid "|image2|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:185
+#: d53e190c26a7493da6483e8055ae9530 edf664c480964b1292e2056c932d3802
+msgid "image2"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:24
+#: afc0c69fdd3d4fa39f65961419fae4a9
+msgid ""
+"To specify simulation parameters, click on the *Toggle simulation "
+"parameters panel* button."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:26
+#: f444dec17e61443c8751de75af93fa76
+msgid "|image3|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:186
+#: 331289754cfb41c7ba6438f82a585de7 63c1ee64fabf40669fe68b01b0ed7708
+msgid "image3"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:28
+#: fa743e53b66444eebf9b2d9a29d249c9
+msgid ""
+"The simulation panel with different parameters to be specified will "
+"appear from the BPMN editor window's right side"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:30
+#: 238ae6d813fb468bbb1347becdf79096
+msgid "|image4|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:187
+#: 665038c5c15a4f72ab5154eccfad6fc5 7781881d2bc14c128d6978d755f9370e
+msgid "image4"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:32
+#: 6789688fc339484abf38f94e88c216dc
+msgid ""
+"If we want to hide the parameters panel, we can always click on the "
+"\">>\" sign located at the right side of the panel and click on it once "
+"again to make it visible."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:34
+#: 3b94499421674301bcd94952b7b1d46e
+msgid "|image34|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:215
+#: ac4bc1a2278b4df48578b5e82834b5d1 b0e9463819b144868f3e8fbcaa20dde5
+msgid "image34"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:36
+#: f6bd9b63b25c471d8a8ee426b8500c7a
+msgid ""
+"The parameters are organized into different tabs. For convenience, it is "
+"recommended to fill it in the following order: *General -> Timetables -> "
+"Resources -> Tasks -> Gateways*."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:38
+#: bd8f88df0fca42e2b236c95ad915cfbf
+msgid ""
+"We can`t proceed without the specification of the mandatory parameters. "
+"These are marked red."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:40
+#: 79751da3d16744929ab7eeee5a73d05e
+msgid "|image5|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:188
+#: c8822e5fca8c4c71a43b119c40129ede ea79ee9196f648579106cf38f51420fd
+msgid "image5"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:44
+#: fb1a673e87fc4fcc94b409895e0fb97c
+msgid "General parameters tab"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:46
+#: a7c99735ba8d44d284947d9bc425cdd2
+msgid ""
+"The inter-arrival time is the time between each arrival of the process "
+"instances. It shows how frequently a new process instance starts."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:48
+#: 57aa68dae96b46e3906d32911f3764e8
+msgid ""
+"Apromore offers a variety of options for inter-arrival time, as shown "
+"below."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:50
+#: 95bea79e463a4c2fa78f2fbb9dd6ed76
+msgid "|image6|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:189
+#: 2d567aa638b54188a3f619551fbb03bf c7b2a490196a4fd29176e9ee1fff00ca
+msgid "image6"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:52
+#: 5d4af5f251a04693828b76ba25a7d956
+msgid ""
+"The value denotes the inter-arrival time unit. In the following example, "
+"the inter-arrival time is fixed and equals 5 hours, meaning that a new "
+"process instance starts every 5 hours."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:54
+#: 9592c02190ab4077ab06a5d767c89db5
+msgid "|image7|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:190
+#: 26497ca77672416b8457e4fadea90fb9 d11fdc6089634a558e08ccc959a94483
+msgid "image7"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:56
+#: 22707a06d50e483b8c1597c1d36f199e
+msgid ""
+"The total number of process instances shows how many BPMN process "
+"instances start in the simulation scenario."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:58
+#: 5dfd9670871c408fade73c7df9b37d2b
+msgid "|image8|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:191
+#: 1726422791c646549568012800a7848a e7085f72818546d2a8cb0c98cbec2c00
+msgid "image8"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:60
+#: d97909d9e91943dda71f4d52fc6e8c8e
+msgid ""
+"For preventing us from entering incorrect values, Apromore displays "
+"inline alert messages signaling that we need to recheck the data."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:62
+#: 896f22d0c84a40c59c111d9a012acc64
+msgid "|image10|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:192
+#: 094345329f084f039df26e4b0960e99b 3187967d843c4cbeb8078581d56126a1
+msgid "image10"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:64
+#: 538d60e89c7f4f24b8a12ec15dc9fecd
+msgid ""
+"We can specify the simulated scenario start date and time to determine "
+"when the first process starts."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:66
+#: 2fb69221774f45d69381e08272ad951f
+msgid "|image11|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:193
+#: 47db2185d3ab454eb353c030bb6a9fec afbf66f346b745f6a5e0cfc9b11074f5
+msgid "image11"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:68
+#: f6eb38f7f4c64868a22f1eb716e20cb3
+msgid ""
+"We can exclude a certain percentage of statistics from the start and the "
+"end of the process instances that fall between the start and the end time"
+" of the simulation scenario. This is usually done, considering the "
+"availability of resources and activities that are handled without any "
+"delays."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:70
+#: d7802079065c4de9bf2923db05863eec
+msgid "|image12|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:194
+#: 4a736eb4dd27439d8cdc4c80b4f4d697 b63688558c5041629c9e204f235ca881
+msgid "image12"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:72
+#: 52700bd5639f438b9d5c99c407a2cd62
+msgid ""
+"For the cost calculations, we may choose a suitable currency from the "
+"drop-down list."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:74
+#: 080f6e59cbc84b2ea5ab6ccc80023562
+msgid "|image13|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:195
+#: 2c07379f3bb84f2a8711aaa29950e174 bbc7b33129a146f99cea3e5cbee8b631
+msgid "image13"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:78
+#: 5ce6b5b480e94cfd80bc528b0044f28a
+msgid "Timetables, Resources and Tasks parameters tabs"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:80
+#: c475f74e595a434ab7df07f323fd6f6c
+msgid ""
+"After we finished entering the general tab information, we then switch to"
+" the *Timetables* tab."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:82
+#: 6b7de9b642e7459a8e4fcacc984eebb1
+msgid "|image20|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:202
+#: 48c4ddbd89904f979a19388b0b100fd0 91cf21c22df54405bc20c749dfd5b93d
+msgid "image20"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:84
+#: 5b8f02953fe04067b7db1b1a7209de5e
+msgid ""
+"While adding the new timetable, it is required to name it and specify the"
+" working timeslot"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:86
+#: 2c0b3f351d414e0582dc8fae58f12f01
+msgid "|image21|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:203
+#: 13c45fdb7bb34581a2ca502ab0596f3d c43560d277054e60aac50e6c252ab336
+msgid "image21"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:88
+#: 1749cb1b3c184ef991d2e612e767d8c9
+msgid ""
+"One timetable may consist of many different timeslots. This is very "
+"useful when workers (also known as actors/resources) work in shifts."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:90
+#: 3b8e9ebe97ef479eba417f81a89403e7
+msgid ""
+"In the example below, workers who follow \"Timeslot 3\" from "
+"\"Timetable-1\" work five days (Monday-Friday) from 8.00 till 17.00."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:92
+#: 8fdb175b63ac461e81a756be77a5c597
+msgid "|image22|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:204
+#: 75b19e489771426594b03d54c1bc5d9b 89ed8492939047cca399abefa8403375
+msgid "image22"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:94
+#: c42ca9768a3d44bc84a4b98d57ceec3d
+msgid "In the \"Resources\" tab,  the default resource is created automatically."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:96
+#: 7a692216d28b429fbd406a4439c5cd14
+msgid "|image17|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:199
+#: af6d083458d94dbba89be59bb3a49afc e8510f1764e548aeb32aed4773e3cdeb
+msgid "image17"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:98
+#: 07d8276c369b4a8c847ac930e231c049
+msgid ""
+"To add the new resource, select it from the list and press \"+\". To "
+"delete it, select and then press \"x\"."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:100
+#: a4e57edc7e0b4867b2086977d3d801af
+msgid "|image18|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:200
+#: 25fef89560d84c6497c05d73bbc782df 34f035516f014718988793049364defa
+msgid "image18"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:102
+#: 47e19e8bf413447ba1862744fd55573c
+msgid ""
+"Specify all the resource details required in the new resource window, "
+"which loads right after clicking on \"+\"."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:104
+#: 43b0b57fee72401888c7d5a9c33bdb04
+msgid "|image19|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:201
+#: 7bd51e31f93346a9931e2379034a0293 945039f070154c23b9ff58f502244b1d
+msgid "image19"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:106
+#: 4ba8d935fd4941d0b1038cbed24a62a2
+msgid ""
+"Number of Resources is the amount of the new resource type actors "
+"participating in this scenario. Cost per hour is the amount the resource "
+"earns per hour working."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:108
+#: 50f4442f9ca94bbd9ad888f82dfbce7e
+msgid ""
+"A timetable is assigned to a resource from the *Resource timetable* drop-"
+"down list."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:110
+#: 4df0fcd0e9b64a078e860fcc3407823a
+msgid "|image23|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:205
+#: 0f71bf8f95354bbaaa08ce84b810f7c5 7b4890aa5e5c4dcab78af6dd14e2425f
+msgid "image23"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:112
+#: 47948d0fe696410ab7bd41c675a4315a
+msgid ""
+"After we finished entering the information in the *Resources* tab, we "
+"then switch to the *Tasks* tab."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:114
+#: 708ec40401b2404b966c9f38db0476a9
+msgid "|image14|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:196
+#: 70bef43bd6654162aa02aa6d1c3afc85 92f825e04ce7474f928375d308c301c6
+msgid "image14"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:116
+#: 4d319ba16fde43b69552d0dc06c4c394
+msgid ""
+"Click on a task in the BPMN model in order to set the simulation "
+"parameters for the task. The simulation parameters of a task are:"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:118
+#: 706729fa9e8844ab951cf58ae84b95fa
+msgid "The resource pool responsible for performing this task"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:120
+#: 8e64036101304ac79086d18587f7c0e6
+msgid ""
+"The probability distribution of the task duration and the parameters of "
+"this distribution (e.g. the mean in the case of an exponential "
+"distribution).The duration of the task is the time it takes for a "
+"resource to execute one instance of a task. Please note that the duration"
+" of a task must not include the waiting time before the start of the "
+"task. It should only include the processing time."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:122
+#: 500f609931d643fc99c39fac82d77321
+msgid "|image15|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:197
+#: 04b01b8c02ba4b6bbc9989432e8f76c4 767780f192484ca2863f3b8168d788db
+msgid "image15"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:124
+#: 34e24724f4d540cdb334d07b9d9de8ea
+msgid ""
+"For a model to be simulated, the tasks must be untyped (Abstract). "
+"Apromore does not currently support the simulation of process models "
+"where some of the tasks have a type such as *User task*, *Service task*, "
+"etc."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:126
+#: e3b7ef007007456ebfaf947d130879fd
+msgid ""
+"We can use an alternative approach for more complex models by just "
+"clicking on the task we would like to change. The task details window "
+"will open automatically."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:128
+#: 0ef622cb2b884b7294d3b17ae70aa34a
+msgid "|image29|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:211
+#: 5223b0b27689426aa1e1c172c94c6d87 bfbc9ad0608645de8327dd15ff28b33e
+msgid "image29"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:132
+#: d90d617a56a44bb6ab659bcd33bb8c14
+msgid "Gateways"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:133
+#: 164e69eaa43b4373a3f7fe3fe3bb928e
+msgid ""
+"Gateways is a BPMN notation used to control how a process flows. Gateways"
+" can be exclusive (XOR), meaning that precisely one alternative path can "
+"be selected or inclusive (OR), meaning that there can be several paths."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:136
+#: 1321117d02db46f497ba5abaf0d1fe11
+msgid "|image25|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:207
+#: 5338a4a676e947498e67833656eb7b25 b3f69efdcb7b4d798ac98983bd898246
+msgid "image25"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:138
+#: da3828670f8c4904a4dec9a433aa4340
+msgid ""
+"All gateway elements in the BPMN model require execution probabilities "
+"for their outgoing sequence flows."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:140
+#: af0f85ec0a4a4bc68974670dc8512f74
+msgid "|image26|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:208
+#: bdf434ffebdf4495bc94c3d36931f669 f136d89bb73e49f59cb3c9867970c35a
+msgid "image26"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:142
+#: 059c3748e80449c2aae48b854e64f13d
+msgid ""
+"The sum of the probabilities for the execution of each gateway must be "
+"100%."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:144
+#: b0d2c71f497a40c8a32a4aed6b22b233
+msgid "|image27|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:209
+#: 5261357f741145eea779d38e1fff4a6a 7a14cc4515de4f4085bc1e4aacb6ae96
+msgid "image27"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:146
+#: 31d7bf68af4649a8918c2151ca0d1f99
+msgid "After we entered the simulation parameters, we can save the model."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:148
+#: 8989434a21834457b02c300e08c45b98
+msgid "|image28|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:210
+#: 976c23b873ea4d72b10def22c63bc4bf a8739d6fce85433491113177a07f3697
+msgid "image28"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:150
+#: b66f508bef994946ad38856c1df893e4
+msgid "When the save dialog appears, click *OK*."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:152
+#: 317ccb1d3a5d45c8a0b4b348eabf8c4e
+msgid "|image30|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:212
+#: 036bbbe7861e4e0b956710fad2ea3635 c6ec5c912b8f4ef1a48d34baebb948f7
+msgid "image30"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:154
+#: c298890d5c3f48329b91475049c56a9a
+msgid ""
+"To simulate the saved model, go to the main workspace -> *Analyze -> "
+"Simulate model*."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:156
+#: 91fe601800ea49d2b7fb7233cbbfc2af
+msgid "|image32|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:213
+#: 545bbb8ccfad405eb99d1803da6c143c 586dd8c03fa24bf0b6d13295e05740d8
+msgid "image32"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:158
+#: 1f84b0fe402d4bdc94eb3f0ce1befdb5
+msgid "To save the simulated log, click on *Save*."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:160
+#: 323c9b13b31845b3a5550ef0c9ac7135
+msgid "|image35|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:216
+#: 3732790672dc4070bed3680777e44f56 eeb4dda9985046408d21ba8ef9512def
+msgid "image35"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:162
+#: 52e51e755dda4accba6887f1b4a47722
+msgid "The simulated log appears in the workspace."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:164
+#: 38fc969a724f4893938635a48bfdb23f
+msgid "|image37|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:217
+#: 3a34c12f4b7f4a1db2b0fd1cb5dee6b8 fe7681e2836944388f43d770945bdc14
+msgid "image37"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:166
+#: 12466646d032440d9a14dcee4f78ea42
+msgid ""
+"Suppose, for some reason (for instance, the model was quite complex with "
+"the variety of tasks and many resources), we ignored the mandatory data "
+"lines and didn`t specify them before. In that case, Apromore will display"
+" the list of errors to correct them."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:168
+#: 79a6f9df7cc6400fb6640b483a71ed9b
+msgid "|image33|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:214
+#: 6d5771d69bc148adaef72566767cb52c 8ac11eb88d6945f9a3a05351a9078118
+msgid "image33"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:170
+#: fc6c89176f5d4674859de82dfe230193
+msgid ""
+"We can view a range of statistics for simulated logs, including case "
+"duration, case duration within timetable, case waiting time, cycle time, "
+"waiting time, and cost in dashboards."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:172
+#: 2f77e7c35056400d8129f0db05844957
+msgid "|image38|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:218
+#: 57225b31405945759e3638997b659f31 a1b228ced44c477cb25d326cd7124add
+msgid "image38"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:174
+#: b5f9df10c58d41c0903a80ea9579a38c
+msgid ""
+"In addition to this, we can simulate two what-if scenarios. We can then "
+"compare the simulated logs by animating 2 logs against the BPMN model by "
+"going to the main workspace, selecting 2 logs and BPMN model -> *Analyze "
+"-> Simulate model*."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:177
+#: 7a9cd898c6d843968163107ea21e547a
+msgid "|image39|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:219
+#: 68d0ebf9f932480aa80d81cbd70153c2 8b183fb6e51d466c926e636c70746d1b
+msgid "image39"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:179
+#: fcee2ffeffc9423fba8df49172f28809
+msgid "A window will open up, showing the simulation overview."
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:181
+#: 2709692f4ccc432ebc8ff4e632c6fdd1
+msgid "|image40|"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:220
+#: 8136dfe8c4524501947ca1e145278cda 917230ba36ca43e5b83131aeb40d3b37
+msgid "image40"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:198
+#: df24169070144be6b881b58a1fb8e188
+msgid "image16"
+msgstr ""
+
+#: ../../analysis/processmodelsimulation.rst:206
+#: 2feb6f546609488ca7abe8e4677349af
+msgid "image24"
+msgstr ""
+

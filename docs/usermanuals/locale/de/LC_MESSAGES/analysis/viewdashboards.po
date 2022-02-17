@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../analysis/viewdashboards.rst:3 cc9c002f341b4ebcbb982547bf744825
+msgid "View dashboards"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:5 1c5a538773fd45aa9474e6113fb9adb1
+msgid ""
+"*Apromore's Custom Performance Dashboard* allows users to analyze a "
+"business process from a performance measurement perspective visually. The"
+" *Performance Dashboard* displays a variety of aggregate statistics and "
+"charts. The *Performance Dashboard plugin* allows us to analyze one "
+"process in isolation or to compare multiple process variants. For "
+"example, we can use the *Performance Dashboard plugin* to compare how a "
+"given process is executed across multiple regions or compare the variant "
+"of a process consisting of slow cases versus faster cases."
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:7 a676714422054ee6831688e492197a37
+msgid ""
+"To open the dashboard plugin, select at least one event log and click on "
+"*Analyze - > View performance dashboard*. To compare multiple process "
+"variants, we need to select multiple event logs and then open the "
+"Performance Dashboard plugin."
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:9 b77cddb5ef8e4c2c9c80994f9d800140
+msgid "|image1|"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:56 82524c28fb344b568daea2b9c27b0a9e
+#: 8e39c1b4fec644b2a3b4b614aa979cce
+msgid "image1"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:11 434c51ba39494ecfb7ee22bd76828fd6
+msgid ""
+"The customizable performance dashboard consists of three default views: "
+"*Overview*, *Activities*, and *Resources*. All the dashboards include "
+"statistic tiles, charts, and tables."
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:13 2d885bce38fe49378eeb6ace0aa32600
+msgid "|image2|"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:57 72dc37b00be6458fa872cded74dd9b33
+#: b6ed7ba5b0414587b67344d3ecbbda29
+msgid "image2"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:17 a3895dc130ee4fd293dc0ace5484762c
+msgid "Overview"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:19 9a83df1a22934f939d90d9911665a6d0
+msgid ""
+"The overview section's stat tiles consist of the event log's performance "
+"measures like the number of activity instances, active cases over time, "
+"case variants, case duration, and log timeframe. Four main charts are "
+"presented in the overview dashboard: Events over time, Active cases over "
+"time, Case variants, and Case utilization."
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:21 27e86983d48d4d02a2dd72156f08d156
+msgid "|image3|"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:58 045e3d60694f41f2928eca295560b16a
+#: 690fd402d67c424289a21e12de08b32f
+msgid "image3"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:25 6ef5baf1335b422c88f021ecac787cff
+msgid "Case Inspector"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:27 75c744b5dde042f3a7824c877d9989a0
+msgid ""
+"The case inspector displays a full list of cases and case variants for "
+"the selected event log, together with their corresponding statistics."
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:29 5bf5e331fb41466d829a3515ec4b130f
+msgid "|image4|"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:59 9f8612f405a04ecba447afbc178ecd9f
+#: ebb392a9c0f6417085c05f61fb96f055
+msgid "image4"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:31 7b88fd947b50451cbe2f7fcc529bfba6
+msgid ""
+"We can click on a given case in the Case Inspector to get further details"
+" about the activities performed in this case."
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:33 29326b72bd3347e387941be142f0d706
+msgid "|image5|"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:60 15b24bf0b4de417999e12cfa393b0185
+#: e94f5ff5d4094e40a8bddd25dca82491
+msgid "image5"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:37 a41b3500e8b5496fb29cd6bf90cc93ed
+msgid "Activities"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:39 c94dbe6f22a14d0eb091f5d7073637cb
+msgid ""
+"The activities dashboard includes the activities, average activity "
+"frequency, and average activity duration statistic tiles. It also "
+"includes different charts of various activity performance metrics such as"
+" case frequency, min/max duration, min frequency per case, et cetera."
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:41 53c3a5309e2f424598b55d440bfb8c35
+msgid "|image6|"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:61 4a4a629741d2476ca586a099fce58647
+#: 67ecb8a13f4f413e9b9c35b4f7820a4e
+msgid "image6"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:45 1b3f1385fa8d42f28aab1fcc16287246
+msgid "Resources"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:47 f12e1df9bac849199610facc253bab7a
+msgid ""
+"The resources dashboard includes all the resource performance metrics "
+"like case frequency, total frequency, average duration, min duration, and"
+" max duration."
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:49 462620668b87462ca6d52a6bb8698f90
+msgid "|image7|"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:62 2cdd4f9d594b465c9b1cb2cb9fc4e363
+#: a8bb8dadb46144b89ebc2622b66eeca8
+msgid "image7"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:51 073eadca818944c6be516ad922d68558
+msgid ""
+"While viewing/editing a shared dashboard, we may receive an update "
+"notification stating that the dashboard is modified. We can choose to "
+"save/discard changes and click on *Apply*."
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:53 c8e8ae1d240b43b4ac9fe8728b4588e1
+msgid "|image8|"
+msgstr ""
+
+#: ../../analysis/viewdashboards.rst:63 6df10bd67e0d4aa2b01307b95b663919
+#: 99ac7a02f1dc4aa090c0c5c0eb60f12e
+msgid "image8"
+msgstr ""
+

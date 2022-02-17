@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../analysis/animatelogsbpmn.rst:3 3295903fb38a42d1a95810d91c6ebd66
+msgid "Animate logs (BPMN model)"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:5 338325bc357f487e9d0775a35d30e57f
+msgid ""
+"Apromore allows us to animate one or more event logs to be replayed on "
+"top of a BPMN model. When using multiple logs, these could capture "
+"different variants of the same business process, while the process model "
+"would represent a normative specification of how things should be "
+"performed within an organization."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:7 91ced8e1be304d1184a1277aa4f23739
+msgid ""
+"We can select one or more logs and one BPMN model from the repository, "
+"and click *Analyze > Animate logs*. In case we want to animate a single "
+"event log on top of a BPMN model, we can also switch the view from "
+"*Process Map* to *BPMN Model* in the *Process Discoverer* and click the "
+"*Animate* button."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:9 70a8c32bbdea486d924e37273f4c992e
+msgid "|image1|"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:53 4d94d1d9b6904081b055f83c9d96840c
+#: d35336d1c62e46c19117ae03effca463
+msgid "image1"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:11 b7e3d1e33b6f4c5f8c0712989856fc0c
+msgid "A window will open up showing the BPMN model along with the timeline."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:13 6c29bdbd98a84d73ad5971ffc4092628
+msgid "|image2|"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:54 bffbd9dfc22041818084aa8409f0ac3f
+#: e777e4a10c6344e5936090b86f65ec04
+msgid "image2"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:17 0e52bf04deb746e7b0db2323e619ff78
+msgid "Standard Controls"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:19 3945a30c7f16426f8c18e93ca83690ab
+msgid ""
+"The animation will start by clicking on the *Play* button. Each token "
+"represents the progress of a particular process instance (a case), with "
+"the token’s color encoding the log the case comes from."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:21 65a02ee8513941119008565b4130330f
+msgid "|image3|"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:55 8e358c583c64490b906347049acadae4
+#: ef9db61c509c4a17abb5326a42a626ac
+msgid "image3"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:23 dc49ba14cad94f0690e8d6d99ad2ed1b
+msgid ""
+"Standard controls are available to play, pause, fast or slow "
+"forward/rewind the animation and to skip through the end/beginning. The "
+"replay speed can be changed with the vertical bar. These actions are also"
+" available during the animation. If the view on the model is zoomed "
+"in/out, or the model layout is changed, the tool will try to adapt the "
+"animation to the new position of the elements on the canvas."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:25 ec04f565cb644466b0ba32ad6874769c
+msgid "To zoom-in/zoom-out, press *Ctrl* and use the mouse scroll wheel."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:27 c774a58d61f941c6844fff5984ff47bc
+msgid ""
+"We can change the color of tokens of a specific log by clicking on the "
+"*pie chart* next to the needed log name."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:29 7aa721ef7f6c4784b5c8a06b28134e69
+msgid "|image3.1|"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:56 6f4c5c4f43a343bc88610eb079731a18
+#: b5d48e38a4634a6c87f72e274c79588f
+msgid "image3.1"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:31 f939348f32374ea1aeddc4ded2bc3a8b
+msgid ""
+"We can either choose from the default colors or add the customized ones. "
+"To add a customized color - enter a color code or drag the mouse over the"
+" palette."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:33 a80588f053c944a9848c12377ddeed06
+msgid ""
+"To check log-related statistics, hover over the *pie chart* next to the "
+"needed log name."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:35 9100652fbe0e440e989d0d08a9160f57
+msgid "|image3.2|"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:57 a4c7b7a508b64e6a8aaad179f13cafe0
+#: a6be38f2f50d4156b27ad980af1e37c6
+msgid "image3.2"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:39 83c1d4e5813d4e1392d60366f0474675
+msgid "Token Traversal"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:41 bdfbb51b6b644068a3d236d0f6e1d732
+msgid ""
+"A token traversing an activity indicates that the case captured by that "
+"token is performing that activity. However, if the token goes around an "
+"activity’s border, this indicates that the particular activity is skipped"
+" in that process case."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:43 97d7ef602479443a8b76ac69edc215d4
+msgid "|image4|"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:58 7f5006da75f14a92b6def9809c989076
+#: d0f82485eb9241c8bef90ee03f56a69d
+msgid "image4"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:45 3c7f1905d29f4449aea1de64cbb432a0
+msgid ""
+"A large number of tokens slowly traversing a given path may indicate a "
+"performance bottleneck, e.g. cases pile up in a particular point of the "
+"process due to resources unavailability."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:47 dedbacd991a4409c91cd0c497ac03da2
+msgid "|image5|"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:59 579a95a865a54de6ad87ef06674cf650
+#: 5bd71ea26edb4a0481127678553bcfb9
+msgid "image5"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:49 721b3354dfa941c5b12bab2fbaa28744
+msgid ""
+"For visualization purpose, we can hide and show individual/multiple log "
+"tokens by unchecking/checking the *checkbox* below the *pie chart*."
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:51 a8ee56c84f924749b0fedb0d4e958d60
+msgid "|image5.1|"
+msgstr ""
+
+#: ../../analysis/animatelogsbpmn.rst:60 5455ad2232594423ba2b261464edf073
+#: de0b081ac7e04bf5ba2085a7814d3930
+msgid "image5.1"
+msgstr ""
+

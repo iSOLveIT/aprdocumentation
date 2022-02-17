@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:3
+#: 917f6e0e085b4ac39ad88727004aea19
+msgid "Create/edit process model"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:5
+#: ce23278ca6764b6589bfe03916b93c07
+msgid ""
+"The editor allows one to edit, save, and export (BPMN) process models. To"
+" access the editor, double click on the process model you want to edit in"
+" the repository browser. The image below shows a snapshot of the editor "
+"environment. On the left, the palette containing the BPMN elements. To "
+"add any of these elements to the process model, drag-and-drop it on the "
+"desired location."
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:7
+#: 480a550ec39a4fa2897980a0f43b0ff5
+msgid "|image1|"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:67
+#: 71cd64fd6e8c4305933e0e3a80ab411f e6538bd10d6244eb8edf74a4ce1c2796
+msgid "image1"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:11
+#: ec3ed6192e2f4c2990386bb5a6957d84
+msgid "Save model"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:13
+#: 32fb9e1cf225480b855b97419d45a34f
+msgid ""
+"At the top of the editor, a menu shows the icons of the essential "
+"functionalities provided within the editor. The first icon starting from "
+"the left, allows us to save the model."
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:15
+#: f627a74029d247b0b3abf0aa8fe6781e
+msgid "|image2|"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:68
+#: b16244ea70c14084919cebff390ed20f f40c6bf287cd46268c3c85f4c2467620
+msgid "image2"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:17
+#: e7dfab46c3cd46eda988064d014d05f2
+msgid "When selected this option, the following message-box appears."
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:19
+#: ad3cea2b2c9a4717a67668a41e344775
+msgid "|image3|"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:69
+#: 2399589b334541e5ac06f62eef1a020e 88ea8e0dfd164774b0840731d0e06987
+msgid "image3"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:21
+#: 7cc474f1e1e147fdb9ece8d6c0e197ee
+msgid ""
+"We can choose the version number of the process and the branch (folder) "
+"to save it. Each process version is kept in the memory, and it is "
+"possible to retrieve any of it at any time (more details on how to access"
+" the older versions of a process model come below)."
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:25
+#: 00f67d968dab4bb9b21c5aa1a9e1ac40
+msgid "Save a copy of a model"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:27
+#: 100cf6afe350444da1eea636eb624d1d
+msgid ""
+"If we want to save a copy of the process model, we can click on the "
+"menu's second icon, as shown below."
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:29
+#: 7068db9067534c81a1ef30211c4efd4f
+msgid "|image4|"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:70
+#: 25f1a3fb07374621a5d3f753017dae43 5313ca59e88b4ba5ba22ab30524bf06a
+msgid "image4"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:31
+#: 85a889b7ef8e4813aeb12bc350bda9e9
+msgid ""
+"Save a copy allows us to duplicate the process model in the repository, "
+"rename it, and restart the version counter from 1.0."
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:35
+#: d12f5dd1889e4487b399c215fb630834
+msgid "Export model"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:37
+#: 854e800faf9b449d860bed816fa8d6ff
+msgid ""
+"The third icon exports the process model in the format .SVG. The fourth "
+"and fifth icons export the process model in the formats.BPMN and PDF "
+"(respectively), as pictured below."
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:39
+#: 330fd9fa998642cbbc7a30132858252b
+msgid "|image5|"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:71
+#: 13b8b18d928a4a899c4ecb14ed4bf710 6b42efe81c2b4d5dbf48815ea83905bf
+msgid "image5"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:41
+#: 2de049f57db54cadb24fdd7ad588e780
+msgid ""
+"Remember to allow pop-up windows before exporting the process, otherwise,"
+" the export may fail."
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:45
+#: 3b80d64b356149d0be4ca4514a6a4aca
+msgid "Undo/Redo"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:47
+#: 620c4b5828d944faa6c197dd116ece2c
+msgid ""
+"The next two icons allow to undo and redo changes applied to the process "
+"model."
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:49
+#: 9d7c4d3b0490418da9e3f0c8fef43934
+msgid "|image6|"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:72
+#: 65aec2a2b11d4d2ab4e3ae19503da81b eff1158b89364183903b20d291d74d2c
+msgid "image6"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:53
+#: cec4742b66ee4539bf7169d35479c663
+msgid "Zoom-in/Zoom-out"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:55
+#: a994ce602b994bfcab7cbec20796503d
+msgid "Finally, the two zoom lenses allow to zoom-in and zoom-out."
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:57
+#: a8d1e49df73b43058ae102b4621855b7
+msgid "|image7|"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:73
+#: 000f6d53ff3e40b1a7acb196343cc773 937387eaf8154f3f9e35b0d96b8f1058
+msgid "image7"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:61
+#: 30665e9ba1824a9fb9ffb54e9592bec2
+msgid "Access an older version of a process model"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:63
+#: 0c3df36975e0425095125d252b464ca1
+msgid ""
+"To access older versions of a process model, select the process model in "
+"the repository browser. Please select the version we want to edit from "
+"the tab on the left bottom corner (as highlighted in the screenshot), and"
+" either double-click on it or hit the *File -> Edit Model*."
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:65
+#: 3e9ae0a95c974bad86b92a0be5f3b147
+msgid "|image9|"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:75
+#: 9db7f126c20b492eac03686a54f17fb2 eab839b926474323a72e74f4debe230c
+msgid "image9"
+msgstr ""
+
+#: ../../theapromoreportal/createoreditprocessmodel.rst:74
+#: bb550232055649939d9764e6cbcdf7ff
+msgid "image8"
+msgstr ""
+

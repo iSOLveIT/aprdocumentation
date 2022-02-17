@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../redesign/searchsimilarmodels.rst:3 ea99ae027cb040218e453a11cb325d0b
+msgid "Search similar models"
+msgstr ""
+
+#: ../../redesign/searchsimilarmodels.rst:5 cc3a55f90e754f64bd89755f9761852f
+msgid "Apromore allows us to search similar models."
+msgstr ""
+
+#: ../../redesign/searchsimilarmodels.rst:7 9afc3bfc915941ce96bb66808ed8e729
+msgid "Select a BPMN model and click on *Redesign -> Search similar models*."
+msgstr ""
+
+#: ../../redesign/searchsimilarmodels.rst:9 8696d0060523404092a8cc98ed3691b8
+msgid "|image1|"
+msgstr ""
+
+#: ../../redesign/searchsimilarmodels.rst:22 5ec1ed6c7d244f3f9bef6060f48b5105
+#: d98d7d3a56d24568b1523d1e3fe2bac1
+msgid "image1"
+msgstr ""
+
+#: ../../redesign/searchsimilarmodels.rst:11 c2fe750a93a541419f525dd311b74c76
+msgid ""
+"A window will pop up displaying various metrics. For example, the *Label "
+"sim. threshold* provides the similarity threshold of the different labels"
+" of a model. Initially, each field includes the default values. We can "
+"also choose to search the latest versions or all of the versions."
+msgstr ""
+
+#: ../../redesign/searchsimilarmodels.rst:13 0f041b555ac241cb8f148e7c20158556
+msgid "|image2|"
+msgstr ""
+
+#: ../../redesign/searchsimilarmodels.rst:23 20bfedf0267f4c83bf1f1a8d30d0be6c
+#: 551eca2023114bf69dd51737a3f5d58d
+msgid "image2"
+msgstr ""
+
+#: ../../redesign/searchsimilarmodels.rst:15 0f9daacff783489596bdac16ea01b297
+msgid ""
+"Click on *OK*. The results will contain similar models along with the "
+"similarity score."
+msgstr ""
+
+#: ../../redesign/searchsimilarmodels.rst:17 413ba02f3ab94afc87d6c7f9e306a653
+msgid "|image3|"
+msgstr ""
+
+#: ../../redesign/searchsimilarmodels.rst:24 1a36283e9519460a8e23cfefca9702b4
+#: 87d4b3b82fc045a69629376530e38f3e
+msgid "image3"
+msgstr ""
+

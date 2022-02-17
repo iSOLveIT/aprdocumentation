@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../quickstart/index.rst:3 7ca19853cf5340ebbd7d0365dc2fc33d
+msgid "Quick start"
+msgstr ""
+
+#: ../../quickstart/index.rst:5 438d489c915c4478a3f650de49911b01
+msgid ""
+"Apromore is a leading provider of open-source solutions for process "
+"mining and AI-driven business process improvement. Our vision is to "
+"democratize process mining by enabling organizations to achieve digital "
+"transparency and operational excellence."
+msgstr ""
+
+#: ../../quickstart/index.rst:9 3d05503a4d7f4c04867345ab9cdeb474
+msgid "Apromore Portal"
+msgstr ""
+
+#: ../../quickstart/index.rst:11 c00ee35af94847009aee4f5cc3374e40
+msgid ""
+"The Apromore Portal is the first and primary interface that users access."
+" One can navigate the workspace folders and perform various actions "
+"through the available plugins."
+msgstr ""
+
+#: ../../quickstart/index.rst:14 31bacbe8be9c4a779819ec6ca52f098f
+msgid "|image1|"
+msgstr ""
+
+#: ../../quickstart/index.rst:128 784efe35035c4c53a1dffe5734f54f46
+#: 8c743aafd5a040ef9671a72e8cab038e
+msgid "image1"
+msgstr ""
+
+#: ../../quickstart/index.rst:16 4b1612e73ff140e1882897bd5b90806f
+msgid ""
+"The Apromore workspace containing files and folders appears after "
+"successfully logging in. Different icons represent a process model and "
+"log. To select a file, click on it. To add a new file, click on *Upload*."
+" To save a file, click on *Download*."
+msgstr ""
+
+#: ../../quickstart/index.rst:19 70b6ba4c17bd44f38bdf782837f97e6b
+msgid "|image2|"
+msgstr ""
+
+#: ../../quickstart/index.rst:129 8e363647304848aaa82c2f39369b34c9
+#: b1867544f8d24c968ddee20754906b41
+msgid "image2"
+msgstr ""
+
+#: ../../quickstart/index.rst:21 499d66de52004e8f981acffd7b061e1d
+msgid ""
+"We can also select the *Upload* and *Download* options from the File menu"
+" drop-down."
+msgstr ""
+
+#: ../../quickstart/index.rst:23 b858f7853efe4786a6c315722e10b399
+msgid "|image3|"
+msgstr ""
+
+#: ../../quickstart/index.rst:130 065076ef706f4c2fb6ce9a321c68ac33
+#: 9c5ea9e33cba4eba84984340b7ad33e4
+msgid "image3"
+msgstr ""
+
+#: ../../quickstart/index.rst:25 7237c27b237a452e8f16d4330bb306b2
+msgid "|image4|"
+msgstr ""
+
+#: ../../quickstart/index.rst:131 776d557c4dbe4f06ade59ec13296f744
+#: ed50934a9ffc4cd687e18b1eb30d2da8
+msgid "image4"
+msgstr ""
+
+#: ../../quickstart/index.rst:27 cea9de0b7a44499eacb44adfa1d32ae6
+msgid ""
+"We can select and unselect all files simultaneously by clicking on "
+"*Select*/*Unselect* buttons for ease of access. To search a file, use the"
+" *Search* bar."
+msgstr ""
+
+#: ../../quickstart/index.rst:29 35a9ba234b1f44129a6cafb3c0403474
+msgid "|image5|"
+msgstr ""
+
+#: ../../quickstart/index.rst:132 5d7ddb41430548db8415ef268f2830be
+#: c2de0ce3335044c3a63465c47d142665
+msgid "image5"
+msgstr ""
+
+#: ../../quickstart/index.rst:31 9f039f9151004231b9d1d2a2feaea748
+msgid ""
+"To remove the selected file/folder from the workspace, click on *Cut* "
+"while to create a duplicate, click on *Copy*. To paste the file/folder in"
+" the desired directory, click on the *Paste* button. To rename or delete "
+"a file/folder – select it and click on *Rename* or *Delete*."
+msgstr ""
+
+#: ../../quickstart/index.rst:33 4507c01664244c569460d049241ddb13
+msgid "|image6|"
+msgstr ""
+
+#: ../../quickstart/index.rst:133 1202b03b8d674c038b25d5bda6df53d9
+#: b06f8b5a15e74975b8f61535d53c5100
+msgid "image6"
+msgstr ""
+
+#: ../../quickstart/index.rst:35 35bd87bb353f4ce9bcf9b341531d849e
+msgid ""
+"To add a new folder to the workspace, click on the *Create folder* "
+"button. The created folder appears on the *My Workspace* panel."
+msgstr ""
+
+#: ../../quickstart/index.rst:38 f1074eeed09b4d4c9e39da9742b4e777
+msgid "|image7|"
+msgstr ""
+
+#: ../../quickstart/index.rst:134 5caa645c02024f3aba126f19f83cbf2b
+#: 98b581827ea94ec2a6e81d60a7591737
+msgid "image7"
+msgstr ""
+
+#: ../../quickstart/index.rst:40 dd22b0bd30ac48ebb3efce894e44ee2c
+msgid ""
+"To open the log – double-click on the file, and by default, it opens in "
+"the process discover plugin."
+msgstr ""
+
+#: ../../quickstart/index.rst:44 d37cc0963cbf4a35929fa5022e469686
+msgid "Process discoverer"
+msgstr ""
+
+#: ../../quickstart/index.rst:46 5a1819ae1fe14407bf846cbaf67dd3f1
+msgid ""
+"When first opened, the Process Discoverer displays a process map of the "
+"event log. By default, each node in the process map represents an "
+"activity. Each arc represents a directly-follows relation between two "
+"activities. We can tune the number of nodes and arcs in the process map "
+"using the *Abstraction sliders*. To change the percentage of visible "
+"nodes, use the *nodes slider*. When the *nodes slider* is set to 100%, "
+"the Process Discoverer displays all the nodes. When the nodes slider is "
+"0%, we only see one node. Similarly, when the *Arcs slider* is set to "
+"100%, we can see all the arcs, and if we set it to 0%, we see a minimal "
+"number of arcs, in such a way that all the selected nodes are displayed, "
+"and every node is on a path from the start node to the end node of the "
+"process map. When we move the *Abstraction sliders* from right to left, "
+"Apromore gradually removes elements starting from the least frequent one "
+"to the most frequent one. By clicking on the *Invert Ordering*, we can "
+"ask Apromore to do the opposite. This means that as we move a slider from"
+" right to left, Apromore will remove the most frequent elements and keep "
+"the less frequent ones. If we select the *Average duration* option in the"
+" *Abstract* drop-down menu, Apromore will remove nodes and arcs based on "
+"their duration (instead of their case frequency)."
+msgstr ""
+
+#: ../../quickstart/index.rst:49 27c0bdcc251e41b08b4f517e25d0b63b
+msgid ""
+"If we wish to observe the branching points, rework loops, and parallel "
+"activities in the process, it is better to switch to the *BPMN view*. "
+"When we switch to the *BPMN view*, Apromore tries to discover parallel "
+"relations between activities. We can ask Apromore to find less "
+"parallelism or more parallelism by using the *Parallelism slider*. When "
+"the *Parallelism slider* is at 0%, Apromore will not display any parallel"
+" gateway. When it is set to 100%, Apromore tries to discover as much "
+"parallelism as possible, given the selected level of arcs abstraction. By"
+" default, the Process Discoverer displays the case frequency of each "
+"activity and each arc. We can change the statistics overlaid on top of "
+"each activity or arc by using the drop-down menus in the Overlay section "
+"of the Process Discoverer."
+msgstr ""
+
+#: ../../quickstart/index.rst:52 0aa8f7b849e3472dbfdb00413fd96f6a
+msgid "|image8|"
+msgstr ""
+
+#: ../../quickstart/index.rst:135 525333d22f6b4e1e8898494e90847f3b
+#: eb4ecfbe33744588921d9049dbcbae56
+msgid "image8"
+msgstr ""
+
+#: ../../quickstart/index.rst:54 11884e3c02404b33898b7a537873e1c6
+msgid ""
+"We can save the finished file in a BPMN format or as a filtered log after"
+" applying different filters. To see both tasks and gateways and explore "
+"decision points, switch to BPMN mode."
+msgstr ""
+
+#: ../../quickstart/index.rst:57 f19c26ee38cc459788be157bc7051d79
+msgid "|image9|"
+msgstr ""
+
+#: ../../quickstart/index.rst:136 4e889d4dfd0847abb684f5f5cae8ad7e
+#: e43527337c7744118cb53700770cb3c1
+msgid "image9"
+msgstr ""
+
+#: ../../quickstart/index.rst:59 be6d712e4bd4461a9a82acb854fb204a
+msgid ""
+"Use the Log statistics panel to check the *Case variants*, the *Events*, "
+"and *Activities* one by one."
+msgstr ""
+
+#: ../../quickstart/index.rst:61 4f0d1e893bdf4dd5835e9a74a21d2b7e
+msgid "|image10|"
+msgstr ""
+
+#: ../../quickstart/index.rst:137 cbde6d6dd6cd439592680d56623ba2d5
+#: f5e8207e7e0a48bd83ba0d422a9202d3
+msgid "image10"
+msgstr ""
+
+#: ../../quickstart/index.rst:63 c5e11051b4584324bfca5a023bc191d0
+msgid ""
+"For convenience, there is also a possibility to change the layout or fit "
+"the model."
+msgstr ""
+
+#: ../../quickstart/index.rst:67 62d0cbb8d3fe43b3ae0ee2d42d5ce2a2
+msgid "Filter"
+msgstr ""
+
+#: ../../quickstart/index.rst:68 67f48871e21b4bb7a2e57fa5946a14ee
+msgid ""
+"An alternative way to select a subset of cases or processes and retain "
+"specific cases is to use *Filter*."
+msgstr ""
+
+#: ../../quickstart/index.rst:70 56612b501f8b46c1994c85ff7ff38461
+msgid "|image11|"
+msgstr ""
+
+#: ../../quickstart/index.rst:138 094b2095b7eb41d88d1f8e0361862af2
+#: 7875ad1c4b934d62bd6ba6bb7e4471ab
+msgid "image11"
+msgstr ""
+
+#: ../../quickstart/index.rst:72 b5be724dc5644077bd895ab5fbf24624
+msgid "To filter logs, click on the *Filter*."
+msgstr ""
+
+#: ../../quickstart/index.rst:74 679e90a6e7884cd0b07409afd2466ece
+msgid "|image12|"
+msgstr ""
+
+#: ../../quickstart/index.rst:139 1b579f3f640447d0a7a480892691811b
+#: 41afd52fca9d4d97b75feeda961f7e70
+msgid "image12"
+msgstr ""
+
+#: ../../quickstart/index.rst:78 c73cb3f9e4a54b3c9d6d9b03ffedbbfe
+msgid "Dashboards"
+msgstr ""
+
+#: ../../quickstart/index.rst:79 caa68c74ce044c16a54e19e6bfb5a074
+msgid ""
+"To open the dashboard, go back to the Portal, select at least one event "
+"log and select the *View performance* dashboard option from the *Analyze*"
+" menu drop-down."
+msgstr ""
+
+#: ../../quickstart/index.rst:81 3875ea282d21460aae0cb2f2f68760de
+msgid "Select multiple event logs to compare them in the dashboard."
+msgstr ""
+
+#: ../../quickstart/index.rst:83 d0cfed2304a844af8ff1d3e8b33899cb
+msgid "|image13|"
+msgstr ""
+
+#: ../../quickstart/index.rst:140 40f26ef997a647f8a9921570c6b630b4
+#: cd69e7936d374720ba1822e912fbed0d
+msgid "image13"
+msgstr ""
+
+#: ../../quickstart/index.rst:85 d8732645117840a9932e7ecb14ea3086
+msgid ""
+"To create a dashboard from an existing dashboard or create a dashboard "
+"from scratch, click on the *‘+’* button. To download the current view of "
+"the dashboard, click on the *Download report* button."
+msgstr ""
+
+#: ../../quickstart/index.rst:88 55256cee3e474dbdabab0aa89a916371
+msgid "|image14|"
+msgstr ""
+
+#: ../../quickstart/index.rst:141 a91e2446c2d947248334caac8d70f201
+#: d36d1c1e88654fa3b4d820faa80b557b
+msgid "image14"
+msgstr ""
+
+#: ../../quickstart/index.rst:90 7770f9c06fd24bf3b347998922cf7137
+msgid ""
+"To customize view of the dashboard, click on the *Change style* button "
+"and select from different styling options. We can choose to reset view of"
+" the dashboard by clicking on the *Reset view* button."
+msgstr ""
+
+#: ../../quickstart/index.rst:92 62e34796b47b48b691827c702c5a0833
+msgid "We can choose to reset the current view or all the views."
+msgstr ""
+
+#: ../../quickstart/index.rst:94 37361b6977d246c79be50288341c1158
+msgid "To auto-save a file, click on the *Save dashboard* button."
+msgstr ""
+
+#: ../../quickstart/index.rst:96 7fabb553217e4ec9ba29aaf5452d497a
+msgid "|image15|"
+msgstr ""
+
+#: ../../quickstart/index.rst:142 33ddf2cfe2fa4657ad73176633c0cf76
+#: f1c7ffe1b23f4a638cab2db5869a401f
+msgid "image15"
+msgstr ""
+
+#: ../../quickstart/index.rst:98 74bda4c6bd424d488576083257ca6c44
+msgid ""
+"To enlarge the specific area - click on the chart and select the area. As"
+" soon as you release the mouse, the tool zooms into the selected part of "
+"the chart.​ To zoom out and see the entire chart again, click on *Reset "
+"Zoom*."
+msgstr ""
+
+#: ../../quickstart/index.rst:100 de874e8db44f45c0b9015257bea8da9b
+msgid "|image16|"
+msgstr ""
+
+#: ../../quickstart/index.rst:143 63cab455f645412892abbd783cf09650
+#: b0aba78a50994db59e06c596c1c49f92
+msgid "image16"
+msgstr ""
+
+#: ../../quickstart/index.rst:104 8181e2bb25c7448ebbaf42fae509e679
+msgid "Process Animation"
+msgstr ""
+
+#: ../../quickstart/index.rst:106 f51b295d00dc447cb22fd6b455f40ace
+msgid ""
+"To trigger log animation from the Portal, select at least one event log "
+"and a process model and click on the *Animate logs* from the *Analyze* "
+"menu drop-down."
+msgstr ""
+
+#: ../../quickstart/index.rst:108 e0bb3167a5194d69badc4f3d01d5886f
+msgid "|image17|"
+msgstr ""
+
+#: ../../quickstart/index.rst:144 03d1e72639d54eccb726788614575957
+#: 8dee71f5cbf04ec38fd48eea1f3ff868
+msgid "image17"
+msgstr ""
+
+#: ../../quickstart/index.rst:110 cf81d6dc2a7d479fb585106418d93e68
+msgid ""
+"Each case is captured by one token and is displayed on the process "
+"map/BPMN model. A bottleneck can be identified depending on how the "
+"different tokens traverse process map/BPMN model. ​"
+msgstr ""
+
+#: ../../quickstart/index.rst:112 19756cc038144afa8ed11466a78b54e4
+msgid "|image18|"
+msgstr ""
+
+#: ../../quickstart/index.rst:145 3215d7e1947b4069ae009958fc2436bb
+#: a95aea595f3e476ea3cdc3fe814012d7
+msgid "image18"
+msgstr ""
+
+#: ../../quickstart/index.rst:114 bb52faecaf254a95844bdaf52247ca81
+msgid ""
+"If the token goes around an activity’s border, this indicates that the "
+"particular activity is skipped in that process case."
+msgstr ""
+
+#: ../../quickstart/index.rst:118 d84be7a6a43f4bce9e5c878a81b7823e
+msgid "Administration"
+msgstr ""
+
+#: ../../quickstart/index.rst:120 01c8d6141d6044d9922d23397d124ab4
+msgid ""
+"To manage the item’s access right, select a folder, event log, or model "
+"in the Portal and click *Share file or folder*."
+msgstr ""
+
+#: ../../quickstart/index.rst:122 05179411026247a6baf1a425d8cdf3c7
+msgid "|image19|"
+msgstr ""
+
+#: ../../quickstart/index.rst:146 006baacbfce146288bd13ec55f085160
+#: 23b5961fe9b349f483634fbe07f6c719
+msgid "image19"
+msgstr ""
+
+#: ../../quickstart/index.rst:124 88b35511ff6d4326a6d94e3f36abf75a
+msgid ""
+"Select the user and assign the desired permission. Click on *Apply "
+"Changes* to save the changes."
+msgstr ""
+
+#: ../../quickstart/index.rst:126 a322a54e7819495bafd84f314efbf22f
+msgid "|image20|"
+msgstr ""
+
+#: ../../quickstart/index.rst:147 32d5daf35e204f72938ca0a49459b596
+#: 5f62e84884c54f999464902db99556f1
+msgid "image20"
+msgstr ""
+

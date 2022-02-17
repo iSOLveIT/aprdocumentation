@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../monitor/trainpredictivemodels.rst:3 d4b8390ace2440529f70f67dfbb2b3a6
+msgid "Train predictive models"
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:5 403882542023408c863e56a0d709cf85
+msgid ""
+"The Training plugin allows users to generate predictive models for "
+"different types of predictions. Specifically, it is able to predict "
+"generic process properties, such as remaining time until case completion,"
+" the next most likely activity to be executed and whether a case will "
+"take longer than a user-defined time threshold. Additionally, the tool "
+"can build models to predict log-specific case properties, for example, "
+"the total application cost in an insurance claims handling process."
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:7 482ef4af61054b41a37184cc05ee0edd
+msgid ""
+"Before importing your log into Apromore, it needs to be pre-processed to "
+"add all the required attributes.  The tutorial here describes a "
+"minimalist example of pre-processing operations for an event log. For "
+"demonstration purposes, Apromore repository provides several pre-"
+"processed logs under Examples/Predictive Monitoring folder. These logs "
+"can also be downloaded from `here  "
+"<https://drive.google.com/file/d/1ZATjpBMSjgxLDKdIvLOJ15NRz_N0b6K0/view>`_."
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:9 4e4367ed55df437fa4484960aac3b276
+msgid ""
+"•To use the plugin, select a training log from the repository and click "
+"on *Monitor -> Train predictor with log*."
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:11 7f94339eedbf477ba1e8b2fc2cfe1b09
+msgid "|image1|"
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:31 32435a3c78df4423a2c4066ad840eaf9
+#: b710e9a4f11c410fb1d2aa2e5924be70
+msgid "image1"
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:13 5e86e66c40fc427dae2c415285ee2580
+msgid ""
+"As a minimum input, a user only needs to select a prediction target, i.e."
+" an indicator to be predicted."
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:15 4156780e838b4f48aaa95b9b3a2f7638
+msgid "|image2|"
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:32 990aa7547d2c4e1cb4c7dcbad676d511
+#: ebe65399066f494186bb880311ce6822
+msgid "image2"
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:17 f10a00b261e449168d8a51aad7d2f5ac
+msgid ""
+"Experienced users may switch to the advanced mode to fine-tune training "
+"configuration and even train multiple models at once."
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:19 41ca77ef91a247cba92e368ded18d71a
+msgid "|image3|"
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:33 2206f7f21a7e4572a756db2346b00aea
+#: 40e277b155864fe3898aa437bb3e6879
+msgid "image3"
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:21 0b03885e079b42c79ee886b858e41ae4
+msgid ""
+"Once the necessary models have been built, the tool assesses their "
+"accuracy with respect to multiple evaluation metrics using a held-out "
+"validation set."
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:23 d2d72440b8da422188185a2ec6512f1f
+msgid "|image4|"
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:34 bad60c03016443f2b04a92c845b33ef9
+#: efcf172857aa44e09a0560a9257644f9
+msgid "image4"
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:25 30c12e0d96b9471496d9b64418445d23
+msgid ""
+"•Trained models are saved in the Apromore database and can be pushed to "
+"the :doc:`Runtime component </monitor/openpredictivedashboard>` to make "
+"predictions for ongoing cases and visualize them in an operational "
+"dashboard. A screencast of this plugin can be found `here "
+"<https://drive.google.com/file/d/1ZATjpBMSjgxLDKdIvLOJ15NRz_N0b6K0/view>`_"
+" ."
+msgstr ""
+
+#: ../../monitor/trainpredictivemodels.rst:28 1fbf34612724492fae089ab83450b2af
+msgid ""
+"For non-Apromore users, a stand-alone version of the plugin can be "
+"accessed at `training.nirdizati.org <https://training.nirdizati.org/>`_ ."
+msgstr ""
+

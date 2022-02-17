@@ -1,0 +1,405 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../theapromoreportal/manageusersandgroups.rst:3
+#: 491d5edd152c4a73a7e3c9c83b5559cc
+msgid "Manage users and groups"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:5
+#: 2818ca0d7d204d5b82ede45982c9686e
+msgid ""
+"Users and groups management functionality allows us to grant permissions "
+"to users for either using features or different artifacts. Each user can "
+"belong to a group or can be associated with a role. A Role is an "
+"attribute of the user. A Group is a set of users and is about access "
+"rights to different folders/files (e.g. as a member of the group Sales I "
+"can only access files related to the Sales Department)."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:7
+#: 058cc60214d14bc0a2f791a2b8909e7f
+msgid ""
+"Only a user with administrator rights can access the *Manage users and "
+"groups* functionality"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:9
+#: c5fb63203d5f42219c1d869fd98dad91
+msgid "Click on the *Manage users and groups* button."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:11
+#: 8deccab9c9b44395b350c2b14b59c6a9
+msgid "|image1|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:115
+#: 1bc38e17cefc4d0ba9341016a2b226e8 8a149f6877fb4eba8e9365e04b848196
+msgid "image1"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:13
+#: 597e42611d6c49869132e15b5fe71f39
+msgid ""
+"Once the *User and group management* dialog opens up, we can "
+"create/remove a user, create/remove a group and assign users different "
+"roles and groups."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:17
+#: 95a233c3e9a04649beb584a17580b0e7
+msgid "Create new user"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:19
+#: 74367cc6392f4d46b56b1377cea360fa
+msgid "To create a new user, click on the *create new user* button."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:21
+#: 43b12c980c154d5e93bceb82ba5839a2
+msgid "|image2|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:116
+#: 16c87914f33f4eb888d9ec6289f2486e 956602af0e9e43c58dfe95505df67929
+msgid "image2"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:23
+#: 0992ffe535a64af6a0025c6be4c691e3
+msgid ""
+"Enter all the details in the *Create new user* dialog and click on "
+"*Create* button."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:25
+#: 430ca482524b41fb8e7dfdafdc7ca06a
+msgid "|image3|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:117
+#: 2a4d2fb6084f4e41a664485c577d30a4 aa3d2b86a403446c963017853fcd2515
+msgid "image3"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:27
+#: cc78f48ce16e47849718dd134ebef5e3
+msgid "The user will be created."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:29
+#: c5307c35c7b54489b06d5cd75775a5de
+msgid "|image4|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:118
+#: 2d6fe3c74ba348778c2eec8b99e10d89 7b781bc543c1417c8c31e88bde1de3f5
+msgid "image4"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:33
+#: 59bd503db9464474b07e9a5617a137ad
+msgid "Remove User"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:34
+#: 4ddd1e2946454c37826bc519b03a0eab
+msgid ""
+"To delete a user, select the user you want to delete and click on *Remove"
+" user* button."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:36
+#: 27512ad2da7b4cc3938a671a1597d3c1
+msgid "|image5|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:119
+#: 0b5c718102a84cafbdd9c6e345178d08 0f7cf2751ab14e5a8704f452aed90111
+msgid "image5"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:38
+#: 176ef8e498a14b9f8c46ddfea1586074
+msgid "Click on *OK* to delete the user."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:40
+#: da0a2279e3334752814a95f7d4267e80
+msgid "|image6|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:120
+#: 21f9ec3948564004b587d70e0a0eb88c 78736ff154e847a6b01a50b6b1c0fdb8
+msgid "image6"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:42
+#: a635e09f9b694627b7bc1d261940cc22
+msgid ""
+"In case we don`t want to lose files that the user had in his workspace we"
+" can transfer them to another user."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:44
+#: 58edd2a143ed468790f69dc1341469d6
+msgid ""
+"To do so, select the user we want to delete and click on *Remove user* "
+"button."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:46
+#: 955c811268d14ce2b54cce4f2bf2a8b8
+msgid "|image14|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:128
+#: 037dc16fbf694130ae3f7c5b679ae2b2 9851a9c288c045eda255ac1c1fe6cae3
+msgid "image14"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:48
+#: 9a6ad450d3b24a63ba41703972b25405
+msgid ""
+"To transfer files, choose *Transfer ownership option* in the bottom left "
+"corner of the *Delete user window*, which appears right after we click "
+"*OK* in the *confirmation window*."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:50
+#: b68fb11f091c46c5a0d56010af601395
+msgid "|image15|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:129
+#: 99ea69e37d07482ba72839d25d2f224c e2054d43ed394c6f89ac106fe3d5b417
+msgid "image15"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:52
+#: 7c0366a2146d4602be799eaa7dafb81a
+msgid "|image16|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:130
+#: 007d9e40ae48476b820cf02705c09e53 ed04520ebb14444db2c09e5a2b0ff47b
+msgid "image16"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:54
+#: 466fdaadad31481a8f468cbf8bb2073d
+msgid "Specify the name of the user to whom we want to transfer the files."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:56
+#: 2b06e0cbcf024f57b732c7a9e2bc74c3
+msgid "|image17|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:131
+#: 2ca883409172468086cc81a0b87f469e 355501ac9c504a1fac81ea2edf059bca
+msgid "image17"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:58
+#: d5acefa637304206bda2006134a3d588
+msgid "Click *Delete user* to finalize the process."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:60
+#: 8716bbe6792e49a1927174b7e8fec48c
+msgid "|image18|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:132
+#: 7153ef2c68954415aec1e88d14ea2418 83f1a756a4184074b888f555e9097c9c
+msgid "image18"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:62
+#: 2707005c5c7e4426b50dfb2eaa60a8f4
+msgid ""
+"If we looked through the files and didn`t find them necessary, we can "
+"remove them by choosing the *Delete assets option*."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:64
+#: a71dfe5b9db34c7087304fd7ed318862
+msgid "|image19|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:133
+#: 4548d4f65b354e9997787a222aad07a9 c5aa0d7f96554e31975ecc9077612395
+msgid "image19"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:66
+#: 9eb30fa0ef49447c98274bf744f8cd4e
+msgid ""
+"If the user didn`t have any logs/folders in his workspace, he will be "
+"deleted right after we click on *OK* in the confirmation window."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:68
+#: 3e84c3482f1f4153970b9c4d4dc60645
+msgid ""
+"If the user didn`t have any logs/folders in his workspace, he will be "
+"deleted right after we click on *OK* in the *confirmation window*."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:72
+#: f4843ef6e60d4ba0aa8192af9017d33b
+msgid "Create new group"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:74
+#: 3783aca5fc684c1c87d41c7c521ea09c
+msgid ""
+"To create a new group, click on *Create new group* button in the *Groups*"
+" section."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:76
+#: 0913bf9fc542483cbea16fb5e9a1899b
+msgid "|image7|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:121
+#: 32fd634892964e2981bd989e27b38ef5 62ad4582342e4f46be4b1577369646d0
+msgid "image7"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:78
+#: 360b2b096027454485ec842b3275203d
+msgid "Enter the name of the group and click on *Create*."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:80
+#: 67059300553c4a2ebe96c8fb19e836db
+msgid "|image8|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:122
+#: 8a76d0bb7e98449990b833d923b9f20c 8f854be233c54e0c9716486b295bdf3f
+msgid "image8"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:82
+#: eba3fcd9cb0a43d38658849ee4129857
+msgid ""
+"The group will be created. To add users to a group, select the group. On "
+"the right-hand side, we can select the user and click on “>” button to "
+"add the users to the group."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:84
+#: e455067e38f44b5eaa768885c92e1886
+msgid "|image9|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:123
+#: 26833ab6d62644328770a732fd2d030e 360ce1c03e2f4036aff8f4db43e38dee
+msgid "image9"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:86
+#: b3f6b1694f794fc496ddc94e793812e6
+msgid ""
+"To remove a user from the group, select the user in *Assigned Users* "
+"section and click on “<” button."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:88
+#: 1fe2a89e761b4b30824e96c52c002087
+msgid "|image10|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:124
+#: 8f3740fd8b1d4189a6398883fc64feb9 a4463d0d5a5b4bcaa69d5b4a9de7e054
+msgid "image10"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:92
+#: 314fa5db713645d4a37e95fb39d7a779
+msgid "Remove group"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:94
+#: 49011054b7c646648c8f72655b8e208b
+msgid ""
+"To remove a group, select the group and click on the *Remove group* "
+"button."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:96
+#: 25ecc3036144483dbee2387e9ed8293b
+msgid "|image11|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:125
+#: 4df4e840a9b5403bacf49ff52573f105 affcb11df17f4dcebbe6718337f9cf80
+msgid "image11"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:100
+#: 8335314f5003403d9a7375ad305a8d8b
+msgid "Assign roles to a user"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:102
+#: 686c354944024838814756fd33aa7759
+msgid ""
+"To assign roles to a user, select the user and choose a role in *Assigned"
+" Roles* section and click on *Save*."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:104
+#: 467a6742ad6845b2a93a1ab3540b2cb4
+msgid "|image12|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:126
+#: 3570704d10e74cafb89eb91c5dac7d90 4e68fcce534642feb347ec9db8186df2
+msgid "image12"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:108
+#: 2bd83331c3bb423cab113dad3961963d
+msgid "Add a user to a group"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:110
+#: 539eb90afb084451920c858f1d8edadf
+msgid ""
+"To add a user to a group, select the user and choose a group in the "
+"*Assigned Groups* section and click on *Save*."
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:112
+#: 65b9c304c52c4109908dd80e5415bf57
+msgid "|image13|"
+msgstr ""
+
+#: ../../theapromoreportal/manageusersandgroups.rst:127
+#: a4e250c4b8ea486489f50d5ed044aac3 cff017f5c2b345838de0591595282e27
+msgid "image13"
+msgstr ""
+

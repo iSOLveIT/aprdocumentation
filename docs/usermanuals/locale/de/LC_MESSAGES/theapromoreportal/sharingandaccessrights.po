@@ -1,0 +1,507 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:3
+#: 68bd897a3c714e578c521daa55980a55
+msgid "Sharing and Access Rights"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:5
+#: 369a527e077846f09ef01fceb86e671c
+msgid ""
+"Apromore allows us to share files/folders. Each file/folder has a "
+"particular security level."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:7
+#: ee8bfe6e7efe414ca4559eaa4338f056
+msgid ""
+"By default, each file/folder is created and saved as private and can be "
+"accessed, edited, deleted only by the owner."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:9
+#: eca26f1cfbf4490dabd4e5a2ab9dc575
+msgid ""
+"It is possible to change a file/folder's security level by selecting it "
+"in the workspace and clicking the |image0.1| button."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:156
+#: 3635eb2847c544bc88ab3fc3e8af7463 36fdb0c0db9a4a2a97d4182ec4518753
+#: 7a9356c1090f461e8760f531c7f9b930 c511e629601b47669a6ba33aadd66918
+#: d5425e223e6a453999d7c51a4fd5f193
+msgid "image0.1"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:13
+#: db72ed27a4d54c1bb00ebfd77447d505
+msgid "Share an event log"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:15
+#: 08fee909153b449a8b0202af446e9482
+msgid ""
+"To share an event log, select the log from the workspace and click on the"
+" |image0.1| button."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:17
+#: d97ab6dc01be4ee4961acbbf6af4464c
+msgid "|image1|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:158
+#: 055dbcd27cca4915ab3f14ab963a5093 ba4c4716ef834c6d8792f29f4720f358
+msgid "image1"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:19
+#: fef003a6b7bf41e7aa071b037e5003c0
+msgid ""
+"File Sharing window consists of two sections: *List of Users* and "
+"*Associated artifacts*."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:21
+#: 9afed970ccd84a32bc2dae5290c6b9d0
+msgid "|image2|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:159
+#: b78a750b0eeb4088936b4d6f9c35498a d81f81729bab43dcbf6b418449d64c66
+msgid "image2"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:23
+#: a405537afdfd44f3a6a921b1d68e2cda
+msgid ""
+"To share all the artifacts (filters/dashboards) associated with a log, "
+"set the *Viewer (full)* permission to the user. To share only specific "
+"artifacts(filters/dashboards) associated with a log, set the *Viewer "
+"(restricted)* permission to the user and tick the boxes next to the "
+"artifacts to be shared."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:25
+#: 23ff08886ccd470594e82adaf6fd9f83
+msgid ""
+"We can find a user or group with whom we want to share the file using the"
+" *Type in a user or group name* textbox."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:27
+#: ../../theapromoreportal/sharingandaccessrights.rst:65
+#: ../../theapromoreportal/sharingandaccessrights.rst:95
+#: 185c498f7998472ba3af222d9a02eb39 1d5c6ca13cb14d97add63d5944dee85e
+#: 9855c0192ea6437db2801018c49db130
+msgid "Click on *Share*."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:29
+#: 75641fb21285496a9c3e1635b4cec847
+msgid "|image3|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:160
+#: 6873f1a8c17b467eac93e620ff195d4f dfe585cfe3de425dbded0e9cfa3f6533
+msgid "image3"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:31
+#: ../../theapromoreportal/sharingandaccessrights.rst:69
+#: ../../theapromoreportal/sharingandaccessrights.rst:99
+#: 7c4cf22165a74fc58d054e1272427f74 b8a095156e3e4e0db52849e6a44031f4
+#: c9b1df27cca343a8859361112b7cdd0c
+msgid "The selected user appears in the users' list."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:33
+#: e38b7ff117884454b9c926e3bd043865
+msgid "|image4|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:161
+#: 3b373778071047fa9713ce9d264a8d1a d9c3e0eee4aa4cea95b48f03a0d1c70a
+msgid "image4"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:35
+#: 2306dec59689488c8b427bc0f259ea74
+msgid ""
+"We can see the list of associated artifacts automatically shared with a "
+"user in the *Associated Artifacts* section."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:37
+#: 332d17298afe41d5ab5c5f9b606ecf20
+msgid "Only an owner or editor can edit/rename/delete the associated artifacts."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:39
+#: 6cca9656a9d3407cbf1bab9eff7de30c
+msgid "|image5|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:162
+#: 85a62d69196a42d89460d8fb2e6e1fde 8a75705b602c4124a6d7210da04a4ada
+msgid "image5"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:41
+#: ../../theapromoreportal/sharingandaccessrights.rst:73
+#: ../../theapromoreportal/sharingandaccessrights.rst:103
+#: ../../theapromoreportal/sharingandaccessrights.rst:142
+#: 32eac85ee2be4b36bab99498ceb7d243 5ddba14b61854808ab90a6c4f61c94c0
+#: b3be00c256ff4bbaa3da8d68b59a5f10 babd0e99ca2c4b09b234778f1c9651ba
+msgid ""
+"To change the access rights for a particular user, click on the "
+"*Permission* drop-down list and select the desired permissions."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:43
+#: d64fee170aa0410a92371a3e40c9d316
+msgid "|image6|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:163
+#: a5882b22193e4c21ad0f960d451322a0 dc43dd0c69ba4398a56002405b1d94c6
+msgid "image6"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:45
+#: ../../theapromoreportal/sharingandaccessrights.rst:77
+#: ../../theapromoreportal/sharingandaccessrights.rst:107
+#: ../../theapromoreportal/sharingandaccessrights.rst:146
+#: 06ae1f1ca81545d39c6818fbe1e4e28d 41c509f8da8d4cde81793d494f590065
+#: c1a6fb14484f4e8586b2d9d437ab8815 f442bd8a813f4fd093950ed391284032
+msgid "Finally, click on *Apply Changes*."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:47
+#: 05e4813a4b714c21bdea0b15bea0b8bc
+msgid "|image7|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:164
+#: 81d4b7fddb724c7eb4770560e9c05f84 c8a3f11da5b1436da5e72c8e804ae4af
+msgid "image7"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:49
+#: ../../theapromoreportal/sharingandaccessrights.rst:81
+#: ../../theapromoreportal/sharingandaccessrights.rst:111
+#: ../../theapromoreportal/sharingandaccessrights.rst:150
+#: 8bee4bfb90024caca6b2838df4c0f968 bab6453b57f649f48571f73194e9dc1f
+#: c2d4c04c8e944cfcbd513c65f258d4e3 f656241aef294f9593e3eb28ffffa92e
+msgid "To revoke access for a particular user, click on the |image7.1| button."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:165
+#: 60f3c36cba394be19dae5b938699f27f 669ab9525cb641dfaaa5301ca95a621e
+#: 9f1d7a3ad1fa4a10a3e33f89b8cb6e6d c461c47ac4464eaa8c40708cfa1b5864
+#: d3ee6489560c4244b661f0b281aef66d
+msgid "image7.1"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:51
+#: 4ff1400365354bb59be552e2b38d5996
+msgid "|image8|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:167
+#: 064e0faccdaa43e6a296c638d2453ca8 d95e7ddc479d40b698f213e892694106
+msgid "image8"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:56
+#: 0c4220f2542a4f93940079f090930c89
+msgid "Share a process model"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:59
+#: d2594a1b43474348b25e591a232837c7
+msgid ""
+"To share a process model, select it from the workspace and click on the "
+"|image0.1| button."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:61
+#: 5cbf2190d3524d1ea3244e3e38506c9e
+msgid "|image9|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:168
+#: cb21e38d62914eaeb1dbbf617bda3792 dcfc4153d20f491bb6f24f2ad1f627b1
+msgid "image9"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:63
+#: 10a296bb2baf48e79ac7a916111ea43f
+msgid ""
+"We can find a user or group with whom we want to share the model using "
+"the *Type in a user or group name* textbox."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:67
+#: 9a8cc5ba625a4da59ab7dcd80a97397e
+msgid "|image10|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:169
+#: 828724903341473599c167ded517c8b8 c8b93acff7cf4185b6cbd30cf91ca9e7
+msgid "image10"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:71
+#: d40ce2bb01f748c9b4a8776a9ad31f06
+msgid "|image11|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:170
+#: b4858c5a3eaa40bea81ade85fa05fa0b dd26592644dd4ba2b759635ff565bd7f
+msgid "image11"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:75
+#: 7de6b8eff2ac4c17ba40985c3b2f46a3
+msgid "|image12|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:171
+#: 3bf91205b4c6409abf97b126a5daebbf edc65b543dd147d89e3d98fe2ac25ffa
+msgid "image12"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:79
+#: bbb0acfdf59f41b692c8dc662eaaa024
+msgid "|image13|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:172
+#: e318d1fa07e24c77b2df3e72c4132f5a f7d817602e38415f883fbf822e4181f1
+msgid "image13"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:83
+#: 1a7845e57e8f4297944a296a08621a7c
+msgid "|image14|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:173
+#: 655ba83bde1b4119affd73d8befee431 f0fd6e68a9794a3388337bd94e20d805
+msgid "image14"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:87
+#: 64d7bd1b28ba42c7a9b580b70e639dd1
+msgid "Share a folder"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:89
+#: f332680a52d949a5b830b9b32d4abf53
+msgid ""
+"To share a folder, select the folder from the workspace and click on the "
+"|image0.1| button."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:91
+#: 528d8355fe2341afa48a6df2fd8ad551
+msgid "|image15|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:174
+#: 783c9df3fe3a4c25878fbe436f350c0b ea44eee8820c45af99ec250680c94f48
+msgid "image15"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:93
+#: 923bd7a72f05491fb0fa394ac28a5c5f
+msgid ""
+"We can find a user or group with whom we want to share the folder using "
+"the *Type in a user or group name* textbox."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:97
+#: 5cc4e3eb746b405ab85d7f80140e6960
+msgid "|image16|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:175
+#: 6b03a08166d14773a92594a795b04cc1 de7f5f3ce6b74a209c3ca3ff17c1e899
+msgid "image16"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:101
+#: e7669b3e3c2d4a9cb47c19818329de15
+msgid "|image17|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:176
+#: 36e52b0f2dc04f929440fd393ad5b86e 65ca67def32c46058e2b4dd1f77fae95
+msgid "image17"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:105
+#: d5101d344fc44083b9fa8eefd8c748b5
+msgid "|image18|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:177
+#: 1961dfec597c46e08125bdc3e118cddd 6e98a6020f3548fc91f46dfe1905b6be
+msgid "image18"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:109
+#: 35cbe2746f644b829a4133516460ff19
+msgid "|image19|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:178
+#: 6f5c4a13c30e4f76ba514ba05e66f38b 7c9e333c96ce42d2a11074d7f5858d7d
+msgid "image19"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:113
+#: 84ab8168f85749d9b5293c19eb23b07d
+msgid "|image20|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:179
+#: 61f90cb1cf4b4153be7e1966f7f5a2df b984ef473e644abab6860081450f049a
+msgid "image20"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:115
+#: 110582a2d7b4402ba2807eb62d2f578f
+msgid ""
+"For security reasons, the files in the folder are not automatically "
+"shared. To share a file within a folder, we must select it individually "
+"and provide access."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:122
+#: ab7963a35fe04aa1921fc966e492fe05
+msgid "Access Rights Management"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:124
+#: 59d9be3cb1cd41e8a85ab2f0bfb484fe
+msgid ""
+"Access Rights Management functionality provides the administrators with a"
+" comprehensive view of all the files and folders along with the users and"
+" their access rights. The administrator can easily browse through the "
+"permissions of the files/folders."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:126
+#: c34a4eee53b443bc9bf8c557513f964e
+msgid ""
+"Only a user with administrator rights can access the *Access Rights "
+"Management* functionality."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:128
+#: bf7ef52a97324f7c9041c69f11150aba
+msgid "To share files/folders, click on the |image20.1| button."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:180
+#: 149f30463fbe4d3980b85422f1145a46 b1be4a74482d42379f48b60932dd0909
+msgid "image20.1"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:130
+#: 744f6611448346debea8e48fea5bcb09
+msgid "|image21|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:182
+#: 0f6f51a587774e3ca1b308fea1ae3123 84e45ca4e66e402ab1f294eaa04ce9b3
+msgid "image21"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:132
+#: 43c2508d37844a9c98e278cebf6ea41c
+msgid ""
+"After the *Access rights management* window opens, select the file/folder"
+" to be shared and enter the username you intend to share the file/folder "
+"with in the *Type in a user or group name* textbox."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:134
+#: 28cbb899ad1b418ea1f71035bf9141de
+msgid "Click on *Share* to share the file/folder."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:136
+#: 1656412c6cd144729f4d2e2fe8adad47
+msgid "|image22|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:183
+#: 107b092876ce4df8b5c96b3f7c32d269 6fe6036044874b5fa569f5e71bb41996
+msgid "image22"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:138
+#: 19ac61276c564a5c80f706aa23acd620
+msgid "On clicking *Share*, the user appears in the users list."
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:140
+#: 9f4ac459d0cf42f7a45b62e2c08726da
+msgid "|image23|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:184
+#: 4af7e2a5913246d69a5ac29c773fbcfe 93693943402d4162a6694f37abd2a7f7
+msgid "image23"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:144
+#: c1c66b5801af43beafa6860a0383bbb9
+msgid "|image24|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:185
+#: 84f8f2ce7e7c44b5822a7c07fda12a49 c6e853c59b13492eaa1b2f43419b5521
+msgid "image24"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:148
+#: b22372685483426390ca4ff5f9434bb0
+msgid "|image25|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:186
+#: fd2ed99e43f74e5a9b348d344f706472 ffafb0f88ea34ac1ad071237414fc7b6
+msgid "image25"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:152
+#: 51feea7ced8e421095c5aff9a288ed86
+msgid "|image26|"
+msgstr ""
+
+#: ../../theapromoreportal/sharingandaccessrights.rst:187
+#: 13630f96f21945589213613242359785 9dcb60d3f25b42d6a535e9452c0ed841
+msgid "image26"
+msgstr ""
+

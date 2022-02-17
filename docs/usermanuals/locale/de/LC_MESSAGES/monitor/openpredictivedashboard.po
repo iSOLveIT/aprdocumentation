@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../monitor/openpredictivedashboard.rst:3 9fef0792253445faac2d67d34314c8ec
+msgid "Open predictive dashboard"
+msgstr "Öffnen Sie das Vorhersage-Dashboard"
+
+#: ../../monitor/openpredictivedashboard.rst:5 c9b3875444db4ecda3e37b1d6b147246
+msgid ""
+"Apromore’s predictive monitoring plugins are available as add-ons to "
+"Apromore Enterprise Edition."
+msgstr ""
+"Die Predictive-Monitoring-Plugins von Apromore sind als Add-Ons für verfügbar "
+"Apromore Enterprise Edition."
+
+#: ../../monitor/openpredictivedashboard.rst:7 3fe9d05e587848bb821ac6c3397d6dc6
+msgid ""
+"Once the predictive models have been trained, they can be deployed to the"
+" Runtime predictive monitoring environment of Apromore, to make "
+"predictions on ongoing cases. The Runtime plugin bundle can be used to "
+"stream an event log from the repository, or hook into an external stream."
+" Either way, the input stream is transformed into a stream of predictions"
+" which is visualized in a Web-based dashboard."
+msgstr ""
+"Sobald die Vorhersagemodelle trainiert wurden, können sie für die bereitgestellt werden"
+" Runtime Predictive Monitoring Umgebung von Apromore, zu machen "
+"prognosen zu laufenden Fällen. Dazu kann das Runtime-Plugin-Bundle verwendet werden "
+"streamen Sie ein Ereignisprotokoll aus dem Repository oder hängen Sie sich in einen externen Stream ein."
+" In beiden Fällen wird der Eingabestrom in einen Strom von Vorhersagen umgewandelt"
+" die in einem webbasierten Dashboard visualisiert wird."
+
+#: ../../monitor/openpredictivedashboard.rst:9 cbe1ed437e5d4c819dede5bff8e8414e
+msgid ""
+"To use the plugin, select an event log from the repository and click on "
+"*Monitor -> Predictively monitor log*. For demonstration purposes, "
+"Apromore repository provides several pre-processed logs under "
+"Examples/Predictive Monitoring folder. These logs can also be downloaded "
+"from `here <https://drive.google.com/file/d/1ZATjpBMSjgxLDKdIvLOJ15NRz_N0b6K0/view>`_"
+msgstr ""
+"Um das Plugin zu verwenden, wählen Sie ein Ereignisprotokoll aus dem Repository aus und klicken Sie auf "
+"*Überwachen -> Protokoll vorausschauend überwachen*. Zu Demonstrationszwecken, "
+"Das Apromore-Repository bietet mehrere vorverarbeitete Protokolle unter "
+"Ordner Beispiele/Predictive Monitoring. Diese Protokolle können auch heruntergeladen werden "
+"von `hier <https://drive.google.com/file/d/1ZATjpBMSjgxLDKdIvLOJ15NRz_N0b6K0/view>`_"
+
+#: ../../monitor/openpredictivedashboard.rst:12
+#: 964c39ed0c1542afaff90110cbeaff6e
+msgid "|image1|"
+msgstr ""
+
+#: ../../monitor/openpredictivedashboard.rst:40
+#: 2fe7eadd345a487eaa5a753467f20d79 530aea799d4e4a36b7aa5da928c94269
+msgid "image1"
+msgstr "Bild1"
+
+#: ../../monitor/openpredictivedashboard.rst:14
+#: c8a4dcfecd1c489cb8cccbba43a89860
+msgid "Create a new Predictive Monitor."
+msgstr "Erstellen Sie einen neuen Predictive Monitor."
+
+#: ../../monitor/openpredictivedashboard.rst:16
+#: 6394b98987e547c9918e21836e6ab5a4
+msgid "|image2|"
+msgstr ""
+
+#: ../../monitor/openpredictivedashboard.rst:41
+#: 5e2329110a144ba8ace190674a1edf05 ba70cfcf4ee14bcd9df83937e04f35ca
+msgid "image2"
+msgstr "Bild2"
+
+#: ../../monitor/openpredictivedashboard.rst:18
+#: ed2b341e0de5469f8b2a8101b216cca8
+msgid "Select the created monitor and click *Stream log to dataflow*."
+msgstr "Wählen Sie den erstellten Monitor aus und klicken Sie auf *Stream log to dataflow*."
+
+#: ../../monitor/openpredictivedashboard.rst:20
+#: 1400c566d6114d1b984d81db20148b12
+msgid "|image3|"
+msgstr ""
+
+#: ../../monitor/openpredictivedashboard.rst:42
+#: 6f2d3d3ff22848ee8fc66fb00b4a1c82 b7d23ae9f8d94b6ca4adc759c97e6a90
+msgid "image3"
+msgstr "Bild3"
+
+#: ../../monitor/openpredictivedashboard.rst:22
+#: 0496a27e1f3844aa965fe643b366028a
+msgid ""
+"Click *Show dashboard* to start streaming events from the log. A "
+"dashboard will show up and populate with ongoing cases:"
+msgstr ""
+"Klicken Sie auf *Dashboard anzeigen*, um mit dem Streamen von Ereignissen aus dem Protokoll zu beginnen. EIN "
+"dashboard wird angezeigt und mit laufenden Fällen gefüllt:"
+
+#: ../../monitor/openpredictivedashboard.rst:24
+#: e7b4e9a3d8b344d7920dcf0f4e27e369
+msgid "|image4|"
+msgstr ""
+
+#: ../../monitor/openpredictivedashboard.rst:43
+#: 69e47e567f4749a08d779fb6b73ac2fa d6da2475e06b4991b9e1a94cfca706d4
+msgid "image4"
+msgstr "Bild4"
+
+#: ../../monitor/openpredictivedashboard.rst:27
+#: 6e0cb2f5e49645e0815130cfab6c6d4f
+msgid ""
+"The dashboard provides a list of currently ongoing as well as completed "
+"cases. For each case, it is also possible to visualize a range of summary"
+" statistics including the number of events in the case, its starting time"
+" and the time when the latest event in the case has occurred. For the "
+"ongoing cases, the Runtime plugin bundle provides the predicted values of"
+" the performance indicators the user wants to predict. For completed "
+"cases, instead, it shows the actual values of the indicators. Color-"
+"coding is applied to help users quickly nail down potentially problematic"
+" cases."
+msgstr ""
+"Das Dashboard bietet eine Liste der derzeit laufenden sowie abgeschlossenen "
+"Fälle. Für jeden Fall ist es auch möglich, eine Reihe von Zusammenfassungen zu visualisieren"
+" Statistiken, einschließlich der Anzahl der Ereignisse im Fall, seiner Startzeit"
+" und den Zeitpunkt, zu dem das letzte Ereignis in dem Fall eingetreten ist. Für die "
+"In laufenden Fällen liefert das Runtime-Plug-in-Bundle die vorhergesagten Werte von"
+" die Leistungsindikatoren, die der Benutzer vorhersagen möchte. Für abgeschlossen "
+"Fällen zeigt es stattdessen die tatsächlichen Werte der Indikatoren. Farbe-"
+"Codierung wird angewendet, um Benutzern dabei zu helfen, potenzielle Probleme schnell einzugrenzen"
+" Fälle."
+
+#: ../../monitor/openpredictivedashboard.rst:31
+#: 9209f8f1ad2545e983adacf68fceac6f
+msgid "Export performance predictions into CSV"
+msgstr "Leistungsvorhersagen in CSV exportieren"
+
+#: ../../monitor/openpredictivedashboard.rst:33
+#: e8c5af2bb62b4813bad0f682a307e7e1
+msgid ""
+"In addition to the dashboard for continuous real-time process monitoring,"
+" the Runtime plugin supports a *regular reports* use case where users can"
+" get reports in a CSV format on a regular basis with the current set of "
+"predictions. These reports can be readily imported into common data "
+"analytics platforms (e.g. Microsoft Excel, Tableau, QlikView, R) for "
+"further exploration and visualization."
+msgstr ""
+"Neben dem Dashboard zur kontinuierlichen Prozessüberwachung in Echtzeit,"
+" Das Runtime-Plug-in unterstützt einen Anwendungsfall für *reguläre Berichte*, in dem Benutzer dies können"
+" Erhalten Sie regelmäßig Berichte im CSV-Format mit dem aktuellen Satz von "
+"Vorhersagen. Diese Berichte können problemlos in gemeinsame Daten importiert werden "
+"Analyseplattformen (z. B. Microsoft Excel, Tableau, QlikView, R) für "
+"weitere Erforschung und Visualisierung."
+
+#: ../../monitor/openpredictivedashboard.rst:35
+#: 9fca9bb1928641fcb9bc76830889838a
+msgid "|image5|"
+msgstr ""
+
+#: ../../monitor/openpredictivedashboard.rst:44
+#: 928e18d8cf47462d88ed6e1affa20763 e18277e548d04d82bdefdf6ece4f54c4
+msgid "image5"
+msgstr "Bild5"
+
+#: ../../monitor/openpredictivedashboard.rst:37
+#: 78c51a3b3e1942e5b1a553e8577627b4
+msgid ""
+"A screencast of this plugin can be found `here  "
+"<https://www.youtube.com/watch?v=Q4WVebqJzUI&feature=youtu.be>`_ ."
+msgstr ""
+"Einen Screencast dieses Plugins finden Sie `hier  "
+"<https://www.youtube.com/watch?v=Q4WVebqJzUI&feature=youtu.be>`_ ."

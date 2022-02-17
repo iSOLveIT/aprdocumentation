@@ -1,0 +1,462 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:3
+#: 1452199e5abd4473b11d40f404d5090d
+msgid "Navigating the Apromore Portal"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:5
+#: 47bd5d84dae64ce3b0bb5525f97adc83
+msgid ""
+"The Apromore Portal is the first and primary interface that users access."
+" One can navigate the workspace folders and perform various actions "
+"through the available plugins. This introduction covers the basics of the"
+" Apromore Portal."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:7
+#: be791241fe8549c9bd376bcdec5f7c04
+msgid ""
+"Please refer to the various entries in the :doc:`user guide <../index>` "
+"for specific plugins information and capability."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:9
+#: 67eede20a0b84b2f9da3b794eaa4ba8a
+msgid "To view the Apromore portal, log in using valid credentials."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:11
+#: d83d4cbe37f44051a8b31fa634ec9376
+msgid "|image1|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:140
+#: e3236c5429c24fa8acf3765e02797a77 f017ca4cba104e10b5fe8b9eb1512e4f
+msgid "image1"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:13
+#: e10d3db4b9b747c4b1de698f7c154ab7
+msgid ""
+"The Apromore Portal appears after successfully logging in. The workspace "
+"folder structure/folders tree is on the left-hand side of the portal "
+"window in the *My workspace* area. We can expand/collapse individual "
+"folders by using the arrow icon next to each folder. We can also "
+"expand/collapse all folders at once using the two icons located on the "
+"top-right of the folders tree."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:15
+#: 979cf25551e7434aacdf3caefd0e41cd
+msgid "|image2|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:141
+#: 7e2ff05e867b48cdbdcd66aee1309deb f3da636524984b89bbf21cb2cf6c6b4b
+msgid "image2"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:17
+#: c87b4bcb526049968b514530594fb928
+msgid ""
+"The central area of the portal contains the file view. The file view "
+"shows folders, process models (represented by a flowchart icon), and "
+"event logs (represented by a logbook icon). We can view the files either "
+"in grid or list format."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:19
+#: 515e6dc47a8b4152ad1b8b19f237bd8e
+msgid "|image3|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:142
+#: 89ebb89483a647ca86c9c69d2e6fad17 ce4a5b3fc4394d38b9022a450faaa41a
+msgid "image3"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:21
+#: fe204697cfc0489d9dd24355b184736d
+msgid "|image4|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:143
+#: 1d188ca4b7134381807e466a57049e9c 78c2e5049bc94c81bd33d0c788bf90bc
+msgid "image4"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:23
+#: a01feb2c27da45498243c3b9d3cf7ce2
+msgid ""
+"We can see the details such as version, last update time, and owner of a "
+"process model in the *Details* view."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:25
+#: 986b9bf52e1e40fc8e2517e33ac9f779
+msgid "|image5|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:144
+#: 2fa602a177f243d8ba0c1416b992fb5c aee1a7060ebd415882277c08e096e424
+msgid "image5"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:27
+#: 3290481f530f4d5a8bedc980200b0a5e
+msgid "The *Details* view is populated only when a process model is selected"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:29
+#: e65b32608c6d45b09ed9f64c61994f77
+msgid ""
+"We can double-click on a process model to edit it using the BPMN 2.0 "
+"standard in the :doc:`Apromore Editor <createoreditprocessmodel>`. "
+"Likewise, we can also double-click on an event log to reverse-engineer "
+"the process map or BPMN model from the selected log in the :doc:`Process "
+"Discoverer <../discovery/discovermodel>`."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:34
+#: 47f7bb23ad96483b93c8360588f937e6
+msgid "File Menu"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:36
+#: ce2c8e3694be43239ba8abea2f6facff
+msgid ""
+"The *File* menu is used to manipulate files, such as uploading or "
+"downloading models and logs, creating a new folder or process model, "
+"renaming a file, and deleting it. The other menus (:doc:`Discover "
+"<../discovery/index>`, :doc:`Analyze <../analysis/index>`, :doc:`Redesign"
+" <../redesign/index>`) provide access to the various process mining and "
+"process model manipulation plugins."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:38
+#: ae17cb1564324b2ab69ff5118b401079
+msgid ""
+"We can access the user guide from the *question mark* button on the top-"
+"right corner of the Portal."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:40
+#: a8feadf9a6184fa094a1b5abaccbc050
+msgid "|image6|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:145
+#: 7d7728c9b5ef4f29ac6e7723e1f8a4eb ee313a14a70e40369af8dcca3248bf07
+msgid "image6"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:42
+#: 4a1c3aa84b504980a2d114456630b51e
+msgid ""
+"The *File* menu functionality is also easily accessible from the top "
+"buttons bar."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:44
+#: 1353a59a0aff408abb86880649823db3
+msgid "|image7|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:146
+#: 5e3253cfd77f4df5ba3771256f435967 74248114ba08468fa301d2ea1892f928
+msgid "image7"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:48
+#: 6c36d5021d9f4a4f95370ca7c0f8b6e0
+msgid "Share file/folder"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:50
+#: ac2c7c3e172e41618dc9cf965e1f6b25
+msgid ""
+"To share an individual file/folder, select the file and click on the "
+"*Share file or folder* button."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:52
+#: da1aa51fc9654b5d90fff45c7aca0226
+msgid "|image8|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:147
+#: 02324f58a8274c0bbfd7951534c30bf3 5e07854b3d9a49bb901c59451a8e5c7d
+msgid "image8"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:56
+#: dd7b0914737b419ebde54eb3e03725f4
+msgid "Access Rights"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:58
+#: 3d1dcae7719e4cbca7e412c9c77db78e
+msgid ""
+"To view a comprehensive list of all the files and folders along with the "
+"users and access rights, click on the *Manage Access Rights* button."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:60
+#: c085b3d83ae44dfd8575c4099c7ab696
+msgid "|image9|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:148
+#: 71acc5286c934820a042ab165fccaf13 e4999225c62f48ef90d603c15272a43e
+msgid "image9"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:62
+#: 72cedada927445b79bfe908265bf8614
+msgid ""
+"Only a user with administrator rights can access the *Access Rights "
+"Management* functionality"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:66
+#: 6e94f8dbcb7a451995d5a4e08c68c9ee
+msgid "Manage users and groups"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:68
+#: 551e14e24bf444e0a83f9d5d3155c7d6
+msgid ""
+"To manage different users and groups, click on the *Manage users and "
+"groups* button."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:70
+#: 0dabf67846f24227999576cbc9ff0767
+msgid "|image10|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:149
+#: 63d0fcec595e4698b691cd3d1696631b af4a87035acd488e8d63a8903aa9a476
+msgid "image10"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:72
+#: 90e6091c63904e99a134d9bc5f21f6e7
+msgid ""
+"Only a user with administrator rights can access the *Manage users and "
+"groups* functionality"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:76
+#: 2d27bf8db55f473ab6df4c6163e56bcb
+msgid "Rename File"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:77
+#: d961083cc23d4b1294cbf5fe9958e3c7
+msgid "To rename a file, select a file and click on *File > Rename*."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:79
+#: 6fede81423b44928bf6ea620197dafd5
+msgid "|image11|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:150
+#: 242ddd92fee14779a1b655aca70de1f7 53c9207f696f4ef59782fbce901296dd
+msgid "image11"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:81
+#: 3675590be25a4b548b8ee0b2ee6e64e3
+msgid "Enter a file name and click *OK*."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:83
+#: 971ff27f56df4c72abfbc3ff1bb1064f
+msgid "|image12|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:151
+#: a3d9a941d0724b02a5ce6f9bd0ff4887 c466aa78ed45417c942df93e1f5f2306
+msgid "image12"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:85
+#: 08f0a0fba0bd416d857aa0701fa970fa
+msgid "As an alternative, we can click on |image20| to rename a file/folder"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:157
+#: 272f8113d0fc469e97df30072908337b faf02fe1a5f341a581b69fa9d5eb2a12
+msgid "image20"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:90
+#: 4243ea9382d64970a352ea779ebf48a7
+msgid "Delete File/Folder"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:92
+#: 5bac784ed7d2450f89371e6514ad8403
+msgid "To delete a file/folder, select a file and click on *File > Delete*."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:94
+#: e4a1b00147e041c7b953e137edf7da18
+msgid "|image21|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:159
+#: 1ed78085fefd4b78a27fd11f84ce9ec5 5a1fb593652e4c1e9bd169527cc2478a
+msgid "image21"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:96
+#: e4b91d44af0744b0b8e823428a2a2a3c
+msgid ""
+"If a process model has multiple versions, the model with the latest "
+"version is deleted"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:102
+#: 3858413a2fca4653a7b3aa89cd5a6dca
+msgid "Cut/Copy/Paste files"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:103
+#: 997467a390724e94950a41d1ef4c8020
+msgid "To copy a log/model, select it and click on the *Copy* button."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:105
+#: f5900804fce24dc2b919ca4aa1ade6cf
+msgid "|image13|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:152
+#: 5313bc2be9ad4885ab761a926743aa68 765bf932f85048078e1576bf89d1ec6e
+msgid "image13"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:107
+#: 69e03022aacc4ee29d3e503a21b339a1
+msgid ""
+"Paste the log/model in the desired directory by clicking on the *Paste* "
+"button."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:109
+#: fe226a38d7cd463eb4a2dab2079f940d
+msgid "|image14|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:153
+#: 80a87321655045c6acf1543b354bb5ec dd8d04d36e52482ebcc4a0343e6bf2b8
+msgid "image14"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:111
+#: 0943852c81a2443196020b8b1a5d0358
+msgid ""
+"To move a log/model, select it and click on the *Cut* button and then "
+"paste the log/model to the desired directory."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:113
+#: 87a3aefdd00d4845bef8c240bc39b2bd
+msgid "|image15|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:154
+#: 9f8454cbf12c4b1fa065062401e256b6 a254041c43064397891137f437672fa0
+msgid "image15"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:118
+#: a7eba2ac49fc4abe84a16c60729c799e
+msgid "Search File/Folder"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:119
+#: 215769ff3f5e47908e772654197049ad
+msgid ""
+"We can search for specific folders or files by entering keywords in the "
+"textbox. The results appear in the file view."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:121
+#: ab04c16a48bb41b9abaca50aad290099
+msgid "|image16|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:155
+#: 8806b61ab2c84e6da72f8f5a07a67fc6 89bf1805d4274ba198148f757f46f026
+msgid "image16"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:125
+#: ebefe9ae812f4dbbbbeac1fac62c2bad
+msgid "User Menu"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:126
+#: 51fdb7f2533841d18f3f5af23ebe45da
+msgid ""
+"To check Apromore’s version number and the list of available plugins, "
+"change the password and sign-out, click on the *user menu*."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:128
+#: 88937938137a438c879fb640a508a142
+msgid "|image17|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:156
+#: 2e522153cc6f4f6bb73910f3c6f8d92d 6efd6b65a5c94daf947cdfc197ce2666
+msgid "image17"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:130
+#: 88ff76293984480fbbb1f15013d5ee0d
+msgid ""
+"To report a bug or any other problem related to Apromore, select *Report "
+"Issue* from the user menu drop-down."
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:132
+#: 78176ceb529a4a31abad73148249c31c
+msgid "|image17.1|"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:160
+#: 244ff41a09554c7ba75d9a2a1f5fe659 8d72df43282248018db4840561f760ab
+msgid "image17.1"
+msgstr ""
+
+#: ../../theapromoreportal/navigatingtheapromoreportal.rst:134
+#: a4c8f0e0ad5d4b25b9c88e647108aa2f
+msgid ""
+"If possible, please mention the steps you performed that led to the issue"
+" and also attach the related logs so that the Apromore team can quickly "
+"and effectively address the issue."
+msgstr ""
+

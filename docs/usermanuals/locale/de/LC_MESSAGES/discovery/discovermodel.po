@@ -1,0 +1,526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../discovery/discovermodel.rst:3 50136fccaf3c424b8541e6ba85ed62cb
+msgid "Discover model"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:5 5eb82df8334141f48f3ca9c6c258d9d4
+msgid ""
+"Apromore allows us to discover a process map or a BPMN model from an "
+"event log. A process map (a.k.a. directly-follows graph) is a visual "
+"representation of the log as a graph where nodes capture process "
+"activities and directed arcs between them capture sequential order "
+"relations between the activities. For example, an arc going from activity"
+" *Accept order* to activity *Check order* indicates that in the log, we "
+"can observe that process cases flow from *Accept order* to *Check order*."
+" Process maps are a simple yet effective means to understand the basic "
+"order of relationships between process activities. As such, they are the "
+"most common type of model discovered by commercial process mining tools."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:9 7231f073ed65462bb057f96bac983da7
+msgid "View process map"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:11 79f5685578774b73bbe2ac1686bc5fbe
+msgid ""
+"To view the process map, double-click on a log. Alternatively, we can "
+"select a log from the repository and click on *Discover > Discover "
+"model*."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:13 2d8181877ce8414e9c632a46181bbaed
+msgid "|image1|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:167 b60bc7857e9144fca3532a100000b3b9
+#: e5c96de698ab4834b7d384eef348f5ec
+msgid "image1"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:15 bfeddb242ea5491d9ad7d403510e4a09
+msgid "A window will open up, showing the process map discovered from the log."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:17 539df6028339484c90c31990a1b20999
+msgid "|image2|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:168 45e89039f80940bbbfade994b4ec6cbe
+#: 68eefa0b119d4915b6296f9d96ec9635
+msgid "image2"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:21 5690df4ac18a438a8a6ea72b03c7a17d
+msgid "Abstraction Settings"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:23 5baff5523a264328aa6b2540a17c880e
+msgid ""
+"We can adjust the complexity of the discovered map by increasing or "
+"decreasing the frequency or duration of nodes and arcs visualized in our "
+"process map. The default values for the nodes and arcs sliders are 100% "
+"and 10%, respectively."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:25 78178144ae9d484193ce5e85c6cd9c73
+msgid ""
+"We can abstract a process map by *Case frequency* or *Average Duration*. "
+"For example, if we abstract by case frequency and shift the arcs or nodes"
+" slider towards the left, more edges/nodes with low case frequency will "
+"be removed from the process map."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:27 86cca821b7b940bfbba0da7056cd1204
+msgid "|image3|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:169 7465fffd61fb4848bed9f47a2fa67696
+#: bb718ba266f74165a57e952ae84322c6
+msgid "image3"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:29 4d519771c453491b80e0a88fad2790c6
+msgid ""
+"Similarly, if we abstract by *Average Duration* and shift the arcs or "
+"nodes slider towards the left, more edges/nodes with low average duration"
+" will be removed from the process map."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:31 dd7b8c113acb40f7975b57f6fbe20556
+msgid "|image4|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:170 e9cf6e6e08a84775bac49f462ce44cde
+#: fbebdba4b3b34c36ae5a28a41a08201c
+msgid "image4"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:35 9ffb0bff16244bf7bfd0c5c8085c494c
+msgid "Log statistics"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:37 120011f8e95841bd9e5f2e9a891a2674
+msgid ""
+"We can also check more detailed statistics. To inspect individual cases, "
+"use the *Case Inspector*. To open the *Case Inspector*, click on the "
+"number of cases under the *Log statics* section."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:39 dae17a49b628448cbf5867fe00600444
+msgid "|image4.1|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:171 186f5f16ffdf4b129ddbdd2ad4f9b2cf
+#: 50c549c9b0fa497b89cabdd81f8af2cd
+msgid "image4.1"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:41 21f8892e038b404ba74dc65e0975c2e9
+msgid "The *Case Inspector* window will open."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:43 4526f71c9f1643739c90f4b7c66a1522
+msgid "|image4.2|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:172 007e350f533a4b08b8764e305a8036bc
+#: 1198b0993ac1495d8253af8f3698741b
+msgid "image4.2"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:45 8689d8220e25460aaefc60db1f95a2a3
+msgid ""
+"Click on a specific case to visualize it exclusively in the Process "
+"Discoverer."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:47 efae103ca2aa49fa88a289c452caeb77
+msgid "|image4.3|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:173 16093e1b6e294cf494a975ac9855326a
+#: b10be0abb93b4ba797cc6bbfe9e73d68
+msgid "image4.3"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:49 af853882751845e7ad36b6dd1b5b2584
+msgid ""
+"To check the length of the cases, click on the *Activity instances* "
+"column. Cases will be sorted from the shortest to the longest."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:51 dd02ede3fbae49fc94ed11e6db3665bc
+msgid "|image4.4|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:174 a5a36e576e4e472a90c38d281710fcc1
+#: e9d438ff9fae414ca29206f5d3dc4f75
+msgid "image4.4"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:53 d84de19dbbb1421393a8ecca4c919e91
+msgid ""
+"We can also sort them by pathway, using the *Case variant ID* column or "
+"by the Frequency of the pathway - *Percentage(%)* column."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:55 a4a3e64241f04522aaa1343f85c5e5fa
+msgid "|image4.5|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:175 a46cc90906b8431dbff5a5250df21baf
+#: d2cf666eaae84b41911d646b13e40b58
+msgid "image4.5"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:57 5a72f40d541641d2bf436b0ff648044a
+msgid "To download the list of cases and their statistics, click on *Download*."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:59 1745c413d2d44c608501a7699c0a601d
+msgid "|image4.6|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:176 152019eda09e4cf8a10c38bbd18108a0
+#: 2e821a3feecd484baecaec00d4735502
+msgid "image4.6"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:61 ff5833b751734988ad3c0ae78b09a9cc
+msgid ""
+"To inspect individual activity, use the *Activity Inspector*. To open the"
+" *Activity Inspector*, click on the number of activities under the "
+"Activities chart in *Log statics* section."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:63 82ba9be00a6842078306e9b6af2cac4f
+msgid "|image4.7|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:177 64adfd743ff04f5da9b51f2bf137ccbd
+#: b1d307cc274142d1bbc5cc63eaa742ba
+msgid "image4.7"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:65 6e852bd4bd0e40ee9cf4b2e4cf80989e
+msgid "The *Activity Inspector* window will open."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:67 67f71dc29a8543228af52231aec51ee7
+msgid "|image4.8|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:178 4e6593b9deed44c59ba2e28ca01ce14c
+#: d5a41409169441f29ebae4ef6821830a
+msgid "image4.8"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:69 ed4514988c174e4ab24bdf1a20d9dc37
+msgid ""
+"To check the length of the activity, click on the *Activity instances* "
+"column. To check activity variant frequency, click on *Percentage(%)* "
+"column."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:71 cf4b1abd0f8946899714f9a7c6c34562
+msgid "|image4.9|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:179 0b20f6aa5b2d4fd783eee68561292de5
+#: b42afa37bc9f4ca7a616156f7b798d0c
+msgid "image4.9"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:73 b9deda67eeae40649ac7a1be80c6f9d6
+msgid ""
+"To download the list of activities and their statistics, click on "
+"*Download*."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:75 c7f160e9972944298c2735a6ccfab49e
+msgid "|image4.10|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:180 1b8b7e711a2d4ebb9a570d81fb48faa7
+#: 6a6bc84a030d489180e25fefb66eb055
+msgid "image4.10"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:77 fd2be98339f8403b8aa208bb5d98ed6c
+msgid ""
+"To check the individual activity statistics, we can simply click on the "
+"activity. We can also select multiple activities at once by pressing "
+"*Ctrl and dragging the mouse over* the part of the model which consists "
+"of these activities."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:80 2fe23bb8016742e09c330de8c6471b62
+msgid "|image4.11|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:181 3157b0d451004e83ab5e03e450065e95
+#: edd7283761bd4c2b8ded29d32334aca4
+msgid "image4.11"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:84 7a5b4aaae907457295404e59f3f83a49
+msgid "Visualize by Frequency"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:86 5faf55a6e9444cfa8b36f262e53da197
+msgid ""
+"We can also view the event log's simple statistics, such as the total, "
+"median, minimum, maximum, and average number of times an activity is "
+"executed. This information is provided as a label on the activities/arcs,"
+" color of activities, and arcs' thickness. The darker the blue color, the"
+" higher the number of times that activity has been observed in the log. "
+"The thicker arc, the higher the frequency of that arc. We can use the "
+"Frequency drop-down list in the *Visualization settings* section to view "
+"different statistics."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:88 a6308221c9c849898aa51e550e730bdb
+msgid "|image5|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:182 3146be59f2994b9180e33880f0a84db3
+#: 5aa73089ba3f4d83ac2f652730d63ce9
+msgid "image5"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:92 7cfc6a20c86045b3a9cf82311ebc6fdd
+msgid "Visualize by Duration"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:94 b43494454c7b4bc2b445289ed6e86827
+msgid ""
+"Additionally, we can view the statistics on the time performance of the "
+"activities and arcs in the process map using the *Duration drop-down "
+"list* in the *Visualization settings* section. These are total, mean, "
+"median, minimum, maximum, and average duration of each arc (indicating "
+"the waiting time before starting a given activity, once the previous one "
+"has been completed), and total, mean, median, minimum, maximum, and "
+"average duration of each arc duration of an activity (a.k.a. the "
+"activity’s processing time). Suppose the log only has completion "
+"timestamps for each activity and not their start timestamp. In that case,"
+" these performance statistics will combine both processing time and "
+"waiting time into a single time statistics visualized on the arc. At the "
+"same time, activities will be shown as having an instantaneous duration."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:96 e22b588ce79044508e1c5113667bd99a
+msgid ""
+"Like frequency statistics, we can also visualize time performance "
+"statistics via labels on activities and arcs and via colors and line "
+"thickness (on a red scale) for activities and arcs."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:98 94d1eedbf1f44d03b86bb30734a66d3e
+msgid "|image6|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:183 06704e943f494921841393ab2b3ba579
+#: f267847a5a534afcb55f69c4b80bfb3a
+msgid "image6"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:102 79edcd01677445da86200f9e8b818db9
+msgid "Visualize by Frequency and Duration"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:104 ac1a62dbd72d41d4bbb3ffc60a2a65d1
+msgid ""
+"We can also view both *Frequency* and *Duration* at the same time by "
+"clicking the |image6.1|. For example, if we are viewing our process map "
+"in *Frequency* mode, we can also view the *Duration* as a secondary "
+"metric by clicking on the |image6.1|."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:184 10a9cae950464ba3aa6e0ea97cc68c76
+#: 842bd442ad5c4c7b8b525e72610a8106 f6d8807e9a62445db617521d85ee63de
+msgid "image6.1"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:106 1ba7b0ac146a487ea9d0a0bd99ce91f9
+msgid "|image7|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:186 dda3fbc547424a5797f6b8e5a1cbbb4a
+#: e630844152184755a217523deab700f9
+msgid "image7"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:110 a8df243c6bee4ec2bb98731adf43cd75
+msgid "Visualize by Different Perspectives"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:112 0dccdd5f4d284c1db55933d6dd3794de
+msgid ""
+"Visualizing the handover between activities is not the only way a process"
+" can be analyzed. There will be times when we may be interested in "
+"assessing if a specific resource or group of resources are overloaded "
+"with work. When clicking on *Perspective* we can decide which attribute "
+"of the log will focus on the process map."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:114 ac8f8836c5e94f7ab2be1f8c9c3cbf44
+msgid "|image8|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:187 9d1d127672444fea98587232fa4e21a6
+#: e4071c8e33454b978417a059805ead69
+msgid "image8"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:116 fa6db3f6eeb941179a0d29aa0a14ffb6
+msgid ""
+"For example, to visualize the handover of work among a group of "
+"resources, we can select the *Resources* option. This option will map "
+"each actor's organizational role in our process to a node and connect two"
+" nodes if a handover of work occurs between the two nodes."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:118 aef0063dd49c462f8945340e57ae89e0
+msgid "|image9|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:188 6915d1d7ada04f1ca3b6a5bc5e87757a
+#: 91a5f1c5271042fb832677a408d1b79a
+msgid "image9"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:122 9e212ef7106a4ea0a318964f0dfce17c
+msgid "Filter Log"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:124 7f28f64493f249b3952bb7bab12f3fd3
+msgid ""
+"When analyzing an event log, we may be interested in isolating a "
+"particular type of behavior or removing a specific activity. An event log"
+" can be filtered by clicking on the *Filter* icon and creating a new "
+"filter that fits our needs. For more information on the optimal use of "
+"*Filter*, we suggest viewing the `Filter Log manual "
+"<https://apromore.org/help/user-manual/discovery/filter-log/>`_."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:126 26a5bae4061c45b089dd810de9fe5162
+msgid "|image10|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:189 9c607c6989bb49febdca77ca54c7c07c
+#: afdd416aa9f3420aa0a5e2bed08726d9
+msgid "image10"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:130 dbfbb573857c4dde9b829f259be1481b
+msgid "View BPMN Model"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:132 bab53cc403a84593994bb029c1b3fb35
+msgid ""
+"Whenever the insights deriving from the analysis of a process map are not"
+" sufficient, the same functionalities are offered on top of a BPMN model."
+" Changing the view from *Process Map* to *BPMN model* will automatically "
+"discover a BPMN model from an event log. When visualizing a BPMN model, "
+"the slider *Parallelism* offers the possibility to adjust the amount of "
+"parallelism (e.g., AND and OR gateways) discovered by the plugin."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:134 e8c2812f27e84d25854adff9ef0a419b
+msgid "|image11|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:190 63470d4bb36b45fb9d83e69b671c000b
+#: b5e6082b1d814dd1a0b1bda8390c7cb9
+msgid "image11"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:138 22d7922f2b6d4388b17469cb45e84cea
+msgid "Export Process Map/BPMN Model"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:140 4d76bef0f64a4d5eaa605b47a3c708c9
+msgid ""
+"A filtered log or discovered process map/BPMN can be exported by clicking"
+" on the different save buttons to export the model as a “.bpmn”, a PDF, "
+"PNG, or a JSON file."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:142 a57f8a41eb584c93bb8b0699085a020a
+msgid "|image12|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:191 1f61166866dd464ab442680f0b14a3ec
+#: 9c30d53fc60644679fa1e631a8265db1
+msgid "image12"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:146 5719d0ca60b44f0495f43f2044104dbc
+msgid "Animate Log (Process Map)"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:148 c64effd2dc9e4abf9aba3b24e7aa1744
+msgid ""
+"The *Animate* button allows us to replay the log on top of the process "
+"map, using the *Animate a log* on top of the process map feature."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:150 6b40ccca1c3a4b1da2d3fbb8f72d2a3f
+msgid "|image13|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:192 21065bf4b1a7493eaabf25e754dc5469
+#: f572feb60d454c6da93cffca2ca62c2f
+msgid "image13"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:156 20bf0c1ff667499fab76e173c40bc2eb
+msgid "Search Activity"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:158 cc7bc1574b97420a900ef79410674b4d
+msgid ""
+"We can also search for an activity by using the search bar on the top-"
+"right."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:160 4a42146dbb0e455394277406c06b1abd
+msgid "|image14|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:193 4d76ba73ea7e4d21a95822074cc8ae87
+#: a722d21235004e56b1291daea6f54fa1
+msgid "image14"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:162 fbc51ab385434317ae0349a47fd0aac6
+msgid "For ease of view, the search results get highlighted in the process map."
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:164 1529ca548e47407ba9af413c29c2dea6
+msgid "|image15|"
+msgstr ""
+
+#: ../../discovery/discovermodel.rst:194 3b467980fe164641a48fe2bfd090dffb
+#: 920a03bdf4e54c7bbe65b7914028872c
+msgid "image15"
+msgstr ""
+

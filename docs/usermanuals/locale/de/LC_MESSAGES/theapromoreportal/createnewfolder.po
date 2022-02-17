@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../theapromoreportal/createnewfolder.rst:3
+#: 445a36924df447879e6b8fbd26655ae8
+msgid "Create new folder"
+msgstr ""
+
+#: ../../theapromoreportal/createnewfolder.rst:4
+#: d742c12bd5b745b68ddf1c19fd8ac99e
+msgid "Folders help to organize the files for better management."
+msgstr ""
+
+#: ../../theapromoreportal/createnewfolder.rst:6
+#: af08eecd477245d0afc2ed60290b0058
+msgid ""
+"To create a folder, browse to the directory you want to create a folder "
+"and click on *File -> Create folder*."
+msgstr ""
+
+#: ../../theapromoreportal/createnewfolder.rst:8
+#: 4098bb74b7734382bbd86473acd8f793
+msgid "|image1|"
+msgstr ""
+
+#: ../../theapromoreportal/createnewfolder.rst:20
+#: 56d065ebec2d4beba10a9189fab74bab 683e516a3a3e49fd9f477faf1684274a
+msgid "image1"
+msgstr ""
+
+#: ../../theapromoreportal/createnewfolder.rst:10
+#: b147ff5b44ea46c2a9d6f9c0c696d757
+msgid "Enter the folder name in the window displayed. Click *OK*."
+msgstr ""
+
+#: ../../theapromoreportal/createnewfolder.rst:12
+#: e57934a4c00d47ecae8029e655dcb7af
+msgid "|image2|"
+msgstr ""
+
+#: ../../theapromoreportal/createnewfolder.rst:21
+#: 504f3676155c4f56b68d871e1152b994 f95c6c33221845278b76adf97aac4605
+msgid "image2"
+msgstr ""
+
+#: ../../theapromoreportal/createnewfolder.rst:14
+#: d2bd03ae94c242e6807e02d84adc6bab
+msgid ""
+"The folder will be placed into the location/repository in which the user "
+"had initiated the plugin."
+msgstr ""
+
+#: ../../theapromoreportal/createnewfolder.rst:16
+#: 2dddcaa449eb4b52bb8f00e88b67b88b
+msgid "|image3|"
+msgstr ""
+
+#: ../../theapromoreportal/createnewfolder.rst:22
+#: 5165405c1fea41b3a4e5083e60d4dc64 86a9ee5fdc4f4fb0bd7d8505b9fb970d
+msgid "image3"
+msgstr ""
+

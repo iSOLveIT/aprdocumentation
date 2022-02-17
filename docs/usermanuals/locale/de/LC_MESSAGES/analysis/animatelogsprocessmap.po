@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../analysis/animatelogsprocessmap.rst:3 486111c2bafe426b946db3dd8fad5606
+msgid "Animate logs (Process map)"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:5 3a7e776694044669b90d099f041e382b
+msgid ""
+"Apromore allows us to replay an event log on top of its process map. To "
+"use this plugin, select an event log from the repository and click the "
+"*Animate* button in the process discoverer."
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:7 32a79d12aaf44bd8ae3688aeedd5814a
+msgid "|image1|"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:51 c510588087344c289808eed1df5060ce
+#: d0e224161b704e64b0baa42418c4c5b1
+msgid "image1"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:9 a0963fb45679481a81a79e8dd699ce62
+msgid "The process map within Editor along with the timeline is displayed."
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:11 1ab11980d9ba4bde8d2530ceb479d83e
+msgid "|image2|"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:52 6736d322de594dccbef309f98c5b7e4d
+#: 93c377ebd8204e3c97a0d61bab83d346
+msgid "image2"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:13 41e1dcf7c4384d6eaeaeefa424eddc54
+msgid ""
+"Once the animation button is clicked, other functionalities like "
+"abstraction and visualization settings are disabled."
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:15 a2cdc8391bdc4ae1bf274193a7bacc62
+msgid "|image2.1|"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:53 3287a5cfc0fb45f4aa6ed74997365fb5
+#: 6cdae2d20e5442529f9907d62f3282cc
+msgid "image2.1"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:19 b7de83a31a6948f788255e082f2897af
+msgid "Standard Controls"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:21 47175ca36ffc4cdaba448ee633f13b2d
+msgid ""
+"The animation will start by hitting the *Play* button. Each token "
+"represents the progress of a particular process instance, i.e., a case."
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:23 e174c8ad247e4a0f915e7f52adc41a3f
+msgid "|image3|"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:54 06a2f9134ec347d5b4274b325868d218
+#: 439a30e9fec94deda2e546c999eff783
+msgid "image3"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:25 ce430922dd294ced92b902c5237304ef
+msgid ""
+"Standard controls are available to play, pause, fast or slow "
+"forward/rewind the animation and to skip through the end/beginning. The "
+"replay speed can be changed with the vertical bar. These actions are also"
+" available during the animation. If the view on the process map is zoomed"
+" in/out, or the process map layout is changed, the tool will try to adapt"
+" the animation to the new position of the elements on the canvas."
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:27 c8a2ba26868d4adc97b97d4c48c22cb6
+msgid "To zoom-in/zoom-out, press *Ctrl* and use the mouse scroll wheel"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:29 dbdd5db432914ee49121c2155c9afc68
+msgid "We can change the color of tokens by clicking on the *pie chart*."
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:31 4bee5f6242a94b149d925dd2c0c1fdc1
+msgid "|image3.1|"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:55 21bcdd4822e04339bfa44ba2d8ad1841
+#: 5a5e5cbae4084cd6a3a9bc791335e938
+msgid "image3.1"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:33 0e98cf4dbf7348b7ad418543769b275e
+msgid ""
+"We can either choose from the default colors or add the customized ones. "
+"To add a customized color - enter a color code or drag the mouse over the"
+" palette."
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:35 51f7f40087f64d019325d46e4d3e3047
+msgid "To check log-related statistics, hover over the *pie chart*."
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:37 163b6f3ca885457380a3a1d012e8398e
+msgid "|image3.2|"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:56 43c64852946b4797b669ccbe10421df1
+#: 98eff67958a04733ade24ba34843c3ce
+msgid "image3.2"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:41 eff0cc7ad5cd47cd92f38f079c067438
+msgid "Token Traversal"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:43 b8d59b635ec545fcb8ef4cb0c118d292
+msgid ""
+"A token traversing an activity indicates that the case captured by that "
+"token is performing that activity. However, if the token goes around an "
+"activity’s border, this indicates that the particular activity is skipped"
+" in that process case."
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:45 6f1637e674054ee69931dbda09508ed7
+msgid "|image4|"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:57 10e61d2aba114cd395a7166e08aa5453
+#: b3ead64fe50f46e2a60fa4e137868792
+msgid "image4"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:47 8cffe23011cb4cf5b04dc76f1e4cab95
+msgid ""
+"A token of a larger size or a large number of tokens slowly traversing a "
+"given path may indicate a performance bottleneck, e.g. cases pile up in a"
+" particular point of the process due to resources unavailability."
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:49 166934c05ae24ea9ad4515f670ca6b8d
+msgid "|image5|"
+msgstr ""
+
+#: ../../analysis/animatelogsprocessmap.rst:58 2c0e622fcb624ba49c4dc9ea1ac40236
+#: e2d1d02432dc4c3e9a911ec6a49a89a8
+msgid "image5"
+msgstr ""
+

@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../redesign/mergemodels.rst:3 67529312b24e4a6081d824df6566dec3
+msgid "Merge models"
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:5 e77f5329f05741b0845d1f6f8631b91b
+msgid ""
+"Apromore allows us to merge models and animate a log on top of the merged"
+" models."
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:7 9eea021fdaa34405a7c99247d25f141d
+msgid ""
+"In order to merge a model, select two models and click on *Redesign -> "
+"Merge Models*."
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:9 c25313a74fb7497caa8f89342dfd2600
+msgid "|image1|"
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:23 98bfc55838364342b77dd4bae534e026
+#: bb43fcc629674a7ea0195ad0110abaf3
+msgid "image1"
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:11 60f6f7cb45b246c8a0a5b77350a96049
+msgid ""
+"A window will pop up which will allow us to name the merged model. Enter "
+"the name and click on *OK*."
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:13 8be351cbf48645bba933471c94b5ba66
+msgid "|image2|"
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:24 5061678885ef443cb2c3c92fd3b0384f
+#: 51fb08cd88194fb7a308a9a642733f1c
+msgid "image2"
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:15 47adb873cb154bdc9318af381ec983db
+msgid "The merged model will now appear in the repository."
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:17 3dae9b6fc578457891f5939929aa9969
+msgid "|image3|"
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:25 0f9e08c49aa94f929c1ad5899923eb79
+#: c7dd83c6038549ceacf0260a3da65355
+msgid "image3"
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:19 60b423cce21f464aa7e0b4f6b8c97b43
+msgid "We can view the merged model in the BPMN editor."
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:21 bc97da86230a4868bfdaae10064307f7
+msgid "|image4|"
+msgstr ""
+
+#: ../../redesign/mergemodels.rst:26 ab088af2a55e44adb8a3f082a0db55e3
+#: d567c08fcdb14c5fb0508c6eb84e87b2
+msgid "image4"
+msgstr ""
+

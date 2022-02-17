@@ -1,0 +1,1253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../releasenotes/releasenotes.rst:3 909052faa79741a9a8ca50b1b0081feb
+msgid "Version 8.0"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:5 948218ffd6264ad193df32954f9c6301
+msgid "*Release Date: November, 2021*"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:9
+#: ../../releasenotes/releasenotes.rst:100
+#: ../../releasenotes/releasenotes.rst:170
+#: ../../releasenotes/releasenotes.rst:224 17faee9a8aac4396a94e7b59fb9a0ea1
+#: 7dd02318fcdb4b628ea63e56a02d0405 9e2beaabba6d470b9274dd033ce35403
+#: ce02fef471f543eab0714ea60fdd83aa
+msgid "Feature/Enhancement"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:11 70beebe6408e47a6b4a88aa40694acd8
+msgid "**Custom Calendars**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:13 56447a6ba253401da9635c448caa63da
+msgid ""
+"Apromore now provides the ability to create and edit custom calendars and"
+" to associate a custom calendar with an event log. When creating a "
+"calendar, you can include public holidays based on your location and add "
+"custom holidays to the calendar."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:15 86c0a7e9f3204210b2d14be5fa6d9cdd
+msgid "**Delta Analysis between process models**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:17 f852bfbbaeed4a808190a358295bb97b
+msgid ""
+"Apromore now allows you to compare two BPMN process models to perform "
+"delta analysis. For example, you can use delta analysis to compare a "
+"process model discovered from an event log (capturing the as-is process) "
+"with a reference process model (capturing a to-be process). When you "
+"compare two process models using delta analysis, the tool displays the "
+"differences and allows you to overlay the differences on top of the "
+"process models."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:19 64354aba8c854b3492785dfbafe5d6b0
+msgid "**Filter and Dashboard Templates**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:21 0ced4d03c74545f486f8de89e0af6c74
+msgid ""
+"Apromore now provides the ability to save a filter or a dashboard "
+"template that you have defined on an event log, and to apply the saved "
+"template to another log. For example, you can create a dashboard template"
+" on an event log containing all the cases of an order-to-cash process "
+"that completed in October, and then copy it to an event log containing "
+"all the cases of the same order-to-cash process for the month of "
+"November."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:23 5d7e658acd47405398fd28780ddfb2bf
+msgid "**Internationalization**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:25 f5547b1c0c5f49118109789ab069f625
+msgid ""
+"Apromore now provides the option to switch between different languages. "
+"Currently, we support English and Japanese, with German coming soon. New "
+"languages can easily be added."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:27 b324fac30c4f42e182a15a5e24337f8e
+msgid "**Support for Group Authorization**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:29 b7a54291da974d48b5112fc5060b0a59
+msgid ""
+"Apromore now supports group-based authorization using groups extracted "
+"from an external identity provider (SAML or LDAP)."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:31 8079396aca5544fd91f46574e91360e7
+msgid "**Anonymization**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:33 ce96b27b8d5b4fff83d02cd1207fa277
+msgid ""
+"You can now choose to anonymize one or more columns during log import by "
+"selecting the “anonymization” icon on the columns you wish to anonymize. "
+"For example, you may anonymize sensitive information such as case IDs and"
+" resource names."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:35 2e775362d6394e51838a1dafa922e85d
+msgid "**Automatic data ingestion via the S3 connector**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:37 bd65e3c2f4d34793b4955ae2bad8ec4c
+msgid ""
+"You can now ingest data into Apromore via our AWS S3 Connector. The logs "
+"can be pushed into S3 buckets via data ingestion pipelines, and picked up"
+" automatically by Apromore to be registered in Apromore’s repository. The"
+" S3 bucket can be hosted by Apromore or the customer, in their private "
+"AWS cloud. Encryption can be managed by AWS with customer-provided master"
+" key, or directly by the customer."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:39 582ce005d5df4f12a7a58bb8a80e1a5e
+msgid "**Case and Event attribute on X and Y-axis**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:41 f02101b4efdc4a25ac9f10b96e2acfbb
+msgid ""
+"We have added more customization options to Apromore’s Dashboard. You can"
+" now display numerical or categorical case/event attributes on the X and "
+"Y-axis of any chart in a dashboard. For example, you can create a chart "
+"to display the number of resources (Y-axis) who perform each activity in "
+"the log (X-axis). If you select a numeric attribute in the Y-axis, you "
+"can also select an aggregation function such as average, total, median, "
+"etc. For example, you can create a chart that displays the countries on "
+"the X-axis and for each country, the total revenue on the Y-axis."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:43 f786c970f9784ce7805b0064bd3adf7c
+msgid "**KPI Thresholds and Reference lines**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:45 a512f8bc82d54441bd09e071136000bc
+msgid ""
+"In the Dashboard, you can now set KPI thresholds and add reference lines "
+"for average and median, as well as custom reference lines, along both X "
+"and Y-axis. For example, you can choose to add a KPI threshold to "
+"separate the cases with a higher waiting time from those with a lower "
+"waiting time, or show the average number of active cases over time in the"
+" Work-in-Progress area chart."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:47 8777f31c7151412783b6930d3327968a
+msgid "**Exporting Dashboard Analytics to S3 buckets**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:49 83dbbf4c61244307a1821495f1c5c0a3
+msgid ""
+"Apromore now provides the capability to export dashboard analytics as CSV"
+" or Parquet files and save these locally or on an AWS S3 bucket."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:51 b6c6b9a98bb947f6a3944f4665347a72
+msgid "**Between Filter**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:53 dd039ca833804760a17229839f2cd3eb
+msgid ""
+"With a couple of clicks, you can now define a new filter criterion to "
+"retain or remove events between the first or last occurrence of a source "
+"and target node in the process map. For example, you can retain all "
+"events between the first occurrence of the “Send invoice” activity and "
+"the last occurrence of the “Receive payment” activity."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:55 5ec7b018ffe94693b164daf6e35199c1
+msgid "**Save and edit ETL data pipelines**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:57 51de1fcb76ac47cda67d2c60759d1ae1
+msgid ""
+"Apromore now supports the ability to save and edit data ingestion "
+"pipelines. For example, you can now edit an existing pipeline by "
+"replacing the existing logs with an event log with the latest data."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:59 643f8a6b6b1945f29a964888e7b634f6
+msgid "**Performance Improvement in Dashboard**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:61 57d85951755148b093f00a91e38b7fac
+msgid ""
+"The performance of the operations performed on large logs in the "
+"dashboard has been improved."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:63 8230bfc2aea5484f9670b84b01770ab9
+msgid "**Case Variant Inspector**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:65 6de3a7c919d247a1b155354dc3c2c468
+msgid ""
+"You can now inspect each case variant individually using the case variant"
+" inspector in the Process Discoverer plugin, and check out the value of "
+"attributes for each node in the variant."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:69
+#: ../../releasenotes/releasenotes.rst:148 8c1a64c7aac344729b1f649d4d8984bb
+#: a8ee46863d6c4f0c8c416374534cfa25
+msgid "Improvements and Bug Fixes"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:70 801d8f3d181f469cb370a606f0acf94a
+msgid ""
+"**Improvement:** The start and end timestamps were exported in a single "
+"column when exporting an event log in CSV format. Now, both timestamps "
+"are placed in separate columns within the same row."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:72 feb3a2cb5a604c2daa107cca8fd38b0d
+msgid ""
+"**Improvement:** You can now choose to tag a column as a Perspective in "
+"the Log Importer. Once done, you can switch between these perspectives in"
+" Process Discoverer."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:74 331e2a91bf354a7ea16181df42369d77
+msgid ""
+"**Improvement:** The Log Importer now supports ISO-8859-1 (Latin-1) "
+"encoding type."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:76 8d2b1fc48ee4453698fd42d52907352e
+msgid ""
+"**Improvement:** An event log with a standard ISO-8601 format timestamp "
+"can now be imported into Apromore."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:78 57bd1b7fe3f44708a00adeb7a8d57868
+msgid ""
+"**Improvement:** The ETL plugin now supports the ability to subtract two "
+"timestamps and trim a column value."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:80 920bd21a08f94ec98075731d404428b3
+msgid "**Improvement:** You can now upload zipped BPMN models"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:82 20b3619154ce446e833c75e89687fad2
+msgid ""
+"**Improvement:** You can now set the name of the log when importing it "
+"into Apromore"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:84 1b57e679b8a544f7beba268d8a60db20
+msgid ""
+"**Improvement:** A BPMN model shared with a viewer cannot be "
+"exported/modified."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:86 e8f072100f3249bcbfff99971f73061c
+msgid ""
+"**Fix:** A log containing a case ID greater than 15 digits could not be "
+"uploaded."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:88 5ece99d4fed84324b25cc615f8d9822d
+msgid ""
+"**Fix:** The labels on gateways in a BPMN model were not getting updated "
+"when changing them."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:90 3e62c9aa20ec433e9daec531f1e40d29
+msgid ""
+"**Fix:** Uploading files in Apromore using the ETL plugin used to throw "
+"an error when connecting to an S3 bucket with a name greater than 30 "
+"characters."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:94 da4cdb6c73464dbf91a4a9d2c5a6a85d
+msgid "Version 7.20"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:96 b77d75a5542a4e8d988c0cfe2c490f0e
+msgid "*Release Date: June, 2021*"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:102 9fbdfd5bf9c449918effb9f33aa416d3
+msgid "**Extract-Transform-Load (ETL) Console**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:104 302ee1a02f8644e2ae56fbb801ad7e8f
+msgid ""
+"Apromore now comes with a graphical ETL console that allows you to "
+"compose event logs from one or more tables or data sources. The ETL "
+"console allows you to define data pipelines to extract tables from "
+"relational databases, transform these tables to compose an event log, and"
+" load the resulting event log table into Apromore. In addition to "
+"different join operations, you can remove columns and create columns in "
+"the event log by composing existing columns using arithmetic, "
+"concatenation, and find-and-replace operations. For example, you can add "
+"a “Cost” column to an event log and compute this cost based on the hourly"
+" rate of your resources and the duration of tasks. You can also schedule "
+"a data pipeline to run hourly, daily, weekly, or monthly jobs to extract,"
+" transform, and load event logs into Apromore."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:106 8dbb04285780422e8939cbad0cb8dcb6
+msgid "**Single Sign-on Support**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:108 065f49a86a1b4d32b173c6229a9cccdc
+msgid ""
+"Apromore can now be connected with your corporate identity system for "
+"single sign-on (SAML or OpenID)."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:110 113c9a48caab4d31842e2d56f8fe4c0b
+msgid "**Storage in Amazon S3 buckets**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:112 790aeb3685434806964b51b80fc9c3d5
+msgid ""
+"Apromore now comes with an option to store your event logs in a dedicated"
+" Amazon S3 bucket for high reliability and security (available for "
+"enterprise licenses only). Your IT security team can be given rights to "
+"audit your tenancy’s S3 bucket. The data in your tenancy’s S3 bucket is "
+"protected at all times using either an Amazon S3-managed encryption key "
+"or an encryption key provided by your IT team. This enables your IT team "
+"to have full control over access to your event logs."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:114 13541591630c4eb6891940787f18c64f
+msgid "**Transfer Ownership**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:116 3fe6b07c972c429fbb844cff69e45582
+msgid ""
+"Before deleting a user, you can transfer ownership of all the assets "
+"(models, logs, analytics artifacts) to better manage business continuity."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:118 c621744ff35e4b479e89ac38f1fb7ebb
+msgid "**Fine-Grained Sharing**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:120 6f54bd3e93b24877b1f75670c3f9ff41
+msgid ""
+"You can choose to share individual dashboards and filters associated with"
+" a log by giving a user restricted viewer rights. For example, when "
+"sharing an event log, you can choose which specific dashboards or filters"
+" you wish to share, as an alternative to sharing all the associated "
+"dashboards and filters."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:122 9d4c37c449834070bf9c9b774b5ba0e7
+msgid "**Case Length Filter**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:124 c4ceaebe936249cab843119a10f8e90d
+msgid ""
+"You can now filter out cases based on case length (number of activity "
+"instances in the case). For example, you can retain or remove all cases "
+"whose length is between 3 to 15 activity instances."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:126 21dfb1dbd0dc47a09b7d6bdd8cf16921
+msgid "**Undo/Redo Filter**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:128 523712a9dab14a64a6b9b17a90cda3f5
+msgid ""
+"You can remove/reinstate a filter criterion using the undo/redo filter "
+"buttons in Process Discover."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:130 6b184773d600407a8c07c91d007506a2
+msgid "**Performance Improvements in Filter**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:132 5b48d57532af45f1bf34ed9e2597f6b5
+msgid "The performance of the filter operations on large logs has been improved."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:134 23eda5f71be2450396da7044b62b464c
+msgid "**Look-and-feel improvements in Log Animator**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:136 1afc81b778534af8a8e9e293d113212f
+msgid ""
+"The ability to hide/unhide tokens of a log in a multi-log animation has "
+"been introduced. You can also customize the color of the tokens."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:138 dccc61f551dd43feaf693b74073192eb
+msgid "**Report Issue**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:140 71889809742949d28734898c18596a5c
+msgid "A Report Issue button has been introduced to allow users to report bugs."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:142 60e3b203f7e3461ab5a88279663a9b1f
+msgid "**Recursive Folder Sharing**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:144 84c34815bb14415abad941c2fee8a54f
+msgid ""
+"You can now share a folder in such a way that all sub-folders and files "
+"inside that folder are shared along, recursively."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:149 acd778de1f9f4887a4785397b76ede65
+msgid ""
+"**Improvement:** When trying to animate a syntactically incorrect process"
+" model, the log importer now shows user-friendly error messages."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:150 36fd38cd71e54d0b9f4add152827f8f9
+msgid ""
+"**Improvement:** You can now animate both process maps and BPMN models "
+"directly inside Process Discoverer."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:151 baef405c579648908d76fdd2c68e421f
+msgid "**Improvement:** File names can now contain commas and periods"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:152 a4e35631961a463d9a39d1c6a85d3894
+msgid ""
+"**Improvement:** A new “Generate report” function in the dashboard allows"
+" you to choose which tiles, charts, and tables you wish to include in the"
+" Word, PDF or Powerpoint report (or you can select “all” to include "
+"everything)."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:153 7f3f62668c6d488fa7ec512acbfefb51
+msgid ""
+"**Fix:** The BPMN editor gives an error message when you change the "
+"version number to a different format."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:154 96d76cd4f2b6424d97b3d201120cd6d8
+msgid "**Fix:** The shortcut for opening the arc duration filter is not working."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:155 05fc573711aa483c969400c21cd62181
+msgid "**Fix:** In the slice log window, the number of cases is incorrect."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:156 aa0f8ab6d2d048e4a9782938107b8218
+msgid ""
+"**Fix:** Column names with accented letters are not displayed in the log "
+"importer."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:157 eb5f2a301f6747d09e75c7b533d6128a
+msgid ""
+"**Fix:** When a logs contains empty column names, no data is shown in the"
+" log importer."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:158 5634710dbc6f4251bf3be409ea89b165
+msgid ""
+"**Fix:** Access rights management window gives an error when the group "
+"name matches the user name."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:159 644e392d784646f7857a18e921d58068
+msgid "**Fix:** The fields in the user creation window are not validated"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:160 7b04d1a2ec2e47c9b2c9bbb1def71e1e
+msgid ""
+"**Fix:** Incorrect error message is given when a file name contains more "
+"than 60 characters."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:164 abcbd0c63b87471ba32a3308e7bf19dc
+msgid "Version 7.19"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:166 1b6542a495694617b22093e0ea1cd27f
+msgid "*Release Date: January, 2021*"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:172 0b0e04277cf24616b0ccb1f83ccb02e0
+msgid "**Process Simulator**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:174 e7ed5def3fdb4ba08b25138be559d91d
+msgid ""
+"You can now attach a simulation scenario to a BPMN model and simulate a "
+"model with an attached simulation scenario. The output of a simulation is"
+" a simulated log. You can analyze a simulated log using all the "
+"functionality available in Apromore (Process Discoverer, Dashboard, "
+"etc.). In the Dashboard, you can view a range of statistics for simulated"
+" logs, including case duration, case duration within timetable, case "
+"waiting time, cycle time, waiting time, and cost."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:176 27a3cc84744442108d058ad39ce86452
+msgid "**Node duration performance filter**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:178 a4d6848893ca4cb5bce85ca0b966843e
+msgid "You can filter out cases based on the node’s duration."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:180 70ea90742bd644429f1a13c4cce2ba4f
+msgid "**Arc duration performance filter**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:182 726db4ece0414d09a31aefea3bca1e13
+msgid "You can filter out cases based on the arc’s duration."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:184 043e9985131747d1ad20a505630578c7
+msgid "**Secondary attribute filter**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:186 defda8aee0264cd4b0afe951e4855348
+msgid ""
+"You can filter out cases based on two attributes simultaneously, for "
+"example, retain or remove all cases where there is an event with Activity"
+" = \"Create order\" (primary attribute) and Resource = \"John Smith\" "
+"(secondary attribute)."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:188 77e9f2af906947dcb8b689c06bd8b529
+msgid "**Share filters and dashboards**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:190 b2b77d61e7a74acaa9192a1d2d9c0112
+msgid "Multiple users can edit filters and dashboards concurrently."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:192 42a7c5a2f02b46cab13408dca6b526fa
+msgid "**Dashboard auto-saving**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:194 a95f5f159c9542ba831820642785ad93
+msgid "You can now choose whether or not to auto-save changes to your dashboards."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:196 5d2486ef9fcc437eba2432f21b6c753d
+msgid "**Export dashboards**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:198 4e28a92dbd3f413299fd8a9231a67861
+msgid ""
+"You can now export your dashboards in a variety of formats incl. Word and"
+" PowerPoint to create professionally looking reports."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:200 55e8c569168e42da93a64213e7cc2304
+msgid "**Timestamp format detection in CSV Importer**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:202 53f89099a7d64e64a2196c1c842d947a
+msgid "A wider range of timestamp formats are now supported."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:204 8a2f5f22f7c8463abfcca65378257934
+msgid "**Timezone detection in CSV Importer**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:206 3c8c63f1f4a546d5993e37def3b1c371
+msgid ""
+"When you import a CSV/XLSX/Parquet file, the timezone is automatically "
+"detected."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:208 566a16a9edb449f7bd79b839014c490e
+msgid "**Import Parquet and XLSX files**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:210 94bc780c09534936a8e2ddb0b714ee3c
+msgid "You can upload a parquet or XLSX file."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:212 ec20252361ba4850a12634b922c08d76
+msgid "**Performance and look-and-feel improvements in Log Animator**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:214 c991896b5447405c81e0271f7a098b45
+msgid ""
+"The responsiveness of the log animator has been improved. When a large "
+"number of tokens are stuck in the same arc, a bubble is shown instead of "
+"showing individual tokens."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:218 ad06cbb18bc04cbf8ed392dd53b1adc1
+msgid "Version 7.18"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:220 9ce6a1bfe0224d7bb9335e0f9d17761e
+msgid "*Release Date: October, 2020*"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:226 7d58709b86234ae3bd6492160fa03bc9
+msgid "**Portal grid view**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:228 df9e9e46d5654cd5be6d64d34fc293ff
+msgid ""
+"You can browse through the folders and files in Apromore’s Portal in grid"
+" format (default mode) in addition to the old list format."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:230 8234082bf96f4460a809ea7552355439
+msgid "**Import log from URL**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:232 da6defa6ca66499998322da72b3a707c
+msgid ""
+"You can import a file from Dropbox, Google Drive, Microsoft OneDrive or "
+"from any URL."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:233 5ffb38da123f44d488d691ce4771b27d
+msgid "See: :ref:`Upload a file from URL <uploadafilefromurl>`"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:235 4fe1ff91ae19446c94b84916e2e55449
+msgid "**Save and share filters**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:237 2e78c1f8fbdf48a8bf05e62af963ebb7
+msgid ""
+"You can :ref:`save filters <savefilter>` associated with a log and share "
+"these filters alongside the event log."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:238 0fd940268eaf4525a5f6677a353fb672
+msgid ""
+"Note: Only the owner of an event log can save, edit, or remove the "
+"filters associated with that log. Other users can define temporary "
+"filters but not save them."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:240 eb35f738e611422eb6c7b275996d0a5a
+msgid "**Customize, save & share performance dashboards**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:242 6e946fcd06f24cc4b1377944cbfec02d
+msgid ""
+"You can add, remove, or customize any performance indicator, chart or "
+"table in the default views of the performance dashboard."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:243 afd964d71e0d4b77841f41edc0c32a30
+msgid ""
+"You can add one or more custom views to the performance dashboard of a "
+"log. Custom views can be created from :ref:`existing views "
+"<createfromexisting>` or from :ref:`scratch <createfromscratch>`."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:244 0d86193fe98547cb97e749a0213013bf
+msgid ""
+"You can save and share dashboards. All changes you make to a performance "
+"dashboard are saved together with the event log and are visible to all "
+"users who have access to the log."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:245 fd71010091a24b5082415fada6ef2eb2
+msgid ""
+"See: `Video demonstration of the new Performance Dashboard "
+"<https://www.youtube.com/watch?v=E_eJrgFLjRE&feature=youtu.be>`_."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:246 7d3db345de524417ae721fef85fee3f5
+msgid ""
+"Note: Only the owner of a log can edit the performance dashboard of the "
+"log. Other users can make a copy of a log and customize the dashboard on "
+"a copy of the log"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:248 6318511024bb4719a27be0a3f58f24e9
+msgid "**Reusing CSV import schemas**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:250 768b0c8344904f1eb6afde817a2be748
+msgid ""
+"When you import a CSV file, the mapping of the columns (schema mapping) "
+"is automatically saved. When you later import a CSV file with the same "
+"column headers, the CSV importer prompts a dialog box to let you choose "
+"whether to :ref:`apply the saved mapping <csvschemamapping>` or not."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:252 fab6b2e8a5174b8fbd28e07bac118128
+msgid "**Clear applied filters**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:254 bd94910a7db74c20a4a3c2661e907cd6
+msgid ""
+"You can :ref:`clear all the filters <clearallfilters>` on the current log"
+" in Process Discoverer with a single click."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:256 20470991e3144e05a7d02f6ce7c51204
+msgid "**Search box in Process Discoverer**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:258 7ed2f49d41db477094aa19663c0c7cea
+msgid ""
+"A new :ref:`search box in Process Discover <searchPD>` allows you to "
+"search for a node (e.g. activity) by its name or a prefix of the name. "
+"All nodes that match the search string are highlighted."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:260 06fa4767672e420d93d981ba12d2f134
+msgid "**Enhanced users and groups management**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:262 06deaa49c74b40e7944f42bd18e7a091
+msgid ""
+"You can grant access rights to any folder and file you own either to an "
+"individual user or to a group."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:263 918b311049164252b221ed355c456ffa
+msgid "Administrators can create groups and assign users to groups."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:264 5d785c8ffb1c47c9bc866512769c2fcd
+msgid ""
+"See: :doc:`Users and groups management "
+"<../theapromoreportal/manageusersandgroups>`"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:266 5683751bc29c402fa8af93fc1127a84b
+msgid "**Download process performance stats from dashboard**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:268 3a0fff85149f46ebbcce5910fb310026
+msgid ""
+"You can download the data behind any chart or table in the performance "
+"dashboard in CSV format, or you can download all CSV files with the data "
+"in the performance dashboard in a single zip file"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:270 bc19e1117c0e421f8702e4d97b5dcf3d
+msgid "**Copying and moving logs or process models**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:272 b32e970f01bf45bc9c1abf5b3fcf8487
+msgid ""
+"You can copy or move files across the folders in the Portal via the "
+":ref:`copy, cut, and paste icons <copycutpaste>`."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:274 8bcf4e0a6c2a4fc89f2e68ece09437fc
+msgid "**Improved session management**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:276 c7b4eb34ff9a47a9bc0c65685142849e
+msgid ""
+"We have made improvements to session management to improve performance "
+"and reduce session timeouts."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:278 125eb5b3cfb94a1aa466f2e8fdcc28eb
+msgid "**LDAP Authentication**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:280 bb0765c89e1544c39c0028dbb83decf1
+msgid ""
+"System administrators can more easily configure Apromore to connect to a "
+"corporate LDAP directory for authentication."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:283 6367e2f006514605b79472e2587da785
+msgid "**New shortcuts for filtering**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:285 39a5b7476205497da7148247958c8d05
+msgid ""
+"You can open the case filter, case variant filter, event filter, activity"
+" filter, performance and timeframe filters in one click from the Process "
+"Discoverer by clicking on the respective icons in the Log Statistics and "
+"Temporal statistics sections of the Process Discoverer."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:287 4b057dccef0e44a3ba83261edfed3fc9
+msgid "**Relative case frequency overlay**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:289 58320656d1064df698dd86a43c38ed3f
+msgid ""
+"You can now display the relative case frequency on each node/arc in the "
+"Process Discoverer. The relative case frequency is the percentage of "
+"cases in which a given node or directly-follows relation occurs."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:294 b6ed73dcd9264f989e669566100740fa
+msgid "Bug Fix"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:296 d4a8c65baf234ab38ab9027ca0749536
+msgid "**Folder and file renaming**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:298 b0df36b309d1499eb70a3e57ff7cd183
+msgid ""
+"The portal gives an error message when you enter forbidden characters in "
+"file name."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:300 219b67a5e8c04914a4bc85855a40b0ed
+msgid "**Handling of long labels**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:302 e20f068bd89f4bf885ab86e42c3a196d
+msgid ""
+"Fixed a bug that made long activity or node labels to go across the "
+"corresponding node in the process map/model."
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:308 c63c352ca4194a65b824d4d340dd450e
+msgid "Version 7.16"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:310 34c8f438d8ce4a5fb716d9b02ad6d13d
+msgid "*Release Date: June, 2020*"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:317 82cd2bc4b147422fa9a72b2346abc780
+msgid "**New Features:**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:313 90b110d2b20f475a94aacce2b5b80baa
+msgid ""
+"Tiles of performance measures can now be created in custom dashboards. "
+"These can be useful to display a set of standard and user-defined KPIs, "
+"in addition to the custom charts"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:314 0013674cd9d244ad8abb4d48060932b6
+msgid "Aggregated log stats can now be exported from the Dashboard into CSV files"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:315 f08e8c07b7cb4e87a3a62f600cbf3b64
+msgid ""
+"Reimplemented median calculations for frequencies and durations in "
+"Process Discoverer"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:316 62bf5958cb724971adb7f7b5ebfae70c
+msgid "Introduced “breadcrumbs” for easier Portal navigation"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:317 7e5ac79722964ec782561187537bf2e3
+msgid ""
+"Process models and logs can now be searched for from the Search bar of "
+"the Portal"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:327 c045da04dfee42eb8e3459258bb385a0
+msgid "**Improvements:**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:320 716d62efa4504477b797df8fb607e6b0
+msgid "Improved memory management across various plugins"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:321 1a201bd80384492e8a060d4c8ce1e773
+msgid "Process models created by the Merge plugin are now automatically laid out"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:322 25fff786c1184322963c2d1723698b0a
+msgid "Improved automatic detection of various timestamp formats in CSV Importer"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:323 dc33c194de21476d90ef4b0f2b00fefa
+msgid ""
+"Automatic detection of case attributes and event attributes in CSV "
+"Importer"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:324 1902e1af8be343daa7ca0224f28f596a
+msgid "Removed unused fields in the Portal"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:325 94665371de3040d8a7243dfee283246b
+msgid "Simplified import of process models"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:326 06893ad8c0e542109f1031207a2436b0
+msgid "Multiple visual and performance improvements in custom dashboards"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:335 b59cb79496384b378036dfa65677a81c
+msgid "**Bug Fix:**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:330 df033c842831439080c42d19d2bae65f
+msgid "Fixed issue with not being able to animate some logs"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:331 cc73cabc2d734e02b271a28d84b76b49
+msgid "Fixed issue with misaligned timelines in the log animation"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:332 0ceb1fd33ff44859b393770c0890d4d1
+msgid ""
+"Fixed issue with CSV importer failing due to missing case identifiers or "
+"activity names"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:333 f92e2344420d4c71b053c2245bd0b7c9
+msgid ""
+"Fixed issue with the results of Similarity Search not being displayed "
+"until the Portal is refreshed"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:334 00494cc5f5214f29b7bad06af82a3637
+msgid "Fixed some issues with the Rework & repetition filter"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:339 6a0c0e6c80d941ea89acd5f614c1bae8
+msgid "Version 7.15"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:341 dda4f2f331fe4564a340823b1b28368b
+msgid "*Release Date: May, 2020*"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:343 a820625869dc4f458dd7ce45264ac687
+msgid ""
+"**Process Discoverer:** New ribbon interface makes it easier to tune and "
+"switch between visualization and abstraction settings"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:344 0700242935334d658fb8ef09780efe93
+msgid "**Dashboard:** Ability to create customized charts with user-defined KPIs"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:346 349ba59097c948c194fb95432ee9d82a
+msgid "**Portal:**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:346 8df456b7f84a4de79479999f2029dcf9
+msgid "Enhanced user registration screen"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:347 7ba78f99838d4c80bcb6e311a2b5e33c
+msgid ""
+"Ability to choose file format when downloading event logs (XES or CSV, "
+"and encoding for CSV files)"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:348 66c5ed33fa554f07a78e4a038200bfa4
+msgid "**Log Animation:** Visual improvements in the Log Animation"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:349 510fabd808524f0789dc18e58b235816
+msgid "**CSV Importer:** UI and performance improvements"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:350
+#: ../../releasenotes/releasenotes.rst:370 1ef3d40293004042a4b3078a600f464b
+#: 9dfe740c68454578ab4f60c9ac83f2df
+msgid "**Various bug fixes and performance improvements**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:356 70383a1ad65c43838abbb1313300924b
+msgid "Version 7.14"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:358 169b856fc4d642038ca1964851fd57e3
+msgid "*Release Date: March, 2020*"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:361
+#: ../../releasenotes/releasenotes.rst:389
+#: ../../releasenotes/releasenotes.rst:438
+#: ../../releasenotes/releasenotes.rst:463 1023aab5514f44f89c2e6e4e74237f21
+#: 2bef9b34b1e3423e9aa7fc538504c562 ce712183e9c142f29099e4245eca0388
+#: fd12bc3834fb45b7a24efff71135ad26
+msgid "**Process Discoverer:**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:361 264fa5c1aee6401d959d73a7ede18e7b
+msgid "Re-engineered plugin with new internal, high-performing data structure"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:362 420863f9f53e4484a924280602104843
+msgid ""
+"Re-designed user interface with new abstraction functionality and "
+"statistics visualization"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:364
+#: ../../releasenotes/releasenotes.rst:386
+#: ../../releasenotes/releasenotes.rst:412 0f6b6d9dd1474ccba7acec4db1c2f84d
+#: 68f22d7125bb4a1d88df0af38e1768c5 85c8279f54a24aafba82249163c952d7
+msgid "**Filter:**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:364
+#: ../../releasenotes/releasenotes.rst:368 20dd6daf8a7747afa4d294b2fdcbdbb2
+#: 7fcd2524259e41219696475844239e9f
+msgid "Cosmetic improvements"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:365
+#: ../../releasenotes/releasenotes.rst:369
+#: ../../releasenotes/releasenotes.rst:390
+#: ../../releasenotes/releasenotes.rst:394 4526cae29048450b9f1881c971d210a5
+#: 81e6a28e28df4deb8acc958c4f6cd990 c5313856ffc84064994acc43eb1ab3cf
+#: ffdfecd794ac43a1a47236f8c59176e3
+msgid "Performance improvements"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:368
+#: ../../releasenotes/releasenotes.rst:393
+#: ../../releasenotes/releasenotes.rst:415 19cca9e44afe4dce93791c659768a3cf
+#: 233cf644f0f44515b2621e0f7befb2a8 98c957895603448a83bd1cc40bad7488
+msgid "**Dashboard:**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:367 fa89600a83a64cb78427fccac4388a4c
+msgid "Log cloning feature"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:376 c913c2e69b304caa8a3126327bc0529d
+msgid "Version 7.13"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:378 4cde50f66686467c9b5c7be9eb74b8cd
+msgid "*Release Date: February, 2020*"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:380 a17a17d34661469189ff4bccfa1afbbc
+msgid "**New modern UI featuring consistent branding and look & feel**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:382
+#: ../../releasenotes/releasenotes.rst:418
+#: ../../releasenotes/releasenotes.rst:467 6109abf4383245998d619441a72c9677
+#: cf9c5b393c294806ba432289adbcb63b df3592d16ee54699b041e49adf218d62
+msgid "**CSV Importer:**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:382 9816f36421c74ccd94e33e6d05d5bd7d
+msgid "Support for non UTF-8 encodings"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:383 28cce7ddce534a8b94924cf9701a2d91
+msgid "Fault tolerance (e.g. missing attribute value)"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:385 40f824b206f04cf19f1df9244c523901
+msgid ""
+"New Rework & Repetition filter makes it easier to track cases with "
+"repeated tasks (e.g. rework due to amendments)"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:386 3d8f0afe413444d78cc9a101f1ea902f
+msgid ""
+"Ability to search for specific cases and event attributes when setting "
+"filters"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:387 4ae6a4cde9e9403fbc42fbf7b4db80dd
+msgid "New Case variant and Case ID Inspector view"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:389
+#: ../../releasenotes/releasenotes.rst:412 3fc8167bf03b4b9db09a6c67f77287b9
+#: 7c0df1b5622849289a68803128e65d5f
+msgid ""
+"Pie charts to show the percentage of cases, variants and events left "
+"after applying a filter"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:392 1452a09c9e8d478abb77b2e15adf6a70
+msgid "Distinction between Case attributes and Event attributes"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:393 891bba94e3d3428daa1c755f533eb50f
+msgid "Relative frequency in Activities and Resources views"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:395 907dc5bf40614501b15926e31fcaf68c
+msgid ""
+"**Single Editor for process modeling based on BPMN.io (legacy editor "
+"deprecated)**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:396 ff2ba61b052e47c6a7a64d5f5a2326be
+msgid "**Various bug fixes**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:402 df8c0e90e2c84fe5bc1de174388d01c6
+msgid "Version 7.10"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:404 4674bc4079c74c90a6a8291412cb8124
+msgid "*Release Date: December, 2019*"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:407 ea0664ff14084d808b7987897f773163
+msgid "Advanced case variant filter to show the distribution of case variants"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:408 b40394bb47454142b47250e8379721c8
+msgid "Advanced options for the Eventually-follows filter"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:409 c95bc1abcadb4811b9b3b397e2b11462
+msgid ""
+"Filtering by processing time, waiting time and case utilization when "
+"events have start timestamps"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:410 1306991371da44b68ec2cbe987e43d8b
+msgid ""
+"Advanced options for Time window filters (case contained in the time "
+"window, active in, starts in, ends in)"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:411 f92c3ac8d7ef4967bf39ac6525ba4fc2
+msgid "Ability to download and upload filter criteria for reuse"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:413
+#: ../../releasenotes/releasenotes.rst:416 7bc3d962455649589deeff32c167a664
+#: 7f57c0d521754e3c84f27b7437522a39
+msgid "Minor cosmetic fixes"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:415 532bc03ee9504acaad0e7a36ca0e2b70
+msgid "Support for case-level attributes"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:418 a1c8fb07683e4edc9581cfe513545871
+msgid "Improved data type detection"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:419 6fe6afe26190416489447a2e2e5c7829
+msgid "Ability to import zipped and gzipped CSV files"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:420 2a0af99d494641ad9a4bf3fd84275bdc
+msgid "**Process Discoverer:** Various bug fixes and improvements"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:421 6e7fb670dd4d45b5922a5358d58e700d
+msgid "**Caching mechanism to improve system performance**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:427 43cfab951903423e907c748edc7d3e74
+msgid "Version 7.8"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:429 0a7d24f1305a48e592c01ef4044d8f94
+msgid "*Release Date: October, 2019*"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:431 5b9d40c0e0d74e258e87c3219d0c848f
+msgid "**Filter:** Advanced filtering options"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:432
+#: ../../releasenotes/releasenotes.rst:448 10bb806e350c411e9233e923c0a936d3
+#: d4f1faf492ab42a98a7da6bc8eca44e4
+msgid "**CSV Importer:** More robust CSV Importer"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:433 18e82f1ec6d74a60b145f2c08f90305f
+msgid "**Improved handling of security permissions for event logs**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:435 174fc9d03dd348dfb0fd1610b57e7307
+msgid "Performance and visual improvements"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:436 06af30817a9b45ad9110cd3bb7efca37
+msgid "Various bug fixes"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:442 ef88ef7aff67426da5841a4a03417399
+msgid "Version 7.6"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:444
+#: ../../releasenotes/releasenotes.rst:459 016bc1cc61ab45d2a5904e974786dbe9
+#: 2e41fd7743ba4dc39402f5eb54862d58
+msgid "*Release Date: August, 2019*"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:446 9d5d173956764e75b3dd3f05399ecfd6
+msgid "**Filter:** New Filter plugin"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:447 a3ac8f93699843d498d7b48e7d4798c9
+msgid ""
+"**Process Discoverer:** Various bug fixes and performance and visual "
+"improvements"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:449 8ccd2777650649f297f93f90be510764
+msgid ""
+"**Improved handling of security permissions for event logs (Security "
+"button)**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:450 1f55196e69204fc78bd4959a4722209c
+msgid "**Migrated to the current version of ZK libraries 8.6.0.1**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:451 8c501a435ea44d5ebcce2c810e24c207
+msgid "**Dynamic switching of UI themes (Account -> Change theme)**"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:457 87cd523893fe48379958f18760eee275
+msgid "Version 7.5"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:461 3cd88cbd1185421fb59636a6af7c2056
+msgid "**Dashboard:** New Dashboard plugin"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:463 927871646e17460f875225ebf41e56de
+msgid "Automatic centering and fit to screen when changing layout"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:464 5e1ff85903554487b45c0bf3d3fccf1c
+msgid "Various bug fixes and performance improvements"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:466 4ff1d3c66a5b46a3abbfc52c43e3ef17
+msgid "Improved tolerance for errors while importing CSVs"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:467 66f4a342b3e7442f952519f3e2d1510a
+msgid "More robust mechanism to recognize timestamp format"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:468 d78b55b0da2f43958ad0270189d5874c
+msgid "Multiple UI improvements"
+msgstr ""
+
+#: ../../releasenotes/releasenotes.rst:469 be4abeba9a3f4f27a48664c33ab1a7bd
+msgid "**Added password recovery feature**"
+msgstr ""
+

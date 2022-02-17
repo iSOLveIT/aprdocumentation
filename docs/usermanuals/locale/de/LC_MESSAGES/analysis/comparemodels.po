@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../analysis/comparemodels.rst:3 b3fa13bba7a84c4ab7fe18e8cf86a682
+msgid "Compare models"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:4 d0a5d5ddd18d46628db2e658e9fb0744
+msgid ""
+"Apromore now allows comparing two BPMN process models to perform delta "
+"analysis. For example, we can perform delta analysis to compare a process"
+" model discovered from an event log (capturing the as-is process) with a "
+"reference process model (capturing a to-be process)."
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:6 f3898e07ccc849e7ac7caa2ee374f015
+msgid ""
+"When comparing two process models using delta analysis, Apromore displays"
+" the differences and allows to overlay them on top of the process models."
+" To compare models, first, select 2 models and click on *Analyze -> "
+"Compare models*."
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:8 546915ea75d046a7b806a03fe1bea96b
+msgid "|image1|"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:40 88226a167033412d96e26a3ec2240b34
+#: a0f9ee3b6d644095ba6b79df4c2057a7
+msgid "image1"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:10 ebbfdb6a109d4256974d3d9f0cc5871c
+msgid ""
+"*Model Comparator* window appears, consisting of two parts:  *List of "
+"changes* on the left side and *models* on the right side."
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:12 7aad5f4df7b34b2db6ab3b7ff3f7668f
+msgid "|image2|"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:41 277183ddf1e841abb2ddb48c9c225dcb
+#: 7769c506cac644d28947de8c0e31eb24
+msgid "image2"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:14 a791a323ad1347e2ac90f6c2da6ace87
+msgid ""
+"For ease of analysis, the activity gets highlighted in the model when we "
+"hover over it in the *List of Changes*."
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:16 af585ca3e8744c3ebb835b3369dc00f5
+msgid "|image3|"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:42 e85a754040d74bf68b1fd1923dcc242b
+#: eb7e3dbffcdc414fa5868448845a05b2
+msgid "image3"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:19 95949a62b9884fdf81f0ce0b5c9d03b9
+msgid ""
+"To monitor the activities changes easily, take a look at color coding. "
+"*Removed activities* are marked red. *Changed activities* are marked "
+"yellow. *Added activities* are marked green."
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:24 6ba5222d00824c35b7ef139016c81ed2
+msgid ""
+"To hide the list of changes panel, you can click on the *List of Changes*"
+" button on the top left corner of the panel."
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:26 050af4d459e24674ac36d353379c7cd4
+msgid "|image4|"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:43 042491723a7d42d1b639a9b224f0fd9f
+#: 055864f1231a47f2b73e96b8cbc475e1
+msgid "image4"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:28 c2046b4f95c4478287071fd60ca69b5b
+msgid "To make the model size bigger, click on the *Zoom in* button."
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:30 fac3416ba8ba4646add8683bfcf5508f
+msgid "|image5|"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:44 7e21687a73f947c29fb74d6a0feb4146
+#: 9424cdec787a4b728508360567add1f4
+msgid "image5"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:32 043482ae4ff04ee097c1ffe2c5732eca
+msgid "To reduce the model size, click on the *Zoom out* button."
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:34 8da734a2f3694396a4fed6d87f2476f6
+msgid "|image6|"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:45 4a49754003474315aabb2fcb95bb0464
+#: 93fa1b4a84c04ea2b94b910be03bbd23
+msgid "image6"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:36 59bc2bfea1e948e8bd9d7eacaae8a430
+msgid ""
+"To make the whole model fit in the size of the screen, click on the *Fit "
+"to screen* button."
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:38 005edeebdaaa4e7a9631cf82c302b38b
+msgid "|image7|"
+msgstr ""
+
+#: ../../analysis/comparemodels.rst:46 284903275ecf48abb60998b14eb7f54d
+#: 6463612b55a646af8ce23df253728640
+msgid "image7"
+msgstr ""
+

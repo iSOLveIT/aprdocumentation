@@ -1,0 +1,625 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../theapromoreportal/uploadafile.rst:3 5e0bd136b4354b6389fac56f4e27645b
+msgid "Upload a file"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:6 18b9e992e8554853b6e00fddf9052e47
+msgid ""
+"We can upload both process models in BPMN and event logs in CSV, XES, "
+"MXML, XLSX, and Parquet formats."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:8 2d7abc5c360a4bd08806556c20b04882
+msgid ""
+"We can do it through two options – *Upload Local File* and *Upload File "
+"from a URL.*"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:10
+#: ../../theapromoreportal/uploadafile.rst:53 220981632f6b4df6aedb978c5ad09635
+#: afe4fce62a374cd4a1e86f20a79b4446
+msgid ""
+"The plugin supports the following delimiters: Tab, Semicolon, Comma, and "
+"Spaces. However, the plugin supports comma delimiter the most."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:14 e4b9367c3c7247029020187ab96fb246
+msgid "Upload a Process Model"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:16
+#: ../../theapromoreportal/uploadafile.rst:45 0ccdbdea957c420e80870b38d08ab07c
+#: 599a5830661546a2a7c0bfff16a7ebe0
+msgid "To begin uploading a file, click on *File -> Upload*."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:18 a733804e4a764d79bf028ed6837ab6ce
+msgid "|image1|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:196 628f195231e4474b8f76549289927589
+#: d244290f938c4f72bda2a67553295d3a
+msgid "image1"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:20 3a81fd461f9943a49a55d1d761dc963a
+msgid "As an alternative, we can click on |image30| to upload a file/folder."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:226 47b7742ba8dd41f0b66cc4ece6a79040
+#: 7537c1045e1f439b9bf3b40814af26f9 9ebdfd42bd7949f09e2d2323ede18c3b
+#: e8e478de16af4a79a3f4267e2c4391cc
+msgid "image30"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:22 bf9a2172d0ed4836b2c5b1a85b0f686b
+msgid "To browse for the .bpmn file, click *Browse* and locate the file."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:24 c9015c10781c4fb6b4a6cef1ec211dc0
+msgid "|image2|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:197 f2b9e6d71ca9453abfd5c6bcfad84635
+#: f342e6f2d1164723881093063ff182d2
+msgid "image2"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:26 d4bc4c7d1a2f4bafac3ea4f3e646e439
+msgid ""
+"We can upload both process models in BPMN and event logs in CSV, XES, "
+"MXML, XLSX, and Parquet formats. A window will open, displaying a file "
+"selection. Here we can select the relevant file, and it will appear "
+"beside the “Browse”. Click *OK* to upload the file."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:29 53ac39ec587140dd9f069de227eae233
+msgid "|image3|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:198 54263fe2592847a49e297c6b9e7706c3
+#: 76ae49ceb559497485d7f74f65b31a69
+msgid "image3"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:31 849cc23eb86946d3aefc4b4b75ed7c02
+msgid ""
+"Finally, the successfully uploaded file will be placed into the "
+"location/repository in which we have initiated the plugin."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:33 0833fa71e32c4fe687fa4bde19505177
+msgid "|image4|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:199 bd591fc79dfb43218096061c4cba6cef
+#: bda2c712493c47babfe3ccb9be402c1d
+msgid "image4"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:37 e00812be6759426cafd862dd828afc4e
+msgid "Upload an Event Log"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:39 4c84e18e0eb64c20a62e3863ccb5e106
+msgid ""
+"Apromore allows us to import event logs in Comma-Separated Value (CSV) "
+"format, standard `XES format <http://xes-standard.org/>`_ and in MXML "
+"format. Event logs can be uploaded uncompressed or compressed (zip or "
+"gz). The supported file extensions are .csv, .csv.zip, xlsx, .xes, "
+".xes.zip, .xes.gz, .mxml, .mxml.gz,. parquet."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:41 1fe0c52a0b484d6ea61b38db09f16b2f
+msgid ""
+"Files in XES format are imported directly, as they already contain all "
+"the metadata required by Apromore."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:43 2b6c7a214c9b4a69af0b38b770c36270
+msgid ""
+"On the other hand, we need to pre-process CSV files before import into "
+"the Apromore workspace."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:47
+#: ../../theapromoreportal/uploadafile.rst:124 1a2b4d8f29844295a0f6aebc3a61b298
+#: 2650f9541e52455280ab9d748f16d62a
+msgid "As an alternative, we can click on |image30| icon."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:49 2330da0ae99144e9ae10279dba1d2c62
+msgid "|image5|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:200 780def24ed644302975a67c74da3c32b
+#: a5ef77afb30646a88bb4eef4d0f38575
+msgid "image5"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:51 d95a49b69f294a94a8384c9417cdeec6
+msgid "To browse for the CSV file, click *Browse* and locate the file."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:55 6e8681877b6548979690ec6415148b28
+msgid "|image6|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:201 676672ec859e46448c4691d5f0555486
+#: ba7f4f97f7d4498b9ff8771507358dca
+msgid "image6"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:57 6d0fae6018f44193892d68e8e63dad07
+msgid "After we insert the link, click *OK* to finalize the uploading process."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:59 9340a2a5531540c48340c578038be8d2
+msgid "|image7|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:202 5492aad418a84451947d5c6de0d70d27
+#: 947b236892c84c3a89e5eaafe269663f
+msgid "image7"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:61 bad168f305a749bfbe046eb158f0c89a
+msgid ""
+"A window will open up, displaying the data based on the imported. CSV "
+"file."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:63 0502ee4df47c4c40b53c5b787028f7f9
+msgid ""
+"In this pop up window, we can tag each column in the CSV file with one of"
+" the following column types: case identifier, activity, start timestamp, "
+"end timestamp, other timestamps, resource, case attribute, event "
+"attribute, or ignore (in the latter case, some columns are dropped, but "
+"we can see them at the columns drop-down menu)."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:65 f47842ae2e6f4fe58b3c01ebdffc69f3
+msgid ""
+"To upload a CSV file, we must indicate which column corresponds to the "
+"*case identifier*, which column corresponds to the *activity*, and the "
+"*end timestamp*. These three columns are mandatory. We may also tag other"
+" columns."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:67 3321420e4add48f8bbebe0e49fe12586
+msgid ""
+"For example, a *case attribute* is a column whose value is the same for "
+"every event of a case. For example, an attribute \"Customer Gender\" is "
+"likely to be a case attribute since it does not change during the "
+"execution of a case."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:69 01e7b917de7a42e7a9d7c491cb045435
+msgid ""
+"An *event attribute* is an attribute that changes during the execution of"
+" a case, e.g. the \"Offered Loan Amount\" is likely to change: at the "
+"beggining it has an empty value and then it gets a value in the middle of"
+" the execution of a case."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:71 065571bee2204937b7e90af2cf6a1141
+msgid "|image7.1|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:203 d230ad03db774daab1da5d7555885176
+#: dfb244225e964e5f9519dfdeb97bed4c
+msgid "image7.1"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:73 3d93ab7834e54aef9c2d7d12e2f2dc24
+msgid ""
+"Additionally, the CSV importer supports a wide range of encoding options."
+" We can change the encoding by merely clicking on the *Encoding* drop-"
+"down menu."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:75 83ccee86cd6947b2b137bdbe770fda5b
+msgid "|image8|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:204 4922d4e5827342d2b027c55d8cf0de4e
+#: 94735740d74b439ba8dadabc0b1e2956
+msgid "image8"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:77 396c5d7360794561a0f2c88c26602715
+msgid ""
+"By default, the time zone is automatically detected. To change it, select"
+" the desired time zone from the *TimeZone* drop-down."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:79 dc1bd1c4c960414e991ed1e2fa4ed5c2
+msgid "|image31|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:228 8e14aadbd5f14f4ba617230137a2e91a
+#: fc0db88843c44f8b81bd90c943cfaf27
+msgid "image31"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:81 beb01b4fa98842ca95bf36d369575630
+msgid ""
+"The CSV importer can sometimes automatically tag the columns "
+"corresponding to the case identifier and activity. It is important, "
+"however, to check that the columns have been tagged correctly. We can "
+"manually alter the column attribute by clicking the drop-down menu as "
+"shown below and choosing the desired attribute."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:83 4e261468247c464a83b3a4c784c55177
+msgid "|image9|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:205 10bc0786b48143488bb93aaa860e05b6
+#: 33372204642d4d3d851c6eca7bdf3afb
+msgid "image9"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:85 fe6da5c38e30469baf034d0283ae29bf
+msgid ""
+"The timestamp is automatically detected. To change it, click on the "
+"*Specify timestamp format* button."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:87 0a56e0c85582400a9f352625c5519334
+msgid "|image32|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:229 4611fad0cb48414ebc49ad6fcc2cc7e8
+#: 4f56511064ce4f2c928f271c1389013b
+msgid "image32"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:89 7bed938c3c11417aafd92a678e97c0f0
+msgid ""
+"We can opt not to import a column by attaching the *Ignore* tag to it. To"
+" make it easier to ignore multiple columns, we can click on the *Event "
+"attribute -> Ignore* button at the bottom-left corner. From that point "
+"on, any column we select becomes tagged with *Ignore*.﻿"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:91 dad8dfe871564e6e9a92ef4167b4f737
+msgid "|image10|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:206 14155bc4dfd6499daeceb733b01b9884
+#: cdae42f0fe144e96a9d925b0bd794aa4
+msgid "image10"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:93 d190e25a89e84e2a97a24ee89a06476c
+msgid ""
+"Similarly, if we need to tag multiple columns as *Event attribute*, we "
+"can click on *Ignore –> Event Attribute* in the bottom-left corner. From "
+"that point on, any column we select becomes tagged with *Event "
+"Attribute*."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:95 8b46bdd5695043d3b8621fa8b666aa08
+msgid "﻿ |image11|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:207 0c2b9773cae042af83ab9354e4447960
+#: 51a5b99b343d47c5b65c3a01477d08b8
+msgid "image11"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:98 d835906061c748e8b5963cebe1bebc6c
+msgid ""
+"After the columns have been tagged, click *Upload Log* to finish the "
+"import."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:100 25f5ba69f805407bb3c52f38ac508c37
+msgid "|image12|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:208 2e8b64ae4973479eb364b013c52e533b
+#: 96b33204bd3d4d6a8f452fe293a77f82
+msgid "image12"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:102 7a6f259043cb48d7a346b219ea1dfdb8
+msgid ""
+"A dialog box will appear with a message about the total number of events "
+"process and if the file has been imported successfully. Click *OK* to "
+"complete the import."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:104 b0ba833cdb9b4e03b53d27e4b8a32369
+msgid "|image13|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:209 9908d61746bf4bae89da8ef9dd1aac7b
+#: fde03a9fda2c41f586a2978445405376
+msgid "image13"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:106 29585387a4f14fe6afd47b6654da9992
+msgid ""
+"The successfully imported log will be placed in the current folder in the"
+" Apromore workspace. Apromore internally stores files in XES format."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:108 200d3e9af3d9427e95adc1aec9dde4a7
+msgid "|image14|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:210 56ca505ff9114f64b370f5405524275c
+#: 5c3de0e1247c406b8f875a26c94c79a0
+msgid "image14"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:112 15597655d4974fc1851dfb3103caa92b
+msgid ""
+"After we upload a CSV file, the schema mapping is stored in system. So "
+"next time when we try to upload a CSV file with the same header (both "
+"header names and order), the importer will prompt a dialog to let us "
+"choose whether to apply the saved mapping."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:114 c07fee6a504d4de7853ed78c04fed7bf
+msgid "|image15|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:211 71db8af9b2a4435c929ad1326b9b367c
+#: e88d79559c16424cb44a3c7bf55971d9
+msgid "image15"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:120 abf65617d53c4a5d8272f18be0702a59
+msgid "Upload a file from URL"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:122 8d5a372890e142658ac4220d1b2c1ea7
+msgid ""
+"This feature allows us to upload a file from Dropbox, Google Drive, and "
+"Microsoft OneDrive. To upload a file from a URL, click on *File -> "
+"Upload*."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:126 cdf4b77bffc94cc682db4ecc315592c5
+msgid "|image16|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:212 22047cce33dc45d3a0199732fd09a78e
+#: 78af13c9be624812962fd9e2f8a3232a
+msgid "image16"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:128 afb198a7ad4a4bcb8916a317c9f9c92f
+msgid "Switch to the “Upload file from URL” tab."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:130 6029d5c5c3c84bb29108b155106fd90b
+msgid "|image17|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:213 710ff3714c93456a959144ef595b7930
+#: c04167da986949d5adf1746d6150440e
+msgid "image17"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:132 d86baf0d8e3946d2b70cbd626d234848
+msgid ""
+"The supported file formats are bpmn, csv, xlsx, mxml, mxml.gz, xes, "
+"xes.gz, zip and parquet."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:136 cf9fd059c3cc4024a8a9289c439836e2
+msgid "Upload from Microsoft OneDrive"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:138 3f55448c188c4717b0b97ff6e85b4257
+msgid ""
+"In Microsoft OneDrive, right-click on the file we want to upload and "
+"click on *Embed*."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:140 3de5873e7fef420c925fbeb3ecbd545a
+msgid "|image18|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:214 4daf0e7de45140be9fe789fa2209645f
+#: b9eea8f9b4e948209bbc3da3cc1da9d8
+msgid "image18"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:142 2483de5e300c464089cf533505fbe625
+msgid ""
+"Once the Embed drawer opens, click on the *Generate* button to generate "
+"the URL of the file."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:144 b289f42cb91d49a885f6450f82eb41a5
+msgid "|image19|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:215 c32f15168d5941cbbcc20699b09b1c3f
+#: cdfe6d3745ec4b79b53ab78a9844ef17
+msgid "image19"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:146 c207c0cf7e6b4893aa8694ed9bf82f43
+msgid ""
+"Once the link is generated, copy the link contained in the inverted "
+"commas (” “) of the *iframe src* parameter in the embed code snippet."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:148 220809c773a84aae81de49097824dbde
+msgid "|image20|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:216 7833469cbc5347cc943b6ec098bca6be
+#: 954e29fb2cf642a4ad399fa696969fa0
+msgid "image20"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:150 f24d11acb9ec4af4be7c5eb104b321cb
+msgid "Paste the link to the *File to upload* input box and click on *Select*."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:152 19f5ca188dcc41eaa719a1f96cf91dff
+msgid "|image21|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:217 46c3f32adc7241c089c50e8d9f2283c3
+#: 8a7870ab38314b07ba4ba00ec80e523d
+msgid "image21"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:154 a8065184e51d4049b88b30716f4c5137
+msgid ""
+"Once we click on *Select*, the file name will be displayed as highlighted"
+" below. Click on *OK* to upload the file."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:156 76d44a555a8e43af9e1959ca2d42a8f3
+msgid "|image22|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:218 02ad16849fb143108d48a0743d36ea84
+#: ece065741df343179478fefdfd6c9e54
+msgid "image22"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:158
+#: ../../theapromoreportal/uploadafile.rst:188 38a943ee83d044d8ada26c7bb56e48e5
+#: 5ddebcbc1a1c4dbe97a674785588d01f
+msgid "The log will be successfully uploaded in the Apromore workspace."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:160 6717c3f864f1428ab6dbbafb4838bed6
+msgid "|image23|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:219 22f4eba18a5e4d00a001289d8e46a972
+#: d48fcc68273c4fb892a925b177554790
+msgid "image23"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:164 695b7d518d02434abdfb6d99a18e25da
+msgid "Upload from Google Drive"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:166 95359ddc456049bf8b1270e54742b872
+msgid ""
+"To upload a file from Google Drive, right-click on the file we want to "
+"upload and click on *Share*."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:168 cacf67c171ad470e9760da2b415139fc
+msgid "|image24|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:220 c29581d132b64dd2996895ef9bfb947f
+#: dc65561b0439472cbae3496e4b01635f
+msgid "image24"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:170 d732e44486934e31b61d669a7e2dd944
+msgid ""
+"Once the share window opens up, click on the *Change* button in the *Get "
+"Link* section to change the file-sharing permissions."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:172 18c166a7ed324748894867548ea8e119
+msgid "Make sure the file’s visibility is set to *Anyone with the link*."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:174 9eb4b2e3784943419a13161886a04083
+msgid "|image25|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:221 3d82fe1203314d11a5747f46e2e7ae32
+#: 6c8374c00e664d8890bc64f00b32ab8c
+msgid "image25"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:176 a34c591607b44eb5a0a76fe578e9e3dd
+msgid ""
+"Once the sharing permissions are set, click on the *Copy link* button to "
+"copy the URL of the file."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:178 6125c907a6eb4206bd6f8e8dcffa9102
+msgid "|image26|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:222 8a1cfac4d74f40219376d1de30b8c6bf
+#: e947d3b32f1545c5ac9b0059073af897
+msgid "image26"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:180 72b5b7ccb6614a22b527fc364dbfc769
+msgid "Paste the link to “File to upload” input box and click on *Select*."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:182 5faa2296d2044395abb4dce53bf974a9
+msgid "|image27|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:223 6eef5cc3284945d0bae680f39078c0e2
+#: a4c61a7d698b48399a62b45f576f6117
+msgid "image27"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:184 3b260c14d6f649e9a608cf5479ac4984
+msgid ""
+"Once you click on *Select*, the file name will be displayed as "
+"highlighted below. Click on *OK* to upload the file."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:186 2a76d8b6781144c2b721309696ef7f6d
+msgid "|image28|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:224 413374ebf89f48948efab950f4212397
+#: bcffacfd1fee46aea33bc46a793dae48
+msgid "image28"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:190 387781dc50914701b1c7b94056ecf2ac
+msgid "|image29|"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:225 a631f468a025400da327c6f21b88de12
+#: d34d3071d6bb4772bdce98413e6100c8
+msgid "image29"
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:192 13b0dbc87ff74c4c82d68695d333b549
+msgid ""
+"Similarly, to upload a file from Dropbox, make sure the file’s visibility"
+" is set to *Anyone with the link*."
+msgstr ""
+
+#: ../../theapromoreportal/uploadafile.rst:194 0d4c823789124cf3b95efe22d986d4e2
+msgid ""
+"Paste the link to the *File to Upload* input box under the *Upload file "
+"from URL* tab to upload the file in Apromore successfully."
+msgstr ""
+

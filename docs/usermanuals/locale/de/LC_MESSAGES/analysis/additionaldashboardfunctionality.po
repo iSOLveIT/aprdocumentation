@@ -1,0 +1,840 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../analysis/additionaldashboardfunctionality.rst:3
+#: c98da5aca640415c834dba3daf8453d7
+msgid "Additional dashboard functionality"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:7
+#: 95f3bbf840a649bdb6ab298ffac143b0
+msgid "Advanced View – Slice & Filter"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:9
+#: 5ed6418c5ed0478fbba9d9fc515ebca9
+msgid ""
+"The *Advanced view* allows us to *slice* and *filter* the logs. To slice "
+"a log click on the |image0.1| button next to the *Slice Log*."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:251
+#: 3199a7bfb1c54ea49921bcc9327d3f14 543eb7ae85d4424181bfa6bb3fcb1bf6
+#: 6e071168a667471f82d8737ec6e598d3 c175498e52d64535b2b655c7911d6e70
+#: ce277e6b4bea42b2b1d31a6e664cbf89
+msgid "image0.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:11
+#: a5adf9e7294d4b39adc704ba15259ab7
+msgid "|image1|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:253
+#: 90052d7605a048d689c821f72e2a88cc f7fcb1c518f44c57813d33d70d18b523
+msgid "image1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:15
+#: 799622925be3445ea6565b114943e1c7
+msgid "Advanced > Slice"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:17
+#: 3291cefdd7d44d9a8ef02829d2877900
+msgid ""
+"We can slice a log based on *Event attribute*, *Case attribute*, "
+"*Timeframe* or *Performance*. In case of *Event attribute* select the "
+"events with which you want to slice the log."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:19
+#: 220e5191e8d44937b30bd64adc7355c0
+msgid "|image2|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:254
+#: b4b45bb6c90f4ff9937dca7077575ab7 d62d922c160c491fa9e91b5cce2eca43
+msgid "image2"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:21
+#: ddb253dab33d416ba3a3c0e57fbf7c50
+msgid "After clicking on *OK*, we can see the details of the selection we made."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:23
+#: 3a8ef33bf17643b6b5119ab9de313391
+msgid "|image2.1|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:255
+#: 31c02c61a7844b6584a8e872aafa2083 4a1521acddc4408884c1c9c92d4b1751
+msgid "image2.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:25
+#: c32c7ffd4ce64659b6fd09fb4891a9aa
+msgid "|image2.2|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:256
+#: 5e20d2045b174c7cb76e667ac7251960 bce52f7abaa94243a552a5cc8ad0eccb
+msgid "image2.2"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:27
+#: 1b02efaa3af84bc88f3d26d8a08902ac
+msgid "Click on *Apply*, to see the results."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:29
+#: 35c6fe2075d344f19482612145bf4455
+msgid "|image3|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:257
+#: 414a46f143d7484987f39e1b3dfc3300 534464b2342547589610f6da73a6520e
+msgid "image3"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:31
+#: b311bdbea34c4d34ae5a7e7cd582e9d1
+msgid ""
+"Similarly, we can either slice by *Case attribute*, *Performance* or "
+"*Timeframe*."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:33
+#: 245b5b935fa04f93abbbfc57b026ee61
+msgid ""
+"In case of *Timeframe* and *Performance* there is an option of *Add slice"
+" line*. For this click on the |image0.1| button next to *Add slice line* "
+"and slide the slider. Alternatively, you can also select a date from the "
+"date picker."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:35
+#: 37a0cc58298149158e75cdd38b77fd3e
+msgid "|image4|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:258
+#: 8539fec91af440789187407e232c3160 e115dad5ca7348afbf24ab55d0aed23d
+msgid "image4"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:39
+#: 42b03726208545898e1c1c8231399c77
+msgid "Advanced > Filter"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:41
+#: f0cc8334ccc24f09be1a2369a4667513
+msgid ""
+"We can add a filter by clicking on the |image0.1| button next to *Filter "
+"log*."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:43
+#: c7cd9d7a38c54a338da338130a2d5f3e
+msgid "|image5|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:259
+#: a334847f08d64054a643a39c3e1d1db6 cc64cbb5437e4fd48ece38e76b3a7f6e
+msgid "image5"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:45
+#: 3f25ebfefd7f4f48a1a71929ac2ed18d
+msgid ""
+"Select the desired filter and click on *Ok*. For optimal use of filters, "
+"please go through the :doc:`Filter Log manual <../discovery/filterlog>`."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:47
+#: 36f5d20b7810401198992b2339855b4e
+msgid "|image6|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:260
+#: 631065f795ab4cd59ca7107d2f1f670e b2837bc43ee8406eaafd030cb4d0634f
+msgid "image6"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:49
+#: c077118f1a0a40599a397351baa7fafd
+msgid "*Filter Log window* appears. Click *OK* to complete filter setting."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:51
+#: 134688e67dcc4735aabd4de4a3911304
+msgid "|image6.1|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:261
+#: 6e8d8f735b4d40d4b0c4eb243ca960f8 b4ca4a7b8c9e4fb3b0a12dffc81f3313
+msgid "image6.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:53
+#: 26736c91d73e4a7d85adb33cc5bc2731
+msgid "To apply the filter click on *Apply* in the Slicing and Filtering section."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:55
+#: 4696de09bce046359e39dae74e92b086
+msgid "|image7|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:262
+#: 0630c79835364406b1362bd7976399ea b7d575ba951141f9b9676e8385ec34ae
+msgid "image7"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:57
+#: 013394563eac4c718afdfc771176845c
+msgid ""
+"While slicing/filtering log, we may get a warning sign stating if there "
+"is a problem. Hover over to see the details."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:59
+#: d5a2bfb0a6a047c09ad9b791374dcb16
+msgid "|image7.1|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:263
+#: 45c991c6156242a9a9e339d7d467c5c7 542454950c534983935456a90b2632c6
+msgid "image7.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:63
+#: dcc9c351cd904b198d3f89896a379315
+msgid "Add Reference Lines"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:65
+#: b9018213804e49079ef7f7ec17cb0199
+msgid ""
+"For visualization purpose, we can also add reference lines to a chart to "
+"mark important timelines. For this click on the |image0.1| button in the "
+"*Reference lines* section."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:67
+#: 80b34de306794a42b7ed9e0d4b65ecd8
+msgid "|image8|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:264
+#: 48dc80ae3266444ab30c019082c2a0d9 db0b338a837342be97a63456cb71d49f
+msgid "image8"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:71
+#: 3cb49d4b93f747cbb4ee324f5a6222e3
+msgid "Add KPI"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:73
+#: 16006924ff83463281ff627be78b20b2
+msgid ""
+"We can add KPI target from the KPI thresholds section, which is available"
+" in the *Basic* view."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:75
+#: b308c24b9331427a949c2470ec27e5bf
+msgid "|image9|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:265
+#: 6937ba05c18540e9a9f2154ff7487bc4 db62832be99b4899a2fde15ba0722ce5
+msgid "image9"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:77
+#: 76bdedba643746169c4e3405d3857ed9
+msgid ""
+"The *Mean + Tolerance* metric allows us to specify a mean performance "
+"metric with a specific tolerance (in percentage)."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:79
+#: 398424e026354eef892f43daf7fcea6f
+msgid "|image10|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:266
+#: 6048468b07344f6bb934fb9a8d16a5ef 69b637407ab047849070ce03beafd0f5
+msgid "image10"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:81
+#: f7c55fe1aaad488eb152ca6148b32c20
+msgid "The *Custom* metric allows us to specify custom performance indicators."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:83
+#: ca012d2c21864d06a20b135f0d537ded
+msgid "|image11|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:267
+#: 9e25345169804d95a7684c0cab282001 f806d9ce21284a409e30eece2ccf0c06
+msgid "image11"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:87
+#: afb7e16055ee4f06adc165c7505d6aed
+msgid "Compare Multiple Process Variants"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:89
+#: f5ef8efc42ce44c0a8064183bd053d48
+msgid ""
+"Custom Performance dashboard not only helps us to dive into the "
+"statistical metrics of a single event log but also helps us to compare "
+"different versions of an event log. For this, select more than one "
+"version of the same event log and click on *Analyze -> View performance "
+"dashboard*."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:91
+#: 1f29e937c4524f1099a3812cfac9a24f
+msgid "|image12|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:268
+#: 211feb3a6e0e458db972908b61fa6c5d 6350234a1a254e869a5967c73ed08edb
+msgid "image12"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:93
+#: 78d435daf15f4befbbb55f7651d9aa07
+msgid "We see the charts of both the logs combined."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:95
+#: af30cf9414974aa986ba1d5289960c9c
+msgid "|image13|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:269
+#: 4f98870a61f84b74885fa963fff8e1fb d926fd4133174ebc82c746cdfdfcb67a
+msgid "image13"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:99
+#: bc67534b2c3e40558e72e18fee4e84b9
+msgid "Split Charts"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:101
+#: b8d99c0dfb0e4b228715bb9a21eb8db2
+msgid "We can also choose to *split* charts to compare multiple process variants."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:103
+#: 0efa9bd8a71c4caea7482579bbed01b1
+msgid "|image14|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:270
+#: 199cfb24087c4f9fbf2ca4e7fc03be22 d4e400f98e01428b8dc858265cec4fb1
+msgid "image14"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:107
+#: f15ed1c20eec4de49224fa966cc1e95f
+msgid "Zoom-in/Zoom-out"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:109
+#: e106ba90a9b8473fb9ba388f4fac54c8
+msgid ""
+"We can zoom into the graph by simply dragging the mouse over the part of "
+"the chart we would like to zoom."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:111
+#: 9e316b413e9b4ea09c14c04935d9ebf2
+msgid "|image15|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:271
+#: 3c0bd3c3f562448a92630140b543c133 de40f24d35ec402798caefe7c1334e63
+msgid "image15"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:113
+#: ddd0fa65db634acdb5b14dec0cbb8dc0
+msgid "We can zoom out of the graph by clicking on *Reset Zoom* button."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:115
+#: 18e0ccca28dd448082ec1fab8b664495
+msgid "|image16|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:272
+#: 2d78936841b4491dba694148e538ded4 559b7c3956ef4cd6b174c2c7975d8d4e
+msgid "image16"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:121
+#: a0be1c187d9d48938edb5ac5e23668fe
+msgid "Add filter"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:123
+#: f22b68828c8241b9a8b4c4c7ce4ed4bc
+msgid "To add a filter, click on the *drop-down* button next to the log name."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:125
+#: b9198701ac4c41f3bf3071a1b42e3567
+msgid "|image17|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:273
+#: c5afccb941254db38df62fac826ba55b daaed233959a40849eecddfc1272bbaa
+msgid "image17"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:127
+#: 485617e66e394f48a0024a76193db7b2
+msgid ""
+"*Filter log window* appears. Select the desired filter and click on *Ok*."
+" For optimal use of filters, please go through the :doc:`Filtser Log "
+"manual <../discovery/filterlog>`."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:129
+#: bc80b9fae3cd4388a7e1c2d8e9c92923
+msgid "|image17.1|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:274
+#: 01af5f898d434dc6aebc432e4f54e6c8 8750f1e136c548dbbc4133fc642d1f48
+msgid "image17.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:131
+#: ef3e3829757c4d60b6864764d9e71a70
+msgid "Create a filter and click on *OK*."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:133
+#: f5f179ed0bc74d2dab5f34d1a299e375
+msgid "|image18|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:275
+#: c61b148b917a437e8b910f80f977512d e42b8283a0704604b3e1ebe361e63755
+msgid "image18"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:137
+#: 5c437c16d5644e6683982cb367e6524a
+msgid "Export/Download Chart"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:139
+#: 7d3dfeaed40c41639b0c38a264ffdc0f
+msgid ""
+"We can also print or download a chart to a PNG, JPEG, PDF, SVG vector, "
+"CSV and XLS file."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:141
+#: c7f9fd952f064a449213b09ee6f8afea
+msgid "|image19|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:276
+#: 516938d20aa4422ebb430f9e0a60c168 9196e1abe90f4ae29de83c5158c8d20d
+msgid "image19"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:145
+#: 2e5fdcaf21ec46dab61dbc94033fac9d
+msgid "Clone Chart"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:147
+#: 9c8558da178b4ec19a1876b7956cebe1
+msgid ""
+"To add the same chart again, click *Edit view*, select the chart and "
+"click on *Clone content*."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:149
+#: e22a844b2f9741059b42dd920e892275
+msgid "|image20|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:277
+#: 0001f65e7abc4874948d312e8d719457 cda2dfd1475e40ee86295f349f9b96c3
+msgid "image20"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:153
+#: 99bbbffa86814ff49c118e35976da9da
+msgid "Organize Charts"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:155
+#: fa779dccf6b14ad08e53f1c20d1733a3
+msgid ""
+"In case of multiple charts/stats, we can re-arrange it by clicking on the"
+" |image20.1| button and simply moving the charts/stats by drag-and-drop "
+"method. Click the move button once to move a selected block. Click the "
+"move button twice to move all the blocks."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:278
+#: 82925321081c4730a2acb9823fe4aa94 974382a2864f4694a50165057f9b714b
+msgid "image20.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:157
+#: 4f5b7dc01140455392a6cfd9ba75520a
+msgid "|image21|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:280
+#: 3aab79e959624f5e9b10bc9eee364dc1 d776705e8c544073bc89f2adf31d4fa4
+msgid "image21"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:161
+#: 9003c7d1294241cab66113cccb3916d8
+msgid "Remove Chart/Tile/Table"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:163
+#: 4e3f005806dd4d8cb00e32fa773ff7a5
+msgid ""
+"In order to remove a chart/table/block, select a chart and click on "
+"|image21.1|."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:281
+#: 1934bdbc0bd64d51a859830147a9e3a3 de3a391e54a6470199e0775cd8a9972a
+msgid "image21.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:165
+#: eaea0b2f51bc4903a893242ce56ae342
+msgid "|image22|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:283
+#: b7d5baa0b9fc44d194174727a49674b3 eea68ceedbd0444bac12e854f416742d
+msgid "image22"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:169
+#: d2635984f10e4be799294e2b3b8d335e
+msgid "Copy Format"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:171
+#: cf5a35e764d54326a544e1fea3667321
+msgid ""
+"To copy the formatting settings used in one block to another block, "
+"select a chart/tile/table and click on the |image23.1| button."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:285
+#: 3c599ee24db44e13be29de5f4b317d36 416e899596514a6fba639d2e96735151
+#: 93d1e9d2180b4911bd8ac7e8dd226a55
+msgid "image23.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:173
+#: c76c176d3692404c8cee52b5d320a427
+msgid "|image23|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:284
+#: 619ae23866894a9e97eee009843a0aa5 aa1dd95f88eb4c8a873923e2e7bf62d8
+msgid "image23"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:175
+#: a96ff703ba7843458ea668492449e17a
+msgid ""
+"Click on the |image23.1| button once to copy the formatting from one "
+"block to another. Double click to paste to multiple blocks. We can see "
+"the style of the block to be copied. Click on another block to paste the "
+"formatting settings."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:179
+#: 5af91ce89dc54231b3f41608276c86d6
+msgid "Copy Settings"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:181
+#: 3129d7ba8834494c8c70cccb03c19978
+msgid ""
+"To copy the filter and slicing rules from one block to another, select "
+"the block and click on the |image23.2| button."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:287
+#: 1cb2e5ff1791496d9370c02e8c80f24d 88bd5bf62e504b718779cc4d93ad8d57
+#: bb6c19736251405cbd8a9fdfe1f71e1b
+msgid "image23.2"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:183
+#: ca8dcff3f6e94ad7a6c97a00173835a2
+msgid "|image24|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:289
+#: 37d06fbca3a7450cb1bf16f0b9da567f ab3512cfa5e244d8bd1c044b8635cf94
+msgid "image24"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:185
+#: 738b3dff494f4fc1b7076fc751051115
+msgid ""
+"Click on the |image23.2| button once to copy the settings from one block "
+"to another. Double click to paste to multiple blocks. We can see the "
+"slicing and filtering rules of the block to be copied. Click on another "
+"block to paste the settings."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:187
+#: a23014539a0d4af1b0c259a6c7a91317
+msgid "|image25|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:290
+#: 3939df20156f467a827a7b1b6f9268a5 92a98b48ef444780bba52754b0208018
+msgid "image25"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:191
+#: 9c64fa668832452ca766eda2efe4bf32
+msgid "Edit Dashboard"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:193
+#: 3f24a9fae0524b4c8ec5cf7b1b6d744e
+msgid "To edit the new a dashboard click on the |image25.1| button."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:291
+#: 66f68613554f4b1b9715644980efa1cc 84116590752e4bda93f3a0454c774990
+msgid "image25.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:195
+#: 3ed8b6a3d848478c83bd6883a607bbef
+msgid "|image26|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:293
+#: 2909dfb230a24da68ace1b81ba23c24a c1dcf638440344099ca897a2b1f070b1
+msgid "image26"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:199
+#: d764e969e7c740f7a65931880e895667
+msgid "Download Dashboard"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:201
+#: 4c0336f17259489fa22970467124bf4c
+msgid ""
+"To download the current view of the dashboard, click on the *Download "
+"data of current view in CSV* button."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:203
+#: 52186834c74241e5b3a46ee878ab82be
+msgid "|image27|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:294
+#: 95cec09a35a1430193eeadea54ec213c ad733093679944c1808dd27ba1bf1db4
+msgid "image27"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:205
+#: 912d03cc3cc946e4844e2c276146f631
+msgid ""
+"We can select from a wide range of encoding options to download the "
+"dashboard into a CSV file."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:207
+#: 73146abd68804cb6999e8fe2e09dc0a5
+msgid "|image28|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:295
+#: 2b760e11c3de4ce3af720b2ab5fb4498 b6dd1c3d93d34daf8f3b742654f13e52
+msgid "image28"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:209
+#: 2e2993c0189743d88df6820f7801ca26
+msgid "Select the appropriate option and Click on *Download*."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:211
+#: 46aed4b03f4945c98d2f1f064be1cdd7
+msgid "|image29|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:296
+#: 0d82c33d7ae24c76b8da07d07f52a04d 5d173713320545fca5b98cc6a45dc635
+msgid "image29"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:213
+#: bf5fadaedcd44899849528483f196221
+msgid ""
+"The file will be downloaded as a zip file and contain all the performance"
+" metrics charts/tiles/tables."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:215
+#: 6817cb9f4a434eccbb0cade926b81cbc
+msgid "|image30|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:297
+#: 2ed0e76887c4487784a2a2d3578029da 8e9aa864c4e7448096553af6a43c817d
+msgid "image30"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:219
+#: 0dbd261d04f04079b41378a75619da67
+msgid "Set Dashboard as “Home”"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:221
+#: 537ef549e9ed4149944b08a4b784131f
+msgid ""
+"For ease of access, we can set a dashboard as *Home* by clicking on the "
+"|image30.1| button."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:298
+#: 4475ccd1c41f4931a80d3efca587bb2f db8dc20d84fb45048f14bcf910be2623
+msgid "image30.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:223
+#: 254c804ba4364c54b5d5459e4cad50eb
+msgid "|image31|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:300
+#: 2b2085246a984e428b4900e62ad0762b 5931fb6788aa485d95fa81e4ae7aba91
+msgid "image31"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:229
+#: 5a3937e4d8454d9d9ae0dccc818989b6
+msgid "Change style of dashboard"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:231
+#: 53a08645a72e47ee93301e5694701ce8
+msgid ""
+"To change the style of the dashboard, click on the |image31.1| button and"
+" select from different styling options."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:301
+#: bc7203639ad04a4c9730fbcf4fcd7409 ccb26d979b114533be3d3d67101c8a14
+msgid "image31.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:233
+#: 0a0095187c1b4babbed248fc491798d8
+msgid "|image32|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:303
+#: 17df25f587f04825bb548e638566b772 fe19ec3732bc4b768eea8293f32d9b3c
+msgid "image32"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:237
+#: e6930106a8784dbcb395f5f9ce96505b
+msgid "Change Scale"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:239
+#: eed3c7c4cb1b4715af61bdd0849313f0
+msgid ""
+"The scale can also be changed to *Logarithmic* and *Relative* from "
+"*Y-Axis scale*."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:241
+#: 4ffc5057a4ec4a71b0d4e3b106b92649
+msgid "|image33|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:304
+#: aee9af42e0394f51aa8c7d576d4efcca cba9128c7bb641bcbfc48919f0332b7b
+msgid "image33"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:245
+#: a497d3d7ec7245e492ef88b0534aeba5
+msgid "Reset Views"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:247
+#: 74150a9b4d9e44c2b568a6ded8f76ee2
+msgid ""
+"In case of dashboards created from existing views or changes made to an "
+"existing default view (Overview, Resources, Activities), we can choose to"
+" reset view of the dashboard by clicking on the |image33.1| button. We "
+"can choose to reset the current view or all the views."
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:305
+#: b4e57ced5a7d4a5d9f5ac56e443eb5f0 c6ba427720764997b6fff90e19179b16
+msgid "image33.1"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:249
+#: 0a2db34fa78c462dbab663f014046c7f
+msgid "|image34|"
+msgstr ""
+
+#: ../../analysis/additionaldashboardfunctionality.rst:307
+#: 7a637b0d721d4418bfec7a7f30cde968 8b5f8f8d654f4c339cfa7c67eb71d9e3
+msgid "image34"
+msgstr ""
+

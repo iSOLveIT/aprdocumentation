@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../analysis/createdashboards.rst:3 82e28f82981244ff896825b1a86647cc
+msgid "Create dashboards"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:5 7b8b4c214e574fd7aeb2d48b34b324d3
+msgid ""
+"The Apromore Custom Performance Dashboard offers a variety of custom "
+"visualization options."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:7 f17c02092bb94727898f61b072cb8261
+msgid ""
+"To open the dashboard, select at least one event log and click on "
+"*Analyze\" - > \"View performance dashboard*. We can also visualize "
+"multiple event logs in the custom dashboard by selecting them."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:9 c7d12fe9498c47098d97a7544ca3d61c
+msgid "|image1|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:113 e5fc175e21764ea09bccb290ba1ce64c
+#: f0eeb654329c439ba813e65bfb3223ef
+msgid "image1"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:11 801248cb9a4e41b686de1bea36c78e73
+msgid ""
+"Once the performance dashboard opens up, click on the ‘+’ button to "
+"create a dashboard from an existing dashboard, or create a dashboard from"
+" scratch."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:13 fd0219e6131a4c4ca0b5ec7312aaa706
+msgid "|image2|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:114 368b4bedb73a4ed7ab04b3986a29ceb6
+#: 68cba21f20c0436f873d2043abb15037
+msgid "image2"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:19 d46702c7b2d04603b2debc57b9f68d35
+msgid "Create from existing views"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:21 5341c90b58694cc4af08d6d78ca9185d
+msgid ""
+"The main purpose of creating a dashboard from an existing view is to "
+"modify an existing view by retaining the existing performance metrics and"
+" adding additional performance metrics."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:23 ac2e1bf8e69144a0a4a68bc61256514e
+msgid ""
+"To create a custom dashboard from an existing view, click on *Create from"
+" existing*."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:25 3fead45c293941399f288c5c275ac01a
+msgid "|image3|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:115 20dfec95a36849b7b6fdccc0e2108b87
+#: ecbda9510eed4eecb1c1b62d800ec62e
+msgid "image3"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:27 cd001567277b4ddc980feda2aae1a846
+msgid ""
+"We can choose from three different views: Overview, Activities and "
+"Resources."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:29 6e1603d44bdf4bc1b641e03cea474664
+msgid "|image4|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:116 51ac0e223c264b3c8ff460d7ce719a05
+#: 8cb8baddb6c74d79b72027948132e51a
+msgid "image4"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:31 ff6585cdae2543258c4f9541fb594d55
+msgid ""
+"To create a new dashboard from an existing resources view, click on "
+"*Resources*."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:33 c930b5df2a124f3087c43da180eed80b
+msgid "|image5|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:117 43f6660a001544c993d9f8078e0bbeca
+#: 462c28ddb0494ada8b6f147ada4e9aa9
+msgid "image5"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:35 ad58eed573394ae59782e816e9f3620d
+msgid ""
+"A new *Resources* dashboard will open up. Similarly, we can create a new "
+"dashboard from *Overview* and *Activities*."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:37 8a35736d733142dba6b5ef7b3939d7b0
+msgid "|image5.1|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:118 56ccdcb7e412404db298c8b25059086b
+#: f4daa6620d0e4de28e6f1fd0e6e7e8ab
+msgid "image5.1"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:43 ca87a88944474eaeba62ee7c831c6dd2
+msgid "Create from scratch"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:45 65561e68a0b248d2a09ee249faf8b493
+msgid "To create a custom dashboard from scratch, click on *Create from scratch*."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:47 7327216c038144d588d4cc4076fe591a
+msgid "|image6|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:119 e4bab0f8ef724ef190f219ff4c5674eb
+#: e6231c2a06904c0d8d435485d3ae87fa
+msgid "image6"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:49 aa5e94d6a4d9434294c8541ea9f060b5
+msgid "A blank editable view will open up."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:51 429bf23c1b904751a7f86696dd1484c4
+msgid "|image7|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:120 d0bbbebaa91a41618667427953b794f6
+#: d6926b8818954add81fb36bfc4a5a5d3
+msgid "image7"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:53 09b3187472464dbf9ef3cae5c1c4c2ae
+msgid ""
+"We can change the view's title by entering the text in the *Title* text "
+"field."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:55 982ebebfc27d4924b3aa728805cb2db8
+msgid "|image8|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:121 192cfcc21aaf444e87d82b15b453142f
+#: 74c8eeaa5dfa497c9aca0df0506ac409
+msgid "image8"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:59 a1f65cdf5fd64fab819490e5fe7067fd
+msgid "Add Stat Tiles"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:61 6fa892b04fcc45f58c6f9d884e1e699c
+msgid ""
+"We can also add different statistic metrics by clicking on the *Add a new"
+" tile* button."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:63 6a26fd512dc04ec5b607e8e584af6ff3
+msgid "|image9|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:122 09719f6f913448c5a6f4e4968eb69a4a
+#: 5844f4abbc8141df8cb576f18634316c
+msgid "image9"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:65 0f8c5664521b49b080ecbc375b4c99f5
+msgid ""
+"We can select different metrics from the *Stats type* drop-down list and "
+"make changes to different visualization metrics."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:67 f91cd86dd46d40149da9195170d37ad6
+msgid "|image10|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:123 9ba60917aae94c479d1cd598a03a3c6c
+#: f7899e153592498eabddaeaafcc96f7b
+msgid "image10"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:69 fb5f3b6a4be24be7aac4ad2bf2716e88
+msgid ""
+"We can also change the colors of a value or an icon by clicking on the "
+"color box."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:71 67ced8b69ca14b18bffe924a337395e6
+msgid "|image11|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:124 5183ab0037ae4592866dea12231c7566
+#: fada73862ed04b258f88c7bcce02b95b
+msgid "image11"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:73 e3d9fd887a084138a45470c02c72a29f
+msgid ""
+"We can also add and save a custom color by adding the Hex code of the "
+"desired color."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:75 4e181ed2d55a4875b976bbc66e2f4d3d
+msgid "|image12|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:125 a3823ed08bae4167807fa2a3e5e0f7d7
+#: ac0775ce475b47c8bfb9c5427032ea8f
+msgid "image12"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:79 5551659e4d2e45dabe6ce7055b7b6b7a
+msgid "Add charts"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:81 2a3288ff2b1f4d559cdea05d2823df7c
+msgid "To add a chart, click on the *Add new chart* button."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:83 c2a254bfd5b045ac8137840a203bd0a2
+msgid "|image13|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:126 0fc9007d6b944073b04cd19d433f46d9
+#: 1fef447bc6e643909897bbe763486d29
+msgid "image13"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:85 583eb361834246d08a7d344e0caed7c7
+msgid ""
+"To make changes to a chart, make sure the chart is selected first from "
+"the *Chart type* dropdown."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:87 4eb22b2607c84e87be97e610ea8e8e84
+msgid "|image14|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:127 9b57ecd88be044c4b167e942a7af6cc2
+#: bab6acd438484e7a8de500544d6edf0b
+msgid "image14"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:89 2762b04ceabe4357844d88895e87e6ea
+msgid ""
+"We can add different types of charts to the dashboard. To know more about"
+" different charts, please check the manual."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:91 70b5cf924e464316a1a88c176fc60d4b
+msgid "|image15|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:128 b48091cd8c814633b1be7f192c6160dd
+#: eab74258f2e147e3a8212fc3870906c4
+msgid "image15"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:95 66c3ee61bdd44506815760618dfda067
+msgid "Add Tables"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:97 7895435ac6184783a248c23a4445db06
+msgid "To add a table, click on the *Add new table* button."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:99 dc8b497059b8440386cae6b763fd6dfc
+msgid "|image16|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:129 175a3a83a5a5473f82cfe3978f0ed0df
+#: a3b4842610c34d58aa95bebcbb46dbac
+msgid "image16"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:101 ce26d0dd224d42bca7102515f6ad2ec6
+msgid "We can select different tables from the *Table type* dropdown."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:103 4e2e68096b23434c88dad29ef35f0b9a
+msgid "|image17|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:130 553b36b8f60f4d22a9028dd0a6ebf321
+#: aef6abb613e54fc4aa9d8df2cb76692d
+msgid "image17"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:107 dfe624fc4e3b48898c770e76d5afe8d0
+msgid "After all the changes have been made, click on *Done*."
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:109 00fcb340680e487eb1fb77a9c323d037
+msgid "|image18|"
+msgstr ""
+
+#: ../../analysis/createdashboards.rst:131 42e074a3ac9841b7ac9e2ee8c97bedc1
+#: 63ef6bd5ddac44a18d6242be3aa478ce
+msgid "image18"
+msgstr ""
+

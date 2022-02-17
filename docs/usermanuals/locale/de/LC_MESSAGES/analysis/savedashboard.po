@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../analysis/savedashboard.rst:3 44a5604841b04d709bf115962ee17359
+msgid "Save dashboard"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:5 0908b172f3a64ce7a9dfb6b6e58dfc5c
+msgid ""
+"Apromore allows us to choose whether or not to auto-save changes to a "
+"dashboard."
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:9 2efc79ab04ce4dc2abb62bc79148f3b2
+msgid "Save a dashboard"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:11 d3bcedec70b34423b04733437d0fb98b
+msgid "Select a log and click on *View performance dashboard*."
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:13 0925066f3155412c944d160b937f8dec
+msgid "|image1|"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:46 bffc7ccdc31e480db51ef28e794b15c4
+#: e07b348a3ea74c24bc3b34aa6b6c56db
+msgid "image1"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:15 ef7df28c80aa4cbfb13effc9e32d4277
+msgid "To auto-save a file, click on the *Save dashboard* button."
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:17 c739a86f1586407ba9264966f7352dd0
+msgid "|image2|"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:47 072af2ad2d3d445ead9b5ccd0f280c29
+#: 649af178ca114a569392e108782134bb
+msgid "image2"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:19 01baa02cf8a948f4bf33a8a4be2dfda8
+msgid "To enable/disable the auto-save option, click on the tick-box."
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:21 24eb9e7b22144956b1981405841bce30
+msgid "|image3|"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:48 a9956edabc9c4eec96518557c401f5a2
+#: cca55f9e5fea474586b301ff6d1494a7
+msgid "image3"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:23 ec506330864e4784b24fd33b622e3e33
+msgid "The auto-save option is enabled by default"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:28 8d281f0959234986a581ed91dd6cfa62
+msgid "The auto-save option is triggered when we:"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:26 04ef7a67de59447d8a5f304f01b0cced
+msgid "Click on :ref:`Done <clickondone>` after editing a dashboard view."
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:27 e9726ef8d40e477bb6659c424dec9614
+msgid ""
+"Click on :ref:`Apply <changestyle>` after making changes to the style of "
+"the dashboard."
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:28 6916e8ad5a8541f8995fb77be7ea351b
+msgid ""
+"Click on :ref:`OK <addglobalfilter>` after applying a filter to the "
+"dashboard."
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:32 d34d7b5e8b10451aaac86e20c35fc204
+msgid "Open a saved dashboard"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:34 ca9799d92b9b47e6bc82ad444b643417
+msgid ""
+"To open a saved dashboard, select a log and click on *View performance "
+"dashboard*."
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:36 30acde2724314321b2a6b3af8b0b3569
+msgid "|image4|"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:49 1a30434cd63e4f809ee0c7d2fac6b4e0
+#: 5ca781c95cf741ecb53c20bb843d27c4
+msgid "image4"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:38 d132ee0a1b0f45eeaa0bda01e8616a45
+msgid ""
+"The *View performance dashboard* window appears if the log have any saved"
+" dashboards associated with it."
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:40 fc31e7396b2343acb1f69faa193afe7e
+msgid "|image5|"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:50 53baec88338e4969882ca0b4b59024b4
+#: f86cfa7cb8024e40b00a35ef22a94698
+msgid "image5"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:42 e818c00eb5e74ae1b92c98ad62f16e0a
+msgid "To open a saved dashboard, select it and click on *Open*."
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:44 dcf48c03c24649e7a17651f5030fbb14
+msgid "|image6|"
+msgstr ""
+
+#: ../../analysis/savedashboard.rst:51 13a6dfc663404e9aa59568c1805ac2a9
+#: 653346cde3794ab8b348b6420646093d
+msgid "image6"
+msgstr ""
+

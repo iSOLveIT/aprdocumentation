@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:3
+#: 2778fedce27045688846bcb2ca5c7b3f
+msgid "Schedule/Manage Data Pipeline"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:5
+#: fc3e9d6e0260462d92dc336cc874c6af
+msgid ""
+":doc:`Create data pipeline <createdatapipeline>` allows to update logs "
+"automatically by scheduling. After scheduling a pipeline, the logs will "
+"be fetched directly from the database and transformed according to the "
+"set transformation."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:7
+#: 419012f6bea14830a979a881e0c4ada4
+msgid "We can also manage the scheduled pipelines."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:11
+#: c22d7075c43f40039510b405806f5557
+msgid "Schedule pipeline"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:13
+#: cf0b1800537a405ba838dc1d8ffe28b6
+msgid ""
+"To schedule pipeline, go to the *Load* view and click on the *Schedule "
+"pipeline* button placed in the right corner under the *Manage Data "
+"Pipelines* button."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:15
+#: c2da245707ac42a981c1d2f21d6879c1
+msgid "|image1|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:77
+#: 79a41e61bb4442579ccb00394661cde8 fb3031b4909e4b4696f0641905437637
+msgid "image1"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:17
+#: 82062ce19fdb4cce93cf12a08526f9fc
+msgid "The *Schedule Data pipeline* window appears."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:19
+#: a5e510dd664c4cce9366773b7ecb1e08
+msgid "|image2|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:78
+#: 0ad96601852b45939407bcdfe38db142 1a4c5094ba2949f3bf2d245a8f730421
+msgid "image2"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:21
+#: b4957eade8ae466a884648b7dc8e9da4
+msgid ""
+"We can choose the frequency of the updates – hourly, daily, weekly, or "
+"monthly to extract, transform, and load event logs into Apromore."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:23
+#: cb343c18ec5a485b9860b58eb5a89af4
+msgid "|image3|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:79
+#: 3544015d54e742f08b12dcbf16caf039 ca0c9231d11a48ec8e00ae31beaeeaea
+msgid "image3"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:25
+#: a1ca61cd2d824a849fbb9182f3521a1e
+msgid ""
+"To run pipeline instantly, tick the box *Run pipeline now in addition to "
+"the scheduled time* placed right beneath the frequency settings."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:27
+#: 3f7ab87042ae46fe98160008144f34a4
+msgid "|image4|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:80
+#: a395e110533c45fab2e1504b3c7ab9e7 c1aac6374068427eb42114c627c52184
+msgid "image4"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:29
+#: a5e518302be2455b811c11e35aa24379
+msgid ""
+"When frequency settings are complete, choose the *Log name* and *Log "
+"destination* and click on *Schedule*."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:31
+#: 888a7eb7055445d4b684cc86f8358074
+msgid "|image5|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:81
+#: 391b766128b142b8a895fa7982c03cbc 6468a0c682714650a2acffb3489a00ac
+msgid "image5"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:35
+#: 5ddff5ad96144b65903b8e5472c12bc9
+msgid "Manage pipeline"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:37
+#: 115a50af206140a2839d597247501d36
+msgid ""
+"To check or edit scheduled pipelines, click on *Manage Data Pipelines* "
+"button placed in the right corner under the user's details."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:39
+#: 4cd09da5499c4ec68eb5bede7009acca
+msgid "|image6|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:82
+#: 9742e0e4b8a24aa08fda8f461de9bd28 b39d63892e4a469b9b0bd87a143441bf
+msgid "image6"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:41
+#: 0f2b11d4f7214932b8833145b84d4a3f
+msgid ""
+"The *Data pipeline Management* window appears, displaying all the "
+"scheduling-related details next to the pipeline name: time/frequency of "
+"loads, status, last run."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:43
+#: c22ca0b9a11b4298b2d1d7923676c731
+msgid "|image7|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:83
+#: ceac525ca0824d38827cfcb63cd8f123 e861058ed1754d679fa1c11ae3045651
+msgid "image7"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:45
+#: 6aec670d5ce64a8094adacd8b0371059
+msgid ""
+"By default, the window shows all the pipelines. To see only Running or "
+"Paused ones, click on the corresponding section."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:47
+#: 77e5d06d16b44ecabb78fc54459088e6
+msgid "|image7.1|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:84
+#: 85a3093a5dc94140b907a2834887d8e5 8d2fbe551e154452bd1810140f8ad64f
+msgid "image7.1"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:49
+#: 78cd4a7a520941ec83504af74d621b4d
+msgid ""
+"We can pause or unpause the pipeline by moving the *pipeline activation "
+"slider* next to the pipeline name."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:51
+#: 7674ebf52621477085a0ee51d1ad6ae9
+msgid "|image8|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:85
+#: 2407af42b5ad42158c095520bb821c10 956a3a23892b4355b7e8f1639b067085
+msgid "image8"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:53
+#: 802e6f8963d94fd98abf65577693a2db
+msgid ""
+"To view the details of all the updates of the scheduled pipeline, click "
+"on |image8.1|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:86
+#: 1616a9e2df214bed9609e6f3a9744619 5ed53a30417e47ceb3f61ed36a50c317
+msgid "image8.1"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:55
+#: e02a32ee04cb42e392d03460f77e2c76
+msgid ""
+"The status of the pipeline run might be either success or fail, where "
+"fail means that for some reason system wouldn't able to run the scheduled"
+" pipeline successfully."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:57
+#: b20b75860db6437489dd1a7967d40a70
+msgid "|image9|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:88
+#: 87ce1da2eef74cc090d545580fcf59c4 ecf3ce5f36344147907e744bb6b7fcbf
+msgid "image9"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:59
+#: 5f8b8497f13445a2ae7f068f64ac22b8
+msgid "To delete the scheduled pipeline, click on |image9.1|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:89
+#: 0e80624a11ee4e239d3da396a72660a1 fa23bc26db5e46d99a56e363a917350b
+msgid "image9.1"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:61
+#: 3bbd9e9a2808454688448d027c00a945
+msgid "|image10|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:91
+#: 3d50e760549844629605a71538eed279 e686d981ab5140fba1ac43e8167bb7df
+msgid "image10"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:63
+#: 403787b669bd42d69105e01921d64fdb
+msgid "To run pipeline now, click on |image10.1|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:92
+#: 92713a2d0c254de5b4c6f0b0ab1f5788 b9c57a71b1b34eb7b3c739605a1d42fc
+msgid "image10.1"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:65
+#: 6da912e9b1444babb23bd168b9cfe505
+msgid "|image11|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:94
+#: 500a69585b594f9daefba5352e9ce0d5 d6e37244243b43208db33b673d5be166
+msgid "image11"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:67
+#: b9e2fef64e414ba5a72397a8ea4daef3
+msgid ""
+"To close the *Data Pipeline Management* window, click on the \"X\" button"
+" in the upper right corner of the window."
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:69
+#: 1d48e8fa4362430b9bf56fad6a5d6f13
+msgid "|image12|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:95
+#: 0e9c5803fb7645a6ba63860a11b0c104 7e9dc2e7f9c44c329b82ddedb00c375f
+msgid "image12"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:71
+#: f1d270618ac543238ea0c35db0e56c6f
+msgid "To refresh the window, click on |image12.1|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:96
+#: 0ffec552bb6041b6b22a96d7b15441e5 5531ee9da6734d158ed4a799e6f769c8
+msgid "image12.1"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:73
+#: 8962992534ef4acbb8819ab5545ff9da
+msgid "|image13|"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:98
+#: 169230297e684d1c928064d82ec092b0 1d852794212442b989051410bb759be5
+msgid "image13"
+msgstr ""
+
+#: ../../theapromoreportal/scheduleormanagedatapipeline.rst:99
+#: 098178cd1bfc478ebc9f312f19ea31ea
+msgid "image14"
+msgstr ""
+

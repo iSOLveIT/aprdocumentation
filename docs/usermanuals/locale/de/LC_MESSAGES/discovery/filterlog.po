@@ -1,0 +1,766 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../discovery/filterlog.rst:3 eef7d65ff4f54f2292ad838585a94aa2
+msgid "Filter log"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:5 89695cbcbef448d7a2240b0ba68b65ee
+msgid ""
+"Apromore allows us to apply various filters to slice and dice an event "
+"log in different ways and focus on the filtering results. For example, we"
+" can use it to segregate specific process cases that fulfill certain "
+"conditions, e.g., all cases that transit via a particular activity or "
+"segregate two variants of the same process, e.g., the first variant "
+"containing slow cases and the second one containing fast cases."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:7 f413c57b4d9b4390869b664f2e4844de
+msgid "We can access Log filtering from various places:"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:9 5c4225b1f36346ec8719f578ef72193b
+msgid ""
+"In the Portal, select an event log and click on “Filter log” from the "
+"Discover menu."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:10 e5fd48f9b0ce4fc0ba907974723e2d32
+msgid ""
+"In the Performance Dashboard, click on the “Filter” menu on the top-right"
+" corner or select."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:11 89a77e194bf9487f8b2bc96fa20c33a4
+msgid ""
+"In the Custom View of the Performance Dashboard, select Advanced and then"
+" “Filter log” from the Edit frame."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:12 575b23fbcc1e40b4b6efe8ec6879e687
+msgid ""
+"In Process Discoverer, click on the “Filter” button from the top buttons "
+"bar, as shown below."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:15 339eff4dfc6342bc9997cdb63df13cf2
+msgid "|image1|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:239 3ed07b91a0cb4f4aa751e1eee4a7f85d
+#: fd12b00161dd48c881e5e219d6b1e897
+msgid "image1"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:17 413aa28a5f8a4e98b3048da3d0be1c61
+msgid ""
+"No matter where we invoke the filter from, the filter editor showed above"
+" will pop up."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:21 8ff6a06e1c8f423586e82d6592a6490b
+msgid "Filter types: Case vs. Event"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:23 e3786508ecb64d7f90cf3c4d30279d30
+msgid ""
+"There are two main filter types supported by Apromore: Case Filter and "
+"Event Filter. Both filter types allow us to create a filter based on "
+"particular conditions on the cases or events."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:25 f59ffd40fe6f4e82864db8098e864834
+msgid "More specifically:"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:27 65cf4362199d45dd84733f3c86d33b78
+msgid ""
+"A case filter allows us to “slice” a log, i.e., to retain a subset of the"
+" process cases, e.g., those cases that contain a specific activity;"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:28 7d6ff45c05c74d2db3cabcab29a62eab
+msgid ""
+"An event filter allows us to “dice” a log, i.e., to retain a fragment of "
+"the process across multiple cases, e.g., an element containing two "
+"specific activities."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:30 87352fe5f11443f8833744150b1d6d3c
+msgid ""
+"For the case and event filters, we can set several filter criteria. Let "
+"us take a look at the case filters first."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:34 f170e96d4caf474e83beec3ad6879559
+msgid "Case > Performance filter"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:36 955247ae774a43eab21b2f463077aaae
+msgid ""
+"To understand a process, we might want to retain or remove cases that "
+"fulfill specific performance requirements, e.g., retain all cases that "
+"complete within one month. We can use the “Performance” filter for this "
+"purpose. For example, the below screenshot captures only those cases that"
+" last no more than one month in duration."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:38 f376cbbd624e40488f73e52e86bb421a
+msgid "|image2|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:240 225336e44b8f45f0b9ef7f40d95d8d46
+#: 3f60c74b430f48bda5412b14527fdd86
+msgid "image2"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:40 c4231bab0aa6457ba3bca06ea5dcca33
+msgid ""
+"We can decide whether to retain or remove the cases that fulfill each "
+"filter's condition set in the filter criteria. Concerning the example "
+"above, we may determine whether to retain or remove all cases that "
+"complete in one month."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:42 2798ff8b997d4d98a0e713a9d45b80c5
+#, python-format
+msgid ""
+"We create a filter by clicking *Apply*. We can observe that 80.4% of the "
+"cases fulfill this requirement."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:44 6c202b1a02ac4024926c3d802402f730
+msgid "|image3|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:243 3f085b31492a46b9b6d6da5c80d4e2ea
+#: 9e577e79c58f4472a6b84f8d343c1474
+msgid "image3"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:46 b384741e159f48a995ecbe36b923c2ad
+msgid ""
+"We can use the *Arc duration*  metric from the *Performance measure* "
+"drop-down menu to perform the analysis based on the duration of the path "
+"between different nodes of type activity, resource, or other event "
+"attributes."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:48 bce2f6b6149f4af99bd2512bcf2e3e0b
+msgid "|image2.1|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:241 22f3a33b493a46d3b4265aa29dd16e75
+#: 49fdbaf4994445ae9c0b859f336cb7b4
+msgid "image2.1"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:50 26b60b5b73e44a2f8588b547276934dd
+msgid ""
+"In the example above, we decide to retain all cases where the arc "
+"duration between *ER Triage* and *ER Registration* is not more than 3,25 "
+"hours. The filter is created by clicking *Apply*."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:53 46b2cb2312e44b9d85f60659835b30ad
+msgid ""
+"In addition to the arc duration, we can also select a node duration "
+"performance metric to analyze performance by retaining or removing "
+"different nodes of type activity, resource, or different event "
+"attributes."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:55 26a0218733f7493fa5754624eba399e1
+msgid ""
+"We can also filter out cases based on *case length* (number of activity "
+"instances in the case). Thus, in the example below, we retain all cases "
+"whose length is between 3 to 15 activity instances."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:57 239ce31170ab4832a67d1a3c24034d05
+msgid "|image2.2|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:242 0814aaf5b1884ff4bd09c8355d66581f
+#: 3efb2963a7fa4162acd31c6efcfa647e
+msgid "image2.2"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:61 a1e0eb89c7b64aa1ad01d876cfe5264c
+msgid "Case > Attribute filter"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:63 b6561fe00c2445e78d7342d035b5a783
+msgid ""
+"To retain or remove all the cases that include a specific attribute, we "
+"can use the *Attribute* filter. For example, we want to retain only those"
+" whose attribute *Age* is between 20 to 30."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:65 cace5bfc1e8e493b9d80e39b6a7c8aa9
+msgid ""
+"For this, click on the *Attribute* filter. Select the age attribute from "
+"the drop-down list and tick the specific values to retain. Finally, click"
+" on *Apply*. In the example below, the result would be only those cases "
+"where the age attribute is between 20 to 30."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:67 1763903c0be34fe49c5c2211b7a4c690
+msgid "|image4|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:244 24ee3937940741788420d7f47c6b0fb3
+#: d92dfe2134674cee85ac4a6b5e5097b2
+msgid "image4"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:69 bb1d5eb75fa9445aaa41047d647ad26e
+msgid ""
+"For the numerical attributes only, there is an alternative to retain or "
+"remove cases by choosing the range of values using the \"From\"/\"To\" "
+"slider at the bottom of the filter window.  We will see the list of "
+"values (categories) for categorical attributes like resources or product "
+"types and choose which specific values to retain or remove."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:71 e487ef913c1043d78791f632d33c81d5
+msgid "We can also retain/remove cases that include a secondary attribute."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:73 e5d55db31c304938824b6251ff70f4d8
+msgid "|image4.1|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:271 c0cd6b3b4dff47d1a67dffeb50a03499
+#: e1aba1622630445bb4ef1f1580f1229b
+msgid "image4.1"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:75 789a02e4f2c2433db5feb9c17c5045f2
+msgid ""
+"In the given example, we retain cases where resource group L (Secondary "
+"Attribute) performs an activity ER Registration."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:77 76980819238d4361b6d6d5b826c5162f
+msgid ""
+"We can also filter cases that include a specific case attribute as a "
+"primary/secondary attribute."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:79 644c59d33d2f48f896c1d2b9c0c090e0
+msgid ""
+"In addition, the Matching section allows us to set whether cases should "
+"be retained that satisfy any of the selected values (default selection) "
+"or all the selected values."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:83 b2bc6e44318b487a91e62935be457a4a
+msgid "Case > Path filter"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:85 654eba9ea08a4ec3901c4c61a12b2efa
+msgid ""
+"We can use the *Path* filter to identify bottlenecks or analyze the "
+"transitions between the activities performed. For example, click on the "
+"*Path* filter to retain those cases where the activity *ER Registration* "
+"eventually follows *Release A*."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:87 4c6feb6f9a7c40acb6e54297af2a9a57
+msgid "|image5|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:245 7ddd9c5e32994ca8ade1689b74ff804f
+#: f9c8b27578a04b5d87a8ece9e358b7a7
+msgid "image5"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:89 47b5e86c91bf492181938d7478953a5d
+msgid ""
+"We can also filter out those cases where the same resource group is "
+"performing the activities. This can be done by checking the *Require* "
+"checkbox and selecting *Group* from the drop-down list of the *Path* "
+"filter."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:91 7092f9292d3a4457bcf1169069ae4081
+msgid "|image6|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:246 6765cbc48db84dcfb5374265e546e48e
+#: b4e01d5e2d774f61b7c2ba0367122401
+msgid "image6"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:93 483fd2a988094570a55215f822488fa0
+msgid ""
+"The time between the occurrence of activities can also be captured by "
+"using the *Lower* and *Upper* bound fields of the *Path* filter. For "
+"example, retain those cases where the time interval between ER "
+"Registration and Release A is greater than 2 hours."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:95 a1659a9a74f34b8ea56d6eacb9028822
+msgid "|image7|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:247 5a4f922392374072b46de7ef3ceb57d9
+#: 8d4a799ad36840a490ecfcd6878a4227
+msgid "image7"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:99 635795b746b64c199a594b3178ca72cc
+msgid "Case > Timeframe filter"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:101 3078eca16f014521b6034b5d13eac390
+msgid ""
+"The *Timeframe* filter allows us to retain or remove those cases that are"
+" \"active in\", \"contained in\", \"start in,\" or \"end in\" a "
+"particular time period of the log. We can set the desired timeframe by "
+"entering the *Start* and *End* dates or using the time slider at the "
+"bottom of the Filter criteria window."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:103 f7f0c9fea4c4432986d7e229d79173c1
+msgid "|image8|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:248 06623f2cc86649c69ce7393a2b58910f
+#: 0c02073f47c34e9193f92c690069a2da
+msgid "image8"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:107 70de6d969ba04d3eb6fc2832e591a996
+msgid "Case > Rework & repetition filter"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:109 f0a16094ed8f4566ae079376e0430ef0
+msgid ""
+"In some processes, certain activities are repeated – this can be done in "
+"direct repetitions or through the *back and forth* between two or more "
+"activities."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:111 1a76d83d744242659f8c2ab4fcf3ead4
+msgid ""
+"A *Rework* filter can be used to isolate repetitions so that only those "
+"process sequences are retained or removed that contain specific "
+"repetitions. We can also set the *Lower* and *Upper* bound for the "
+"reworked activities."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:113 adbcea6b1ab64e8282322dcb01a30ac1
+msgid ""
+"When setting multiple conditions on repeated activities, we can define "
+"whether the filter criterion should satisfy any condition or all "
+"conditions on the repeated activities."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:115 37777414802048bf84c135ad3f9edfd5
+msgid "|image9|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:249 45fdce800774494e8694fd3019492936
+#: 8c1b68272d164a1fafecc102f9356f66
+msgid "image9"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:119 5c1a0318f7a049438bfaf44db03f2753
+msgid "Case > Case ID filter"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:121 a2d7b4192cec432dbe25af2547fb5d24
+msgid ""
+"We can choose to retain or remove cases based on a particular case ID  "
+"using the *Case ID* filter. In the below screenshot, we are retaining "
+"those cases with case ID ‘AA’. The result would include the activities "
+"performed by the case ID ‘AJ’."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:123 779e34f641a24a43b2b918060a9c93cd
+msgid "|image10|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:250 316d5c2499e74fb59794cc3bd34d608b
+#: 7a766c64b5474281adda347cf8bae3cc
+msgid "image10"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:127 806be79440b14cedb8f32fc4b14a7865
+msgid "Case > Variant filter"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:129 c4b5810e357c4b12b6d7921d106c2a60
+msgid ""
+"We can use the *Case variant* filter to retain or remove the case "
+"variants based on a particular condition by entering the *From variant* "
+"and *To variant* values or using the time slider at the bottom of the "
+"Filter criteria window. For example, we want to retain up to 50 case "
+"variants to analyze the process's most common behavior."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:131 f399dbb6287744fdbc2b12700655b019
+msgid "|image11|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:251 b8c00a2784bc438db5fd390d9b77942e
+#: c162e8647c194c99b7a623ea25880f1c
+msgid "image11"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:133 4bb8d99599cd4c309393b2984d4c165b
+msgid ""
+"Let us now take a look at the filter criteria for event filters. We can "
+"use the *Event* filter to dice the log, i.e., isolate a specific fragment"
+" of the process across all cases. The *Event* filter allows us to filter "
+"by *Attribute* and *Timeframe*."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:137 25b80d54d447471faa032d061f11280d
+msgid "Event > Attribute filter"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:139 5c3b9f4d777d41a3b8f6531931c20324
+msgid ""
+"The *Attribute* filter of type *Event* allows us to retain or remove "
+"those events that satisfy the values of a specific event attribute. For "
+"example, we may want to remove those events whose activity label is \"ER "
+"Registration\". This means effectively to dice the log in such a way to "
+"exclude all events related to activity \"ER Registration\"."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:141 32bd1da6468d4f06a45db51815e1f5ec
+msgid "|image12|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:252 69ef57e69fb447058046c8a0745170e1
+#: 98a5fb82e1614f3ead72704941d3cfab
+msgid "image12"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:143 a381f1faaac8452f91a66c633b5e951c
+msgid ""
+"Any attribute value can be used to set conditions. For example, in order "
+"to remove all events where the value of “DiagnosticIC” is false, we can "
+"select *DiagnosticIC* from the drop-down list of event attributes and "
+"then select the specific value we may want to retain or remove."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:145 b74d61815172496987b5eecb32905a57
+msgid "|image13|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:253 373dd62f6efe40eab45a70aa8df0e067
+#: 9142114ae6514e44972383a55578333d
+msgid "image13"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:149 e3cff76187b349bcbc708629c2c27d3c
+msgid "Event > Timeframe filter"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:151 e5dad139aab047f2bd72aefe592f80b5
+msgid ""
+"The second type of filter criterion for events allows us to retain or "
+"remove events based on a particular timeframe. We can set the desired "
+"timeframe by entering the *Start* and *End* dates or using the time "
+"slider at the bottom of the Filter criteria window."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:153 ad20160eaf104ac38c486237e406d1ed
+msgid "|image14|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:254 7b33d90951e841a7b4ce7ccc3b64aae6
+#: a31938cb6e0e41b8b439e67097c91682
+msgid "image14"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:157 c16fdc87030e4568af7d5dd17f29907c
+msgid "Managing filter criteria"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:159 8212fc9d059d4caaa013823ec6a10608
+msgid ""
+"Apromore allows us to create one filter on top of another. We can do this"
+" by clicking the *Create* button."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:161 c23a43cdcdd146bea17621487b5e7386
+msgid "|image15|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:255 4df7904f45d844c5adeaf2429b02f387
+#: 4fcc4d825d3948aba5ccf6563d21e7cc
+msgid "image15"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:163 adc291d2f9de4cc89f090fc03e7df7fd
+msgid ""
+"In order to edit an existing filter, select the filter and click on "
+"*Edit*."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:165 c9281e8c2709497a824a28e72c7a3262
+msgid "|image16|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:256 5e415f55aff1474a94f69096b42e8bd5
+#: 7343609ac26e4bfcb0eee562dbca8a9c
+msgid "image16"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:167 a8d239b1fb834dcf829bc40c2b5f6445
+msgid ""
+"We can change the sequence of the filters by using the top-down arrows on"
+" the right side. In order to delete a single filter, click on |image16.1|"
+" button. Alternatively, to delete all the filters at once click the last "
+"button - |image16.2|."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:257 5f55c299a3d54b3c812acfc94767c506
+#: c1aed9b905fa487f8635e00c37ad7a33
+msgid "image16.1"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:259 18301dde569946378e8cf50fb6ad1682
+#: f24d0f9cf0f24c13b737201269f02ed6
+msgid "image16.2"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:169 1cdc3eea1ac2430192ed438cde9a8245
+msgid "|image17|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:261 7b5c33a512ec489d8df5bf24aafcf8a0
+#: c5d861e0548e4ce99faf218e6cd9dee9
+msgid "image17"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:171 470f43f2d1234fd48517e830ab6ecb4e
+msgid "To open a saved filter click on *Open* button."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:173 4bf4c366d28a41a6a567549b4ff3fcb1
+msgid "|image18|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:262 d895cdce201a48efa5bffb3234f96f3c
+#: f6dad91f10794191b4e2673145d039a6
+msgid "image18"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:175 b885d8f66fd84806a142bbacb6a1043f
+msgid ""
+"In the filter window, a red exclamation mark |image24| next to the filter"
+" name means that another user has made changes to the filter. Click on it"
+" to save/discard changes."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:272 ee9ef126672148f78deb06a23dfb9703
+#: ff4917fe25314464be794bc3757ee111
+msgid "image24"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:177 33c7a95530e54a5ab0868f32d5ab9661
+msgid ""
+"We can make changes to an existing filter and then click on *Save* to "
+"save it."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:179 970437341bf64a32a1bc2cfea11a1555
+msgid "|image19|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:263 873bcf81a6ab4ac29a4f274a5836c338
+#: c201fa23e63b42028e0515f34d1430fa
+msgid "image19"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:181 73a8c7f80b5a4e8dacb9761303f71691
+msgid "The *Save as* button is used to save a new filter."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:183 f38a3010effd48eaaf0bacfadc7c4544
+msgid "|image20|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:264 2ee818d406114adc854ca3aedf250e18
+#: 5b5db9d1cde3460f882112b88392caf9
+msgid "image20"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:185 1766e47dc034426db91bb9e07b6469ab
+msgid ""
+"We can also upload a filter by clicking on the *Upload* button. Select "
+"the filter (.json file format) from the file explorer."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:187 f216c7de641b4db7917f0a0bd095dbeb
+msgid "|image21|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:265 bbfa8e7f75544050b5577c38ff5815f1
+#: c59c8294e6464a6c8b6a0b7d83e5de39
+msgid "image21"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:189 d1fc78b50a20424db55bcc2b3a7e50eb
+msgid "A filter can also be downloaded using the *Download* button."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:191 a48848f74a0d44879b2a92b5e608051f
+msgid "|image22|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:266 16f208b76f734bb4984a8a5473671793
+#: acdc16fc8cc34aa186bceac970fae255
+msgid "image22"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:193 c3a93d453a964eec8c7d41890be4af6d
+msgid "We can edit the name of the filter before downloading it."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:195 c2a5a062496d4899bf6ff5688f713428
+msgid "|image22.11|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:268 4a72f4431a6c4a31b3988ae296c15b40
+#: beba1b4af71d4ac58ba4a3c0027d556d
+msgid "image22.11"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:199 efa595a03a0540a2ba1fde86ce83bf55
+msgid "Undo/Redo filters"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:201 2ed7a8797dda40b49c42d21b09354c48
+msgid ""
+"The application of filters can be applied and removed by using the "
+"*Undo/Redo* buttons. To undo a filter criterion, click on *Undo filter*."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:203 2440beeb54ff4751b7b9c834bbbe0384
+msgid "|image22.1|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:267 25956d0d89b5433db7317b6d486c4692
+#: 9851caf8e81a4ae894591bd226993170
+msgid "image22.1"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:205 2f0195bc8ffa4d6980c81e9c4775e6fa
+msgid "To reapply the previous filter, click on *Redo*."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:207 ef0b6045388a477db1a9124ad0504692
+msgid "|image22.2|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:269 286e292f8edd4b41989349d13a0d01a3
+#: ba0cb0873b1a4cb5858990b5b00e3e17
+msgid "image22.2"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:214 17e622476a6e403f99ea2a6e1ea31599
+msgid "Clear all filters"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:216 24b3769c57594621a0d79655c7f15604
+msgid "To clear all the applied filters, click on the *Clear all filters* button."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:218 c2c0a3dd3a0843e9a20c41ccbb4cdabc
+msgid "|image23|"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:270 2821c958be2d4af6b34b975f547ee0f6
+#: 695da0e2ae0e4bf797a0c0136b639624
+msgid "image23"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:222 1e419ee1d9314dd18099a150b81e8c7d
+msgid "Shortcuts"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:225 e521c2ca05b2416e8baf91463812f8d8
+msgid ""
+"Right-click on an arc: remove all cases containing the selected directly-"
+"follows relation"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:226 35074909925146c18b4a661250760d13
+msgid ""
+"Shift + right-click on arc: filter cases based on this arc's duration "
+"(from any perspective)"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:227 4907370cf1b54a29bd2be8aa5087937d
+msgid ""
+"CTRL + Right-click on an arc: retain only cases containing the selected "
+"directly-follows relation"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:228 2e07fc10f0264c928cdcdb7831d0197f
+msgid ""
+"Right-click on a node: remove all cases with an event containing the "
+"selected attribute"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:229 5527974bf867459bad4456ee9857fa4a
+msgid ""
+"CTRL + Right-click on a node: retain only cases with an event containing "
+"the selected attribute"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:230 dafb2b68fa574129981597b3d89bb536
+msgid ""
+"Alt (Option) + Right-click on a node: remove all events containing the "
+"selected attribute"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:231 9af50b81238a490390a41180f70570a2
+msgid ""
+"Alt (Option) + CTRL + Right-click on a node: retain only events "
+"containing the selected attribute"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:232 e74ef6e6b1e744219bb6f1756e061c6b
+msgid ""
+"Shift + right-click on a node: filter cases based on this node's duration"
+" (from any perspective)"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:233 40ed98554619403d9e9f8332af7ed78c
+msgid ""
+"Shift + CTRL+ right-click on a node: filter cases using this node as a "
+"primary attribute."
+msgstr ""
+
+#: ../../discovery/filterlog.rst:234 2d3abdc3fc2341af95195493a25a1bb2
+msgid "CTRL + Z: Undo"
+msgstr ""
+
+#: ../../discovery/filterlog.rst:235 157701b8e6aa4b43a2ced32d3ff71216
+msgid "CTRL + Y: Redo"
+msgstr ""
+

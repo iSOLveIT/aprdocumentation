@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../discovery/savefilter.rst:3 77b97279e9ef4e838ddfb3ac65f7f197
+msgid "Save filter"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:5 53356fa9803b40a9933b616200a278f7
+msgid ""
+"Apromore provides the functionality of saving and sharing filters. To "
+"save a filter we first need to create a new filter and then save the "
+"filter."
+msgstr ""
+
+#: ../../discovery/savefilter.rst:7 e8ce171dca6148dabe9831d7141b5785
+msgid "To create a new filter, choose the type of filter and click on *OK*."
+msgstr ""
+
+#: ../../discovery/savefilter.rst:9 3dec3d39dff443a1912bfc6d9802fa99
+msgid "|image1|"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:59 70e241bb7de643ccbc6ddf3fe24e4877
+#: 8f426ec7e5444d4ab4b7d6b6d8f6fb88
+msgid "image1"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:15 98d58e74b4e44ce8bd84bc17658d5240
+msgid "Save as"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:17 8130717e1485432e95f1d8a049c16e88
+msgid "Once a filter is created, click *Save as* in order to save the new filter."
+msgstr ""
+
+#: ../../discovery/savefilter.rst:19 79619176598540f595d8f8a6e5d820c1
+msgid "|image2|"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:60 b32e707a813e463dbfc9252bc938e90d
+#: cb0135596dfc46c99b5c8e08722c89a6
+msgid "image2"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:21 402846f8dccd40bd9757fd1891a273bb
+msgid ""
+"The *Save filter criteria* dialog will appear. Give a name to the filter "
+"and click *OK*."
+msgstr ""
+
+#: ../../discovery/savefilter.rst:23 787371b090c74c6ab5d21118ddee164c
+msgid "|image3|"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:61 2a00f01109744523a05f735e034acbeb
+#: 723d9944b7db4d928c1981b5f5c356f8
+msgid "image3"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:25 6367c3c914394ef1b05f9bb7862dd0ae
+msgid "Once the filter is saved, we can see a confirmation message."
+msgstr ""
+
+#: ../../discovery/savefilter.rst:27 51e27b0050534e0e91f1e7cbaae94631
+msgid "|image4|"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:62 541d90d138c64292be05b5597fb0b4e5
+#: 72dd8bd5e3534faf9dd5e61722fc5a76
+msgid "image4"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:31 adfb73b66f4e456298e111d6723957b4
+msgid "Load"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:33 9136c8a660344fe7a8cbad34ec791901
+msgid "To load filters associated to a log, click on *Open* button."
+msgstr ""
+
+#: ../../discovery/savefilter.rst:35 d6216ddc401443ba853d8cfeb13c82a8
+msgid "|image5|"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:63 2c63be1c8c554a50851b89ee73e1cbea
+#: 56a0c30de74e4ea298f77e6e8fc0978d
+msgid "image5"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:37 27bbe096264e453ba731e1d9b2bdaf66
+msgid "We select a filter that we wish to load and click *Apply*."
+msgstr ""
+
+#: ../../discovery/savefilter.rst:39 09c4cda3e2294f9d8ba3d637092fe406
+msgid "|image6|"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:64 3ba79f137a6f4185863bda9329549f21
+#: b1014caf6e804492bdda919cafe010bb
+msgid "image6"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:41 06b416a257b34f67a9b9e09272cbbbf5
+msgid "Once the filter is loaded, click on *OK* to filter the event log."
+msgstr ""
+
+#: ../../discovery/savefilter.rst:43 ee6e3f61d0b64d90ae68a9b528350c61
+msgid "|image7|"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:65 686561d632ce4aefa508a0feb4a62e84
+#: bc99e6ea915d4c2cab3359167f4ff260
+msgid "image7"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:47 955536d1ae08475cbda9edb5788f4b85
+msgid "Save"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:49 8ed7b642172640babf95e8f6e174ab9e
+msgid ""
+"We can update an existing filter and save it. For example, we add an "
+"additional filter criterion to an existing filter and click on *Save*."
+msgstr ""
+
+#: ../../discovery/savefilter.rst:51 d7439efe68134e658e377dbacfec4e85
+msgid "|image8|"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:66 21f1046d4bb74af28d03c19705b0e696
+#: 9d00ff6a3d5f4c1b8ba25284c969c428
+msgid "image8"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:53 90c852da82144becbbac15ed83763e9f
+msgid ""
+"We can see a confirmation message that the filter for the associated log "
+"is updated."
+msgstr ""
+
+#: ../../discovery/savefilter.rst:55 0f3d56424f524d5b89c3fde9f3e28651
+msgid "|image9|"
+msgstr ""
+
+#: ../../discovery/savefilter.rst:67 2a053ab676c84e25967702d59479254f
+#: e4245a96fdf44460b4ac35ca6b4098da
+msgid "image9"
+msgstr ""
+

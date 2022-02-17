@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../analysis/addchartstodashboard.rst:3 acf9baf98bbf47d89275cb8c956f508a
+msgid "Add charts to dashboard"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:5 31b77b650d96493592f0cb426ecd3427
+msgid ""
+"Apromore's Performance Dashboard allows users to analyze a business "
+"process from a performance measurement perspective visually. The "
+"Performance Dashboard displays a variety of aggregate statistics and "
+"charts. The *Performance Dashboard plugin* allows us to analyze one "
+"process in isolation or to compare multiple process variants. For "
+"example, we can use the *Performance Dashboard plugin* to compare how a "
+"given process is executed across multiple regions or compare the variant "
+"of a process consisting of slow cases versus faster cases."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:7 95bf7751f8964b21a2ccf584a44891f8
+msgid ""
+"To open the dashboard plugin, select at least one event log and click on "
+"*Analyze - > View performance dashboard*. To compare multiple process "
+"variants, we need to select multiple event logs and then open the "
+"Performance Dashboard plugin."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:9 0aa2a6be17744582bbd86df1499d4197
+msgid "|image1|"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:83 1420ac24305a4c06bb22b694be29c6cc
+#: de969568569a4ab8804afcad9ce1c1d0
+msgid "image1"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:14 54518380876c48d99fd4e7095de87c11
+msgid "Activity instances over time chart"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:16 c73b4e2269d1450cbc07cfbee743ea35
+msgid "We can add different charts by clicking on the *Add a new chart* button."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:18 4a8b94904278402099e5b18ead84eaf0
+msgid ""
+"The *Activity instances over time chart* displays how many activity "
+"instances occur during the time frame of the entire event log. The Y-axis"
+" denotes the 'Timestamp' of the entire log. The X-axis denotes the number"
+" of activity instances. This chart can help us to identify various "
+"patterns, such as the periodicity of the process. We can observe, for "
+"example, that in certain months of the year or certain days of the week, "
+"there is more activity than in others."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:20 1ee28a56bc804e7fbffc51ad8610f77a
+msgid "|image2|"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:84 1158c8e07e6247b08b6d9447aab1d756
+#: 66e8a0257d7440969c3851615b80adf0
+msgid "image2"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:24 776a295d846b4278a67c65d2ba7f7e30
+msgid "Active cases over time chart"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:26 4772fda173604c1ab9988775aba2bc1f
+msgid ""
+"The *Active cases over time chart* displays the work-in-progress over the"
+" entire timeframe of the log. To understand and view the work-in-progress"
+" over a period of time, click the *Active cases over time* tab. "
+"Alternatively, we can use :doc:`Case length filter "
+"<../discovery/filterlog>`."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:28 9eef7f80f95e4e7498ea86cd6ecf1135
+msgid "|image3|"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:85 3fe452431d334a0ab47e18fd0805ae20
+#: 974d72db7bba4b61abfc92b3ce2e1915
+msgid "image3"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:32 d1796d2982274dcf877da04a31c9c9a4
+msgid "Case variants chart"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:34 a9ee88778b12474e9f32f9af365b41d0
+msgid ""
+"A case variant is a sequence of activities followed by one or more cases,"
+" i.e., a distinct pathway. For example, if A, B, C, and D represent "
+"activities, then ABCD, ACBD, and ABC represent three case variants. "
+"Typically, there are multiple cases in a log that follow the same case "
+"variant. For example, it may be that 10 cases follow the case variant "
+"ABCD, while 5 cases follow the case variant ACBD. The *Case variants "
+"chart* displays the number of cases that follow each variant. The "
+"variants are sorted from most frequent to least frequent."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:36 19b09471bc254863835ba6a765b6902b
+msgid "|image4|"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:86 16be3985eb964535a7267d206065ba6e
+#: 45a05476167c4e719743fba85f26624d
+msgid "image4"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:40 8267aec14ac94c44ac188aed36730a6b
+msgid "Activity instances per case chart"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:42 94438013e26d42e7a39528a9cdb86a41
+msgid ""
+"The *Activity instances per case chart* displays the number of activity "
+"instances in each case. The horizontal axis depicts the number of "
+"activity instances, while the vertical axis depicts the number of cases."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:44 cf3fa6cc9e984d608b716cd65fbb2af8
+msgid "|image5|"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:87 9c42282efcae43739c943fb41270ac10
+#: e77a72e7077d49ca8018c66c5c57cb9a
+msgid "image5"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:48 4ef0b3163b4f4ac39110413cd315f1de
+msgid "Case duration chart"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:50 5587330bdb7b4a75a0d30b67761a5257
+msgid ""
+"To visualize the histogram of the case duration of the process, click on "
+"the *Case Duration tab*. Based on the screenshot below, we can identify "
+"many cases between the start time and approximately 23 days. However, "
+"some cases took more than a month."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:52 6fef897733ee4a14b1acc07a70b69d43
+msgid "|image6|"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:88 03e975ecbe3a404dbaa2ef83b63948d0
+#: 95505b1dd8164e449be75e0a122bc5b4
+msgid "image6"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:56 fcd09a1eceff4609914464b8c8b2777e
+msgid "Case Utilization"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:58 9f48794737424726a23ebfe7626968ce
+msgid ""
+"The *Case utilization* is the ratio between the processing time of a case"
+" and the case duration. The processing time of a case is the amount of "
+"time during which someone was actively working on an activity in the case"
+" (i.e., the case duration excluding waiting times). The \"Case "
+"utilization\" chart displays the histogram of case utilizations in the "
+"log. Each bar in the chart shows the number of cases (Y-axis) with a "
+"given case utilization (X-axis). If we see one bar only, there may be two"
+" reasons: either all cases have the same value of case utilization, or "
+"the other bars are tiny. If that is the case, press the \"Log scale\" "
+"button on the chart's top left corner to make the other bars visible."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:60 acd4e2246d1741f986394e232ccdc049
+msgid "|image7|"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:89 a295ede7c1044b5ebaf2886e10b94db9
+#: daaba350f45e43c0bdd665782e79261e
+msgid "image7"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:64 a3959ca111494cd9a95518df6228897a
+msgid "Processing time chart"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:66 eec295f8979a4458b0b07178ec291f85
+msgid ""
+"The processing time of a case is the amount of time during which someone "
+"was actively working on an activity in the case (i.e., the case duration "
+"excluding idle times). We can choose between the total, maximum, and "
+"average processing time from the dropdown menu. The *Processing time "
+"chart* displays the histogram of processing times of the cases in the "
+"log. Each bar in the chart shows the number of cases (Y-axis) with a "
+"given processing time (X-axis). If we see one bar only, there may be two "
+"reasons: either all cases have the same value of processing time, or the "
+"other bars are tiny. If that is the case, press the *Log scale* button on"
+" the chart's top left corner to make the other bars visible."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:68 c5439fd3043f41e1a89fee30a43fa884
+msgid "|image8|"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:90 1f51a8870eb644f78e21c149ee8fca87
+#: ee3ab0cb885d48059ea9fed5ecc8f4ed
+msgid "image8"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:72 f72aebaaabb1400990ba04c1020891c0
+msgid "Waiting time chart"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:74 8614633d92c24e52bb6f30ae86d4c545
+msgid ""
+"The waiting time of a case is the amount of time during which nobody was "
+"actively working on an activity in the case. We can choose between the "
+"total, maximum, and average waiting time from the dropdown menu. The "
+"*Waiting Time chart* displays the histogram of waiting times of the cases"
+" in the log. Each bar in the chart shows the number of cases (Y-axis) "
+"with a given waiting time (X-axis). If we see one bar only, there may be "
+"two reasons: either all cases have the same value of waiting time, or the"
+" other bars are tiny. If that is the case, press the *Log scale* button "
+"on the chart's top left corner to make the other bars visible."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:76 f49f463bad744b80bd24246f83fbe239
+msgid "|image9|"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:91 1d2c4a65b5994ac8a379428d7435b31f
+#: e1b42077c2634af9a3a19e38154698d0
+msgid "image9"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:78 069949d3280348ed8d0cc8656e0fb541
+msgid ""
+"We can create different types of charts using the custom dashboard. "
+"Charts like column and pie charts work best with categorical values, "
+"while line charts work best with numerical data."
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:80 4cd79e801edf43aaa44bbbe7b651d1ad
+msgid "|image10|"
+msgstr ""
+
+#: ../../analysis/addchartstodashboard.rst:92 548eefcab15b457a82cc771beed93df6
+#: 8263a45993254d6daf77cac28216d784
+msgid "image10"
+msgstr ""
+

@@ -1,0 +1,593 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, Apromore
+# This file is distributed under the same license as the Apromore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Apromore 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../theapromoreportal/createdatapipeline.rst:3
+#: 7991630a64b748688175ea14048d57f0
+msgid "Create data pipeline"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:5
+#: f70c715f375d4e8b8512a9f671f513c0
+msgid ""
+"The Create data pipeline plugin, also referred as the ETL plugin, allows "
+"users to compose event logs from one or more tables or data sources. It "
+"aims to integrate data from multiple sources by extracting, transforming,"
+" and loading to gain essential business insights for competitive "
+"advantage. To define a data pipeline, click on *Create data pipeline* "
+"button."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:9
+#: be7ca036a1104f30bd89b3d7652f9a0b
+msgid "|image1|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:157
+#: b785e149024943c3afe146c8a27c11f3 cccd3460e1a24a6e80ac90e24e7fa484
+msgid "image1"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:11
+#: 4c59a131a4444c87962e3e355f726e0f
+msgid ""
+"We can also select the *Create data pipeline*  option from the *File* "
+"menu drop-down."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:13
+#: d9e9c245b64249248dab9997ae55512a
+msgid "|image1.1|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:158
+#: 873ce6a5c44d4dd398b7b736b3cd80c6 cf41b7d8135d4842bc0459f28c4a44ea
+msgid "image1.1"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:15
+#: 22661ae4250f4036a5b360d2a79802e2
+msgid ""
+"The Extract-Transform-Load view appears after clicking on create data "
+"pipeline."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:17
+#: 5fadc80008704d5fafd70896105796d5
+msgid ""
+"We can switch between three main views. However, to create the insightful"
+" result, it is essential to complete steps in the default order: Extract "
+"- Transform - Load."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:19
+#: 89b808e6d44c4eaebb7b43f03100aec4
+msgid "|image2|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:159
+#: 595ec4e94a04406589de52801bd9f74a 8b1ab3fce6ca4e79aaa813106160c032
+msgid "image2"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:23
+#: 30f8da51b769456d95da11c400ef2b96
+msgid "Extract data"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:25
+#: e57c7357c683463d91a3ca8774262bed
+msgid ""
+"We can extract data through two options – *Local File System* and *DB "
+"Connections*. The corresponding buttons are placed in the left pane right"
+" under the *Extract view*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:28
+#: 43b39a75275d4416a647cce66bc935dc
+msgid ""
+"We can extract tables from relational databases and upload files in CSV "
+"and Parquet formats from the local system."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:30
+#: 4cfbd17d2d8248e0a920306842ff0c89
+msgid "|image3|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:160
+#: 5921cca6bdfb4afd94ea234567a88be1 e6981008d11d42638b0e4a6da332f475
+msgid "image3"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:32
+#: 49dfe2914df84fae857a4797bd8f6ba9
+msgid ""
+"To upload a file from the personal computer, click on the icon in the "
+"right corner of the *Local File System*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:34
+#: fb51c69264e041fdb295020d5426cd04
+msgid "|image4|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:161
+#: a6675e7e33ed4dfe82f62c08035530e9 e847ee742cd44bb4a7ef008073048dba
+msgid "image4"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:36
+#: 7c65efa3d5cd4cc2aaa9eda923bda186
+msgid ""
+"To begin uploading a file from the database, click on the “+” icon in the"
+" right corner of the *DB Connections*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:38
+#: 858328a10ea645ddacf9226a3d121677
+msgid "|image4.1|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:162
+#: 9730231ad6c246cea52a0cff0d7da28f af93743e3ead4afdb908a537179b621e
+msgid "image4.1"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:40
+#: 6af3012f06994d2fb65138be137b6950
+msgid ""
+"When *Add New Database Connection* window appears, insert all the "
+"details, choose the suitable options from the *Database Type* and "
+"*Connection Type* drop-downs and click on *Connect*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:42
+#: 7650531b542a45df9262e3a5a369c29a
+msgid "|image4.2|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:163
+#: 13c9c28f42b5465fb87bd98db17876bd 22baac2fe08a4128865bc59b9d90f790
+msgid "image4.2"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:44
+#: 399b73caf8d4455e8ea9d9ad4ebdfe09
+msgid ""
+"To delete a file, click on the *Trash bin* - |image4.2.1| right next to "
+"it."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:164
+#: 3ae803fac8d6432187cd39fe605318c1 42007f2219a74f74bd276e6dd2a65e16
+msgid "image4.2.1"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:46
+#: 1c36a6581c644d15a19ab16726219e1b
+msgid "|image4.3|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:166
+#: 4d9b7e48bfbd47d1a66e52816f7d5720 f7e699fc7f94433b904d33432ccbaa9f
+msgid "image4.3"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:48
+#: e7d0fe652e054165b4a04ef1e8784904
+msgid ""
+"When at least 2 logs are uploaded, merge them by selecting the relevant "
+"join type from the *Join Type* drop-down menu and appropriate keys."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst
+#: ../../theapromoreportal/createdatapipeline.rst:167
+#: a4f0323176084ba1a26aadf0c936c916 c44785f19fe944adb33ce472acc06af4
+msgid "image5"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:55
+#: 98459cc855fe4149804269f117bf84a6
+msgid ""
+"INNER JOIN - Returns records that have matching values in both tables; "
+"FULL JOIN - Returns all records when there is a match in either left or "
+"right table; LEFT JOIN - Returns all records from the left table, and the"
+" matched records from the right table; RIGHT JOIN - Returns all records "
+"from the right table, and the matched records from the left table;"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:61
+#: 06a80af1d70a4afa8433ca032a9c7003
+msgid ""
+"After all the files are uploaded, table keys and the join type are "
+"chosen, click on *Submit*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:63
+#: 32ff9d556e2c41e3b12fee3335b41abd
+msgid "|image5.1|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:168
+#: 55fb4fe0959c48359879603f69b1491f 5a84848faf31466fb160c5a58b4c8508
+msgid "image5.1"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:65
+#: 5b7126a0e69e4251a5ecd88f349b18c3
+msgid ""
+"The table obtained by joining the two logs appears right beneath the "
+"*table and join selections*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:67
+#: 09f62fbe3c5643b7b1b0da2671e92f98
+msgid "|image6|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:169
+#: 1b247753b20d48b2ad07dacc252cb4e7 99d25db6563e441eb52431f88557680a
+msgid "image6"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:71
+#: 1477bdc541254a9397e73a62549423e6
+msgid "Transform data"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:73
+#: 6267165328ee49a4b1dfe0b905fdb0fb
+msgid ""
+"There are 2 main areas in the Transform view - the list of tables "
+"containing all the columns from the extracted logs (marked blue) and the "
+"transformed table (marked red)."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:75
+#: a1873f37fff345f6ad0b2d1bd2f6222d
+msgid ""
+"To complete transformation, we must select at least three compulsory "
+"columns: case id, activity, and timestamp"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:77
+#: f46cfefcfa1548c6a0158ae2640a2fe3
+msgid "|image7|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:170
+#: be7b3f9f63f7474987b7589506e29516 cd52910677f74510acdd40397472de3f
+msgid "image7"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:79
+#: 366470e368614539805f71de82f9e429
+msgid ""
+"To add the column from the list to the transformed table, click on the "
+"\"+\" button next to the column name."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:81
+#: 52db096741b6423cbb1a5d99d0c72c57
+msgid "|image8|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:171
+#: 4d4d7026dc5f400a84b46e84bc7adc42 508dd2b66c80452880ae68878a29988e
+msgid "image8"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:83
+#: d7cd7f390e824b73b22aa1dfb7a0ad13
+msgid ""
+"In the case of large logs, the addition of columns might take some time. "
+"Do not click on the same column several times to prevent column "
+"duplicates in the transformed table."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:85
+#: 809ec68859904c3cba13c3dad20b6954
+msgid ""
+"To add the whole extracted table to the *Transformed table*, click the "
+"\"+” button next to the table name. The tables are marked as |image9|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:172
+#: 1f6a6d8009914e2592a6ee4c9463e2ae af6a2b45f8ce46808698b1961f8aa823
+msgid "image9"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:87
+#: c70c4d8dc6ef470ead4e154c078f2678
+msgid "|image10|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:174
+#: 0369e29458c64b098293b7caaeead283 17a270f34f6440618df2f6cab5ab41a3
+msgid "image10"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:89
+#: a94fd054ffbd44fa808b14c8c76f7b01
+msgid "To rename the column, click on |image10.1| right next to the column name."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:175
+#: 14afa7ef64f04ca483b1e114eda5b7c4 4256e37f88c0410795f1234168f5b037
+msgid "image10.1"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:91
+#: faccda84d16a4c9f88a8d10fdde2dbd6
+msgid "Spaces in the column name aren't supported."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:93
+#: b033340804da4572b25d7d6ccfaf7b8a
+msgid "|image11|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:177
+#: 7aaf55aaf1884f5ca69b02e8a5c315fd d693217f3e12472d8d976b761bcf44c1
+msgid "image11"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:95
+#: 9ea6df98812a4d9cb2fc59b792e4274a
+msgid ""
+"To delete the column from the Transformation table, click on the red "
+"\"X\" button next to *Rename*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:97
+#: 259540ab5b344ce4af0071ff0a604d11
+msgid "|image12|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:178
+#: 9da2cea3bffd4949bce5f09e491ca85d a25ef365114245c880003c42a6bc1d88
+msgid "image12"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:99
+#: 7edda86bf18b43fba6de4652c3380f07
+msgid ""
+"If the column was deleted by mistake or becomes necessary, we can easily "
+"add it to the table again from the columns list."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:101
+#: b5c9476107e04287a57ea735558cfd52
+msgid "|image13|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:179
+#: acb3911f984f467b940bf3d12ccf0b68 afcb7a5b9916496c82a01f1953c48f01
+msgid "image13"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:103
+#: b97519a8de0b461783265c97a56451b0
+msgid ""
+"To add a customized column that is not present in any of the tables, "
+"click on *+ New column* button placed in the upper right corner beneath "
+"*Manage data pipelines button*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:105
+#: 399511657fc74d45802814885b93008e
+msgid "|image14|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:180
+#: 2abca0e20ec340d0aa4969e7c2bec931 3c05852733ff465893d533224aa85530
+msgid "image14"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:107
+#: 2a41d85760b045c698511993b3f16175
+msgid ""
+"After a new column window appears, enter the new column name and click "
+"*Create*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:109
+#: 38a2cb4f77c74a9c937f797da1bc3cd4
+msgid "|image15|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:181
+#: 253f932daccf44679021c1649ff64423 a7a10310da88454ba232cb4f07f4bb60
+msgid "image15"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:111
+#: 7ff8b89f74844d1bb66d7111f3c48f25
+msgid ""
+"To check or change the values of the column, click *Edit rules* right "
+"beneath the name of the necessary column."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:113
+#: b9a1bb40482f4b928b203fd1594ca196
+msgid "|image16|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:182
+#: 22b1e3b6e8b74b86b4ec0aab05cfe5f7 991a3115b42e44ddbb9887190a5a92dc
+msgid "image16"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:115
+#: 9d35916e80ea48b79b346f404b0e2f31
+msgid ""
+"Edit rules window appears. The default rule is displayed. In addition to "
+"different join operations, we can create columns in the event log by "
+"composing existing columns using arithmetic, concatenation, and find-and-"
+"replace operations. For example, you can add a *Cost* column to an event "
+"log and compute this cost based on the hourly rate of your resources and "
+"the duration of tasks."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:117
+#: d456e115e7a749e8aebdec514265aecb
+msgid "|image17|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:183
+#: c8dee82e01474095b1324c780c23f9c3 cb2f63286d4542e88fbffe399d1f05d6
+msgid "image17"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:119
+#: ed4dd6f6be2942458211b00e72240c29
+msgid "We can add a new rule by clicking *+ Add new rule*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:121
+#: 3fdcadfceb954b1895b2fb1fede50ab1
+msgid "|image18|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:184
+#: ab30156c48e847ccbd8f914e3462d0d0 cf44426a7e634b91bd6b25ba8209dbe2
+msgid "image18"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:123
+#: accc8b8b6495411a8e6b26ec0ca14e09
+msgid "To apply the rule, after the condition is set, click on *OK*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:125
+#: 619938cff1bd433fba5756932ed8ba0a
+msgid "|image19|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:185
+#: 7dab5253139344449e2f8388ffd72bda b8dc97e05f6d4f8f99c1bd9a0ad4750c
+msgid "image19"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:129
+#: 31ddded9510946a6b25ef82804af36b1
+msgid "Load data"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:131
+#: e756be9c6dd24d6c8e4439e5f3c090b5
+msgid "When we click on Load view, the transformed log is displayed."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:133
+#: a19119b8595346af94a620987668bc7c
+msgid "|image20|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:186
+#: 2efcef36c73b43f7b3acb2b4c2fb2b0a b8090de70b2144bf8d9f41763f426cb9
+msgid "image20"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:135
+#: 96b708227afc42a5b499ce5e246310e5
+msgid "Click on *Detect* to automatically detect encoding option."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:137
+#: 927e257b8ce14554b02c3eb13406f96d
+msgid "|image21|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:187
+#: b491eb7b005445789a129b6079bee002 c46d13ec84f541adaae5260f8f6ddb86
+msgid "image21"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:139
+#: 4026ff0f9a0645a59aaec2982b8bcfa1
+msgid ""
+"We can opt not to import a column by attaching the *Ignore tag* to it. To"
+" make it easier to ignore multiple columns, we can click on the *Event "
+"attribute* -> *Ignore button* at the upper-left corner. From that point "
+"on, any column we select becomes tagged with *Ignore*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:141
+#: 6935bd21c5fd49b9ba85208bdadd8004
+msgid "|image22|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:188
+#: 1309239905534ee79b237434d7189864 9ef98394726f4d74bcb77a2688b3ff83
+msgid "image22"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:143
+#: e5881c1d730348a1bb78ce576d49cc87
+msgid ""
+"Similarly, if we need to tag multiple columns as *Event attribute*, we "
+"can click on *Ignore* –> *Event Attribute* in the upper-left corner next "
+"to *Event attribute* -> *Ignore*. From that point on, any column we "
+"select becomes tagged with *Event Attribute*."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:145
+#: 4ea19a71ceb044b1a21b1b18cdc987a3
+msgid "|image23|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:189
+#: 18ae42b5a6bb4c248e4c8fd02b4cbd9e da32a7fda20e497492d90e5ef3b8cfb5
+msgid "image23"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:147
+#: 0638478cf15948638171b771bff0a2fa
+msgid "Click on *Upload Log* to finish the import."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:149
+#: dbc4e08329d34713b7d4ec78bbf650f6
+msgid "|image24|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:190
+#: 278aaf0e24d64e098ea131a7cf803af6 733377206940466a9f01748d5675ce1d
+msgid "image24"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:151
+#: 67f40d4303f345b79711411c14ff9641
+msgid ""
+"The *Save Log As* dialog box appears. Enter the log name and choose the "
+"destination folder from the drop-down. Click on *Upload* to successfully "
+"import the log into Apromore."
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:153
+#: 8caaf5ee8aae463a97734285ba6de802
+msgid "|image25|"
+msgstr ""
+
+#: ../../theapromoreportal/createdatapipeline.rst:191
+#: 0acdb77ed7104599b3175190a14479bb 9ce3194680d147da82f6d6735e8f1b10
+msgid "image25"
+msgstr ""
+

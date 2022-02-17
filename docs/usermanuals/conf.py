@@ -18,8 +18,6 @@ extensions = [
     'sphinx_reredirects'
 ]
 
-# locale_dirs = ['locale/']
-
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 templates_path = ['_templates']
@@ -64,3 +62,10 @@ redirects = {
 
 html_logo = "_static/img/logo.png"
 html_favicon = "_static/img/favicon.png"
+
+
+# Internationalization options
+language = "de"
+locale_dirs = ['locale/']
+gettext_compact = False
+gettext_uuid = True
