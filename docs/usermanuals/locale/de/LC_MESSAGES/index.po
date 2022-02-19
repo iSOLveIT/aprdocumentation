@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Apromore 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-17 01:44+0000\n"
+"POT-Creation-Date: 2022-02-19 09:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:21 983e577ef47c49619a9e00cae4080683
-msgid "User Guide"
+#: f00a254f9b3a48f2bfc3f9139d7730ab
+msgid "Apromore Logo"
 msgstr ""
+
+#: ../../index.rst:24 1d4f785dd79d41e384f5eb7100d26c12
+msgid "|br|"
+msgstr ""
+
+#: ../../index.rst:28 0c539b10704d45bfbd916a4a92300b1b
+msgid "Apromore User Guide"
+msgstr ""
+
+#: ../../index.rst:30 91b365ce3822416f87c9c30a8c623f7b
+msgid ""
+"Apromore is a leading provider of open-source solutions for process "
+"mining and AI-driven business process improvement. Our vision is to "
+"democratize process mining by enabling organizations to achieve digital "
+"transparency and operational excellence."
+msgstr ""
+
+#: ../../index.rst:34 b2b9be696d4c494792f1dbc09c13bae6
+msgid ""
+"This user guide contains all information about how to install and use the"
+" Apromore software."
+msgstr ""
+
+#: ../../index.rst:28 486a0d0851bb453cab14d249549da066
+msgid "**Contents**"
+msgstr ""
+
+#: ../../index.rst:38 3877c3453be64b3b82f653722c04d7a3
+msgid ":ref:`Quick start <START>`"
+msgstr ""
+
+#: ../../index.rst:39 3173471dc5384dc9b83cabcf4cc923bd
+msgid ":ref:`The Apromore Portal <PORTAL>`"
+msgstr ""
+
+#: ../../index.rst:40 2129aa4cb47b4e4291f100ab1f502ffe
+msgid ":ref:`Discovery <DISCOVER>`"
+msgstr ""
+
+#: ../../index.rst:41 53b0ae05418745a3afb9ab2d77ab2f03
+msgid ":ref:`Analysis <ANALYSE>`"
+msgstr ""
+
+#: ../../index.rst:42 882b86fbaa6e4258849eb29387a7429d
+msgid ":ref:`Redesign <DESIGN>`"
+msgstr ""
+
+#: ../../index.rst:43 e9ae8c8c61264205a3777c45796f1557
+msgid ":ref:`Monitor <MONITORING>`"
+msgstr ""
+
+#: ../../index.rst:44 03639f3e1048435d9d4121ff146c881f
+msgid ":ref:`Release Notes <NOTES>`"
+msgstr ""
+
+#~ msgid "User Guide"
+#~ msgstr ""
 

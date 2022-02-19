@@ -1,8 +1,10 @@
+.. _NOTES:
+
 Release Notes
-====================================
+=============
 
 .. toctree::
-   :maxdepth: 100
+   :maxdepth: 1
    :caption: Contents:
 
    releasenotes

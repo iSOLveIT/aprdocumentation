@@ -1,8 +1,10 @@
+.. _MONITORING:
+
 Monitor
-====================================
+=======
 
 .. toctree::
-   :maxdepth: 100
+   :maxdepth: 1
    :caption: Contents:
 
    trainpredictivemodels
