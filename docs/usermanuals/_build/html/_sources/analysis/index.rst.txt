@@ -1,8 +1,10 @@
+.. _ANALYSE:
+
 Analysis
-====================================
+========
 
 .. toctree::
-   :maxdepth: 100
+   :maxdepth: 1
    :caption: Contents:
 
    animatelogsprocessmap

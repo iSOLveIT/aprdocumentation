@@ -1,8 +1,10 @@
+.. _DESIGN:
+
 Redesign
-====================================
+========
 
 .. toctree::
-   :maxdepth: 100
+   :maxdepth: 1
    :caption: Contents:
 
    searchsimilarmodels

@@ -1,3 +1,4 @@
+/*
 .wy-side-nav-search {
     background-color: #e5e5e5;
 }
@@ -58,6 +59,9 @@ p > img {
     text-align: left !important;
 }
 
+ul.md-nav__list li:first-child > ul.md-nav__list {
+    display: none;
+}
 .table-text-align-center thead th{
 	text-align: center !important;
 }
@@ -81,8 +85,40 @@ nav.wy-nav-side{
 .rst-content dl {
     margin-bottom: 0;
 }
+*/
 
 /* Hide "On GitHub" section from versions menu */
+
 div.rst-versions > div.rst-other-versions > dl:nth-child(3) {
     display: none;
+}
+
+.md-header, .md-tabs{
+    background: #bb3a50!important;
+}
+@media only screen and (max-width: 76.1875em){
+    nav > label.md-nav__title.md-nav__title--site{
+        background: #bb3a50!important;
+    }
+}
+
+[data-md-color-primary=deep-orange] .md-nav__source {
+    background-color: #197283!important;
+}
+
+html .md-nav--primary .md-nav__title--site .md-nav__button {
+    width: 8.5rem !important;
+}
+
+ul.md-nav__list li:first-child > ul.md-nav__list {
+    display: none;
+}
+
+nav div.navheader > div:first-child {
+    background-color: #fff;
+}
+
+nav div.navheader > div:first-child > a {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
