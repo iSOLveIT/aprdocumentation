@@ -35,8 +35,9 @@ todo_include_todos = True
 # -- Options for HTML output ----------------------------------------------
 html_static_path = ['_static']
 html_css_files = [
-    'css/apromore.css',
-]
+    'css/apromore.css',]
+html_js_files = [
+    ('js/lang_dropdown.js', {'async': 'async'},)]
 
 # Required theme setup
 html_theme = 'sphinx_material'
@@ -55,9 +56,6 @@ html_theme_options = {
     # Set the color and the accent color
     'color_primary': 'deep-orange',
     'color_accent': 'deep-orange',
-    # Set the repo location to get a badge with stats
-    'repo_url': 'https://github.com/iSOLveIT/aprdocumentation',
-    'repo_name': 'Apromore',
     # Visible levels of the global TOC; -1 means unlimited
     'globaltoc_depth': 2,
     # If False, expand all TOC entries
@@ -66,7 +64,11 @@ html_theme_options = {
     'globaltoc_includehidden': True,
     'html_minify': True,
     'css_minify': True,
-    'theme_color': 'bb3a50'
+    'theme_color': 'C24C00'
+    # Versions
+    # 'version_dropdown': True,
+    # 'version_dropdown_text': "v:{0}".format(version),
+    # 'version_json': 'versions.json'
 }
 html_sidebars = {
     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
@@ -75,13 +77,10 @@ html_sidebars = {
 
 html_context = {
     'current_version': version,
-    'versions': [['' + version, '#']],
-    'downloads': [['PDF', 'downloads/apromore.pdf']],
-    'READTHEDOCS': True,
     'show_source': False,
 }
 html_show_sphinx = False
-html_extra_path = ['download/apromore.pdf']
+html_extra_path = ['download/apromore.pdf', 'lang.json']
 
 redirects = {
     "gettingstarted/navigatingtheapromoreportal": "../theapromoreportal/navigatingtheapromoreportal.html",
@@ -103,6 +102,7 @@ rst_epilog = """
 """
 
 # Internationalization options
+language = "en"
 locale_dirs = ['locale/']
 gettext_compact = False
 gettext_uuid = True
