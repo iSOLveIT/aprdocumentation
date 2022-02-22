@@ -94,11 +94,11 @@ div.rst-versions > div.rst-other-versions > dl:nth-child(3) {
 }
 
 .md-header, .md-tabs{
-    background: #bb3a50!important;
+    background: #C24C00!important;
 }
 @media only screen and (max-width: 76.1875em){
     nav > label.md-nav__title.md-nav__title--site{
-        background: #bb3a50!important;
+        background: #C24C00!important;
     }
 }
 
@@ -121,4 +121,62 @@ nav div.navheader > div:first-child {
 nav div.navheader > div:first-child > a {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
+}
+
+/* a, [data-md-color-accent=deep-orange] .md-nav__link:focus, [data-md-color-accent=deep-orange] .md-nav__link:hover, [data-md-color-accent=deep-orange] .md-typeset .footnote li:hover .footnote-backref:hover, [data-md-color-accent=deep-orange] .md-typeset .footnote li:target .footnote-backref, [data-md-color-accent=deep-orange] .md-typeset .md-clipboard:active:before, [data-md-color-accent=deep-orange] .md-typeset .md-clipboard:hover:before, [data-md-color-accent=deep-orange] .md-typeset [id] .headerlink:focus, [data-md-color-accent=deep-orange] .md-typeset [id]:hover .headerlink:hover, [data-md-color-accent=deep-orange] .md-typeset [id]:target .headerlink {
+    color: #bb3a50 !important;
+}
+
+a.md-source, a.md-footer-nav__link, .md-tabs__inner.md-grid > ul.md-tabs__list > li.md-tabs__item > a {
+    color: #fff !important;
+} */
+
+.dropdownbutton {
+    font-size: 0.85rem !important;
+}
+button.dropdownbutton::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+[data-md-color-primary=deep-orange] .md-header, [data-md-color-primary=deep-orange] .md-hero {
+    background-color: #C24C00!important;
+}
+
+
+.dropdown-content {
+    width: 50% !important;
+    border: 1px solid white;
+}
+
+.dropdown-content a {
+    font-size: .80rem!important;
+    font-weight: 400!important;
+}
+
+.pdf_btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #c24e00e1;
+    padding: 15px 10px;
+    font-size: medium;
+    color: #fff!important;
+    font-weight: 600;
+    margin: 0 0 1rem 1rem;
+    border: 1px solid #181818be;
+    width: 2.7rem!important;
+    height: 2.7rem!important;
+    border-radius: 9999px;
+}
+
+.rst-versions.rst-badge {
+    display: none!important;
 }
