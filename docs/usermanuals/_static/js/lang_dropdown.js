@@ -20,7 +20,7 @@ function add_lang_dropdown(json_loc, text) {
     }).done(function() {
         button.innerHTML = text;
     }).fail(function() {
-        button.innerHTML = "Languages not found";
+        button.innerHTML = "Lang";
     }).always(function() {
         $(".navheader").append(dropdown);
     });

@@ -1,6 +1,6 @@
 <script src="{{ pathto('_static/js/lang_dropdown.js', 1) }}"></script>
 <script>
   var json_loc = "{{ pathto('lang.json', 1) }}",
-      text = "{{ language }}";
+      text = "{{ language | capitalize }}";
   $( document ).ready( add_lang_dropdown(json_loc, text));
 </script>

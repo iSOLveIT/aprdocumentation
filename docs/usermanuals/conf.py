@@ -80,7 +80,7 @@ html_context = {
     'show_source': False,
 }
 html_show_sphinx = False
-html_extra_path = ['download/apromore.pdf', 'lang.json']
+html_extra_path = ['download/apromore_en.pdf', 'download/apromore_de.pdf', 'lang.json']
 
 redirects = {
     "gettingstarted/navigatingtheapromoreportal": "../theapromoreportal/navigatingtheapromoreportal.html",

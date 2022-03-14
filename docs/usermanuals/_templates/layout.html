@@ -1,7 +1,9 @@
 {% extends '!layout.html' %}
 
 {%- block extrafooter %}
-  <a href="{{ pathto('apromore.pdf', 1) }}" download="Apromorev8.0.pdf" class="pdf_btn outline-none shadow-lg">PDF</a>
+  {% set pdf_file = ['apromore', language] | join('_') %}
+  {% set pdf_path = pdf_file + ".pdf"  %}
+  <a href="{{ pathto(pdf_path, 1) }}" download="Apromorev8.0.pdf" class="pdf_btn outline-none shadow-lg">PDF</a>
   {# Call the parent block #}
   {{ super() }}
 {%- endblock %}
