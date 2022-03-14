@@ -182,3 +182,7 @@ html .md-nav--primary .md-nav__title--site .md-nav__button {
 .md-header-nav__button.md-logo {
     background-color: #fff!important;
 }
+
+.dropdown-content a:hover {
+    background-color: #ffffff2b;
+}
