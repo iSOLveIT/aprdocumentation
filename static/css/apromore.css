@@ -82,7 +82,11 @@ nav.wy-nav-side{
     margin-bottom: 0;
 }
 
-/* Hide "On GitHub" section from versions menu */
+/* Hide Read the docs versions menu */
 div.rst-versions > div.rst-other-versions > dl:nth-child(3) {
     display: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff2b;
 }
