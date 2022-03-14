@@ -3,23 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. User Manuals
-.. ====================================
-..
-.. .. toctree::
-..    :maxdepth: 1
-..    :caption: Contents:
-..
-..    gettingstarted
-..    discovery
-..    analysis
-..    redesign
-..    monitor
-
 .. image:: /_static/img/logo.png
    :scale: 70%
    :alt: Apromore Logo
    :align: center
+
+-----------------------
 
 |br|
 
